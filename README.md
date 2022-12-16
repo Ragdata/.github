@@ -48,8 +48,6 @@ v0.0.1
 
 </p>
 
-## 📖 Table of Contents
-
 
 
 ## 👀 Overview
