@@ -35,11 +35,16 @@ When reporting a bug, the following is some of the information you might think t
  - A brief description of the bug
  - Optionally, the type of vulnerability and OWASP Category, if applicable
  - As many details as you can provide without risking further distribution of the exploit
-   - Wherever possible, we ask that you encrypt these communications and share your public keys with us in another message
 
 Your submission will be acknowledged within 48 hours, and a more detailed response will follow which indicates the steps we intend to take next in handling your report.  After the initial reply to your report, the security team will endeavour to keep you informed of the progress of the fix and the timing of the public announcement, and may ask for additional information or guidance from you if we need it.
 
 Please report bugs discovered in any third-party modules to the person or team maintaining that module.  It is neither within our power or our purview to fix bugs in code that we are not responsible for maintaining.
+
+<h4 align="center">
+<a href="../../issues">Please report low-level bugs using the Issue Tracker</a>
+<br><br>
+<a href="mailto:security@ragdata.dev">For more serious issues, please report via email</a>
+</h4>
 
 ## 📃 Disclosure Policy
 
