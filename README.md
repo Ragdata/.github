@@ -68,8 +68,8 @@ This project is intended to be used as the basis for other projects.  As such, i
 
 1. Create your new repository [using this repo as a template](https://github.com/ragdata/.github/generate)
    1. (if you name your new repository `.github` it will be the default for ALL of your other repos)
-2. Install the [bots and scripts]()
-3. Customise each of the files included here according to your requirements
+2. Install and configure [Probot Apps](#-recommended-bots--probot-apps-)
+3. Customise ALL files according to your needs
 
 ## ❓ What's Included?
 
@@ -88,7 +88,7 @@ This project is intended to be used as the basis for other projects.  As such, i
    4. [Question / Support Issue Template](.github/ISSUE_TEMPLATE/6-support-issue.yml)
    5. [config.yml](.github/ISSUE_TEMPLATE/config.yml) - configuration file for issue templates.
 
-## 🤖 Recommended Bots
+## 🤖 Recommended Bots (Probot Apps)
 
 The following bots are configured and ready to use with this template, and installing them will ultimately improve your coding experience.  If you only install one of them it should be the [Settings Bot](https://probot.github.io/apps/settings/), as this little beauty makes it quick and easy for you to configure your whole repo.  You can see a list of all available [**probot** apps here](https://probot.github.io/apps/).  The bots listed below have all been configured for use with this project template:
 
