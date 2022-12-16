@@ -19,24 +19,24 @@ Looking for support for one of my projects?  Here are a few places you might lik
   - [Github][github]
 - If all else fails, you can always find help by joining us on our [Guilded Server][guilded]
 
-
+<br>
 
 <div align="center">
 
-<iframe src="https://www.guilded.gg/canvas_index.html?route=%2Fcanvas%2Fembed%2Fteamcard%2FGRqPV8Gj&size=large" width="553" height="262" frameborder="0" scrolling="no"></iframe>
+<a href="https://redeyed.substack.com" target="_blank"><img src="https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white" alt="Substack"></a>
+<a href="https://twitter.com/RagdataAU" target="_blank"><img src="https://img.shields.io/badge/Twitter-55ACEE?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a>
+<a href="https://reddit.com/redeyedrpg" target="_blank"><img src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white" alt="Reddit"></a>
+<a href="https://facebook.com/redeyedrpg" target="_blank"><img src="https://img.shields.io/badge/Facebook-3B5998?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"></a>
+<a href="https://www.guilded.gg/r/zzGRqPV8Gj?i=mbqR37Xd" target="_blank"><img src="https://img.shields.io/badge/Guilded-F5C400?style=for-the-badge&logo=guilded&logoColor=black" alt="Guilded"></a>
 
-<br><br>
+<a href="" target="_blank"><img src="https://img.shields.io/badge/Sponsors-30363D?style=for-the-badge&logo=github-sponsors&logoColor=EA4AAA" alt="GitHub"></a>
+<a href="" target="_blank"><img src="https://img.shields.io/badge/Patreon-FF424D?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon"></a>
 
-<a href="https://redeyed.substack.com"><img src="https://aever.net/images/social/substack.svg" height="24" width="24"></a> &nbsp;
-<a href="https://patreon.com/ragdata"><img src="https://aever.net/images/social/patreon.svg" height="24" width="24"></a> &nbsp;
-<a href="https://twitter.com/RedeyedRPG"><img src="https://aever.net/images/social/twitter.svg" height="24" width="24"></a> &nbsp;
-<a href="https://reddit.com/r/redeyed"><img src="https://aever.net/images/social/reddit.svg" height="24" width="24" alt="RedEyed-RPG Subreddit"></a> &nbsp;
-<a href="https://facebook.com/RedeyedRPG"><img src="https://aever.net/images/social/facebook.svg" height="24" width="24"></a> &nbsp;
-<a href="https://github.com/redeyed-rpg"><img src="https://aever.net/images/social/github-red.svg" height="24" width="24"></a> &nbsp;
-<a href="https://www.guilded.gg/i/27dYX5Xk"><img src="https://aever.net/images/social/guilded.svg" height="24" width="24"></a>
+</div>
 
 
-[//]: # (<a href="https://redeyed-rpg.tumblr.com"><img src="https://aever.net/images/social/tumblr.svg" height="24" width="24"></a> &nbsp;)
+
+
 
 [substack]: https://redeyed.substack.com
 [patreon]: https://ragdata.patreon.com
@@ -48,5 +48,3 @@ Looking for support for one of my projects?  Here are a few places you might lik
 [github-redeyed]: https://github.redeyed-rpg.com
 [github-aevernet]: https://github.aever.net
 [guilded]: https://www.guilded.gg/r/zzGRqPV8Gj?i=mbqR37Xd
-
-</div>
