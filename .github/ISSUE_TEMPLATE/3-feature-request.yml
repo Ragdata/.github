@@ -12,6 +12,7 @@ body:
               Thanks for taking the time to make this suggestion
 
     - type: checkboxes
+      id: unique
       attributes:
           label: Unique Issue?
           description: Please search to ensure that this feature has not already been requested
@@ -29,7 +30,7 @@ body:
           required: true
 
     - type: textarea
-      id: details
+      id: problem
       attributes:
           label: Does your suggestion arise from a problem?
           description: Are you making this suggestion because of a problem you've encountered?  Please describe it clearly.
@@ -45,7 +46,7 @@ body:
           required: true
 
     - type: textarea
-      id: details
+      id: alternatives
       attributes:
           label: Describe alternatives you've considered
           description: Please provide a clear and concise description of any alternative solutions or features you might have considered
