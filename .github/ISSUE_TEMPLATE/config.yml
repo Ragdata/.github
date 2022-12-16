@@ -5,42 +5,6 @@ contact_links:
       url: https://ragdata.dev
       about: Details & Docs for Ragdata's Public Projects
 
-    - name: Aevernet Website
-      url: https://aever.net
-      about: Details and Docs for all Public Aevernet Projects
-
-    - name: RedEyed-RPG Website
-      url: https://redeyed-rpg.com
-      about: The RedEyed Community Hub - TableTop Gaming and Worldbuilding Community
-
-    - name: RedEyed SubStack
-      url: https://redeyed.substack.com
-      about: The RedEyed SubStack is our primary community hub where you will find the RedEyed Newsletters & Blogs
-
-    - name: Aevernet @ Twitter
-      url: https://twitter.com/Aevernet
-      about: Aevernet on Twitter
-
-    - name: RagdataAU @ Twitter
-      url: https://twitter.com/RagdataAU
-      about: Find me on Twitter
-
-    - name: RedEyed-RPG @ Twitter
-      url: https://twitter.com/RedEyedRPG
-      about: RedEyed-RPG on Twitter
-
-    - name: RedEyed-RPG @ Reddit
-      url: https://reddit.com/r/RedEyedRPG
-      about: Join us in the RedEyed-RPG Subreddit
-
-    - name: RedEyed-RPG @ Facebook
-      url: https://facebook.com/RedEyedRPG
-      about: Follow us on Facebook
-
-    - name: Sponsor me @ GitHub
-      url: https://github.com/sponsors/ragdata
-      about: Sponsor one of my GitHub projects
-
-    - name: PATREON | Ragdata
-      url: https://patreon.com/ragdata
-      about: Support me on Patreon
+    - name: Security Report Email
+      email: security@ragdata.dev
+      about: For reports of SERIOUS Security Flaws ONLY
