@@ -12,6 +12,7 @@ body:
               Thanks for taking the time to contact us about this issue
 
     - type: checkboxes
+      id: unique
       attributes:
           label: Unique Issue?
           description: Please search to ensure that this issue has not already been reported
@@ -37,7 +38,7 @@ body:
           required: true
 
     - type: textarea
-      id: details
+      id: expected
       attributes:
           label: Expected Behaviour
           description: Please provide a clear and succinct description the behaviour you're expecting to see
@@ -45,7 +46,7 @@ body:
           required: false
 
     - type: textarea
-      id: details
+      id: reproduce
       attributes:
           label: Steps to Reproduce
           description: Please provide the steps we might take to replicate the issue during testing
