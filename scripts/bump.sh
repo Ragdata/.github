@@ -53,7 +53,6 @@ BRANCH=""
 FILES=(
     "$baseDir/COPYRIGHT"
     "$baseDir/README.md"
-    "$baseDir/composer.json"
     "$baseDir/package.json"
 )
 
