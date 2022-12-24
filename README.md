@@ -7,7 +7,18 @@ Ragdata's Project Starter Template
 v0.1.1
 </h1>
 
+<h3 align="center">
+
+<a href="https://github.com/Ragdata/.github/issues">Open An Issue</a>
+&nbsp;🔹&nbsp;
+<a href="https://github.com/Ragdata/.github/tree/cc1dc1f8ca5888688c1060732e9eedd8784cd372/generate">Use This Template</a>
+&nbsp;🔹&nbsp;
+<a href="https://github.com/Ragdata/.github/discussions">Discussions</a>
+</h3>
+
 <p align="center">
+
+
 
 <!-- Uncomment any of the badges below that you think you might like to display on your README -->
 
