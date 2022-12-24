@@ -150,6 +150,7 @@ Where `<options>` are:
 -t, --type          [patch|minor|major] (optional)  Default: patch
 
     - The 'type' argument is a special one:
+        - Preview: preview
         - First Release: first-release
         - Pre-Release: prerelease [optional name] - eg: prerelease alpha = 1.0.0-alpha.0
         - Patch Release: patch
@@ -157,6 +158,17 @@ Where `<options>` are:
         - Major Release: major
         - Force Version: release-as [prerelease|minor|major|X.X.X] (where X.X.X is a version number)
 ```
+
+> **NOTE**: If you're going to use this script in `npn` mode, you need to remember to pass any arguments like so:
+>
+> ```shell
+> npn run release -- --preview
+> ```
+> OR
+> ```shell
+> npn run release -- -u "Ragdata"
+>```
+> Without the extra '--' preceding your arguments, `npn` will assume that any arguments were intended for it to consume and it will eat them on you.
 
 ### Project Setup Script
 
