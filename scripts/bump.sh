@@ -224,25 +224,31 @@ while (($#)); do
         -u | --user)
             USER_NAME="$opt"
             shift
+            shift
             ;;
         -e | --email)
             USER_EMAIL="$opt"
+            shift
             shift
             ;;
         -t | --type)
             TYPE="$opt"
             shift
+            shift
             ;;
         -m | --msg | --message)
             MESSAGE="$opt"
+            shift
             shift
             ;;
         -b | --branch)
             BRANCH="$opt"
             shift
+            shift
             ;;
         -p | --preview)
             TYPE="preview"
+            shift
             ;;
         -h | --help)
             help
