@@ -5,7 +5,6 @@
 Ragdata's Project Starter Template
 
 v0.1.1
-
 </h1>
 
 <p align="center">
@@ -80,7 +79,7 @@ This project is intended to be used as the basis for other projects.  As such, i
 2. Install and configure [Probot Apps](#-recommended-bots--probot-apps-)
 3. Customise ALL files according to your needs
 
-[`Top`](#-table-of-contents)
+[`^ Top`](#-table-of-contents)
 
 ## ❓ What's Included?
 
@@ -99,7 +98,7 @@ This project is intended to be used as the basis for other projects.  As such, i
    4. [Question / Support Issue Template](.github/ISSUE_TEMPLATE/6-support-issue.yml)
    5. [config.yml](.github/ISSUE_TEMPLATE/config.yml) - configuration file for issue templates.
 
-[`Top`](#-table-of-contents)
+[`^ Top`](#-table-of-contents)
 
 
 ## 🤖 Recommended Bots (Probot Apps)
@@ -119,7 +118,7 @@ The following bots are configured and ready to use with this template, and insta
 - [All Contributors Bot](https://probot.github.io/apps/allcontributors/)
 - [Unfurl Links Bot](https://probot.github.io/apps/unfurl-links/)
 
-[`Top`](#-table-of-contents)
+[`^ Top`](#-table-of-contents)
 
 
 ## 📃 Included Scripts
@@ -178,7 +177,7 @@ bash scripts/setup.sh
 [//]: # (### Workflows)
 
 
-[`Top`](#-table-of-contents)
+[`^ Top`](#-table-of-contents)
 
 
 ## 📸 Screenshots
@@ -195,7 +194,7 @@ bash scripts/setup.sh
 
 <p align="center"><img src="https://raw.githubusercontent.com/Ragdata/Ragdata/master/images/.github/Screenshot-Labels-800.png" alt="Labels"></p>
 
-[`Top`](#-table-of-contents)
+[`^ Top`](#-table-of-contents)
 
 
 ## 🚧 Author / Maintainer
@@ -208,7 +207,7 @@ Ragdata's RedEyed Software</a>
 </h3>
 
 
-[`Top`](#-table-of-contents)
+[`^ Top`](#-table-of-contents)
 
 
 ## 💎 Contributors
@@ -217,7 +216,7 @@ If you'd like to make a contribution of code, then please see my [Contributor's 
 
 It's not just code that I'm looking for though.  If you have any ideas or suggestions about how this project may be improved, don't hesitate to [open an Issue](https://github.com/ragdata/.github/issues) and let me know!  Contributions of ALL kinds will be recognised here if they are made a part of this project.
 
-[`Top`](#-table-of-contents)
+[`^ Top`](#-table-of-contents)
 
 
 ## 🏆 Supporters
@@ -226,7 +225,7 @@ It takes not just a lot of time, but a certain amount of personal expense to mak
 
 For more info, head to [my sponsor's page](https://github.com/sponsors/ragdata).
 
-[`Top`](#-table-of-contents)
+[`^ Top`](#-table-of-contents)
 
 
 ## ©️ Copyright & Attributions
@@ -234,17 +233,17 @@ For more info, head to [my sponsor's page](https://github.com/sponsors/ragdata).
 This project incorporates ideas and / or code crafted by the following talented individuals:
 
 - [Josee9988/project-template](https://github.com/Josee9988/project-template)<br/>
-  Copyright ©️ 2020 Jose Gracia Berenguer<br/>
+  Copyright © 2020 Jose Gracia Berenguer<br/>
   MIT Licensed
 
 - [cotes2020/jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)<br/>
-  Copyright ©️ 2019 Cotes Chung<br/>
+  Copyright © 2019 Cotes Chung<br/>
   MIT Licensed
 
 > "We see much further, and reach much higher,<br>
 > only because we stand upon the shoulders of giants"
 
-[`Top`](#-table-of-contents)
+[`^ Top`](#-table-of-contents)
 
 
 ## 📄 License
@@ -272,7 +271,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-[`Top`](#-table-of-contents)
+[`^ Top`](#-table-of-contents)
 
 
 ## 📖 Resources
@@ -287,7 +286,7 @@ SOFTWARE.
 - [GitHub Sponsors](https://github.com/sponsors)
 - [GitHub Skills](https://skills.github.com/)
 
-[`Top`](#-table-of-contents)
+[`^ Top`](#-table-of-contents)
 
 
 ## 🎉 Was this project helpful?
@@ -301,5 +300,5 @@ PLEASE HELP ME TO PROMOTE THIS PROJECT AND CONTINUE PRODUCING
 </h3>
 
 
-[`Top`](#-table-of-contents)
+[`^ Top`](#-table-of-contents)
 
