@@ -4,7 +4,7 @@
 
 Ragdata's Project Starter Template
 
-v0.1.0
+v0.1.1
 </h1>
 
 <p align="center">
