@@ -51,7 +51,7 @@ MESSAGE=""
 BRANCH=""
 
 FILES=(
-    "$baseDir/.github/COPYRIGHT"
+    "$baseDir/COPYRIGHT"
     "$baseDir/README.md"
     "$baseDir/composer.json"
     "$baseDir/package.json"
