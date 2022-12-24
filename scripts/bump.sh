@@ -99,6 +99,11 @@ checkGit() {
         echo "ERROR: Please run on the master branch or patch branches"
         exit 1
     fi
+
+    if [[ -z "$(git config --get user.email)" ]]; then
+        git config --global user.name = "$USER_NAME"
+        git config --global user.email = "$USER_EMAIL"
+    fi
 }
 
 checkSrc() {
