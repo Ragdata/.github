@@ -1,6 +1,6 @@
 <h1 align="center">
 
-<img src="https://aever.net/images/brand/banner/RedEyed-SW-D-640.png" alt="Ragdata - the Red-Eyed Renegade" />
+<img src="https://raw.githubusercontent.com/Ragdata/Ragdata/master/images/logo/banner/RedEyed-SW-D-800.png" alt="Ragdata - the Red-Eyed Rogue" />
 
 Ragdata's Project Starter Template
 
@@ -50,7 +50,16 @@ v0.0.1
 
 ## 📖 Table of Contents
 
-
+- [Overview](#-overview)
+- [Installation](#-installation)
+- [What's Included](#-whats-included)
+- [Screenshots](#-screenshots)
+- [Author / Maintainer](#-author--maintainer)
+- [Contributors](#-contributors)
+- [Supporters](#-supporters)
+- [Copyright & Attributions](#-copyright--attributions)
+- [License](#-license)
+- [Resources](#-resources)
 
 ## 👀 Overview
 
@@ -71,6 +80,8 @@ This project is intended to be used as the basis for other projects.  As such, i
 2. Install and configure [Probot Apps](#-recommended-bots--probot-apps-)
 3. Customise ALL files according to your needs
 
+[`Top`](#-table-of-contents)
+
 ## ❓ What's Included?
 
 1. A **README** template with all the information every project needs!
@@ -87,6 +98,9 @@ This project is intended to be used as the basis for other projects.  As such, i
    3. [Feature Request Template](.github/ISSUE_TEMPLATE/4-feature-request.yml)
    4. [Question / Support Issue Template](.github/ISSUE_TEMPLATE/6-support-issue.yml)
    5. [config.yml](.github/ISSUE_TEMPLATE/config.yml) - configuration file for issue templates.
+
+[`Top`](#-table-of-contents)
+
 
 ## 🤖 Recommended Bots (Probot Apps)
 
@@ -105,10 +119,187 @@ The following bots are configured and ready to use with this template, and insta
 - [All Contributors Bot](https://probot.github.io/apps/allcontributors/)
 - [Unfurl Links Bot](https://probot.github.io/apps/unfurl-links/)
 
+[`Top`](#-table-of-contents)
+
+
 ## 📃 Included Scripts
 
+### Release (Bump) Script
+
+#### Usage:
+
+Use either as an `npn` script:
+
+```shell
+npn run release <options>
+```
+
+Or from the command line under bash:
+
+```shell
+bash scripts/bump.sh <options>
+```
+
+Where `<options>` are:
+
+```shell
+-u, --user          Git user name       (optional)  Default: $USER_NAME
+-e, --email         Git user email      (optional)  Default: $USER_EMAIL
+-m, --message       Commit message      (optional)  Default: 'chore(release): release vX.X.X'
+-b, --branch        Git branch          (optional)  Default: master
+-p, --preview       Preview Mode        (optional)  Default: false
+-t, --type          [patch|minor|major] (optional)  Default: patch
+
+    - The 'type' argument is a special one:
+        - First Release: first-release
+        - Pre-Release: prerelease [optional name] - eg: prerelease alpha = 1.0.0-alpha.0
+        - Patch Release: patch
+        - Minor Release: minor
+        - Major Release: major
+        - Force Version: release-as [prerelease|minor|major|X.X.X] (where X.X.X is a version number)
+```
+
+### Project Setup Script
+
+#### Usage:
+
+Use either as an `npn` script:
+
+```shell
+npn run setup
+```
+
+Or from the command line under bash:
+
+```shell
+bash scripts/setup.sh
+```
+
+[//]: # (### Workflows)
 
 
-[//]: # ([![DeepScan grade]&#40;https://deepscan.io/api/teams/19727/projects/23266/branches/701891/badge/grade.svg&#41;]&#40;https://deepscan.io/dashboard#view=project&tid=19727&pid=23266&bid=701891&#41;)
-[//]: # (&nbsp;)
-[//]: # ([![Codacy Badge]&#40;https://app.codacy.com/project/badge/Grade/6aa32c041bec48e1a8e48024ec3dcb36&#41;]&#40;https://www.codacy.com/gh/Ragdata/.github/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Ragdata/.github&amp;utm_campaign=Badge_Grade&#41;)
+[`Top`](#-table-of-contents)
+
+
+## 📸 Screenshots
+
+### 🔺 Issue Templates
+
+<p align="center"><img src="https://raw.githubusercontent.com/Ragdata/Ragdata/master/images/.github/Screenshot-Issues-800.png" alt="Issue Templates"></p>
+
+### 🔺 Community Profile 100%
+
+<p align="center"><img src="https://raw.githubusercontent.com/Ragdata/Ragdata/master/images/.github/Screenshot-Community-800.png" alt="Community Profile"></p>
+
+### 🔺 A Few Labels
+
+<p align="center"><img src="https://raw.githubusercontent.com/Ragdata/Ragdata/master/images/.github/Screenshot-Labels-800.png" alt="Labels"></p>
+
+[`Top`](#-table-of-contents)
+
+
+## 🚧 Author / Maintainer
+
+<h3 align="center">
+<a href="https://github.com/ragdata" target="_blank"><img src="https://raw.githubusercontent.com/Ragdata/Ragdata/master/images/logo/banner/Social-SW-01-800.png" alt="RedEyed Software" />
+
+Ragdata's RedEyed Software</a>
+
+</h3>
+
+
+[`Top`](#-table-of-contents)
+
+
+## 💎 Contributors
+
+If you'd like to make a contribution of code, then please see my [Contributor's Guidelines](.github/CONTRIBUTING.md)
+
+It's not just code that I'm looking for though.  If you have any ideas or suggestions about how this project may be improved, don't hesitate to [open an Issue](https://github.com/ragdata/.github/issues) and let me know!  Contributions of ALL kinds will be recognised here if they are made a part of this project.
+
+[`Top`](#-table-of-contents)
+
+
+## 🏆 Supporters
+
+It takes not just a lot of time, but a certain amount of personal expense to make this software available free-of-charge.  If you've found this or any of my projects useful in some way and would like to help out, even the smallest of contributions would go a long way towards helping me to keep them freely available to the community.
+
+For more info, head to [my sponsor's page](https://github.com/sponsors/ragdata).
+
+[`Top`](#-table-of-contents)
+
+
+## ©️ Copyright & Attributions
+
+This project incorporates ideas and / or code crafted by the following talented individuals:
+
+- [Josee9988/project-template](https://github.com/Josee9988/project-template)<br/>
+  Copyright ©️ 2020 Jose Gracia Berenguer<br/>
+  MIT Licensed
+
+- [cotes2020/jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)<br/>
+  Copyright ©️ 2019 Cotes Chung<br/>
+  MIT Licensed
+
+> "We see much further, and reach much higher,<br>
+> only because we stand upon the shoulders of giants"
+
+[`Top`](#-table-of-contents)
+
+
+## 📄 License
+
+MIT License
+
+Copyright © 2022 Darren Poulton (Ragdata)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+[`Top`](#-table-of-contents)
+
+
+## 📖 Resources
+
+- [Probot](https://probot.github.io/)
+- [Code Security](https://docs.github.com/en/code-security)
+- [GitHub Issues](https://docs.github.com/en/issues)
+- [Building Communities](https://docs.github.com/en/communities)
+- [About Community Profiles for Public Repositories](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/about-community-profiles-for-public-repositories)
+- [About Issue &amp; Pull Request Templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates)
+- [The README Project](https://github.com/readme)
+- [GitHub Sponsors](https://github.com/sponsors)
+- [GitHub Skills](https://skills.github.com/)
+
+[`Top`](#-table-of-contents)
+
+
+## 🎉 Was this project helpful?
+
+<h3 align=center>
+PLEASE HELP ME TO PROMOTE THIS PROJECT AND CONTINUE PRODUCING
+<br/><br/><br/>
+<a href="https://github.com/sponsors/ragdata" target="_blank"><img src="https://img.shields.io/badge/support_this_project-gray?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white?style=for-the-badge" alt="File Count"></a>
+<br/><br/><br/>
+<img src="https://raw.githubusercontent.com/Ragdata/Ragdata/master/images/social/howtostar.gif" width="800" height="212" />
+</h3>
+
+
+[`Top`](#-table-of-contents)
+
