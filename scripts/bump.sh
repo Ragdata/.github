@@ -38,14 +38,10 @@ fi
 
 set +a
 
-opt_pre=false
-
 WORKING_BRANCH="$(git branch --show-current)"
 STAGING_BRANCH="$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')"
 PROD_BRANCH="master"
 
-USER="$USER_NAME"
-EMAIL="$USER_EMAIL"
 TYPE=""
 MESSAGE=""
 BRANCH=""
@@ -143,7 +139,7 @@ bumpFile() {
 bump() {
     bumpFile "$1"
 
-    if [[ $opt_pre = false && -n $(git status . -s) ]]; then
+    if [[ "$TYPE" != "preview" && -n $(git status . -s) ]]; then
         if [[ -z "$MESSAGE" ]]; then MESSAGE="chore(release): release $1"; else MESSAGE="$MESSAGE $1"; fi
         git add .
         git commit -m "$MESSAGE"
@@ -151,7 +147,7 @@ bump() {
 }
 
 standardVersion() {
-    if $opt_pre; then
+    if [[ "$TYPE" == "preview" ]]; then
         standard-version --prerelease rc
     else
         standard-version "$TYPE"
@@ -214,7 +210,7 @@ main() {
     echo -e "Bump version number to $_version\n"
     bump "$_version"
 
-    if [[ $opt_pre = true ]]; then
+    if [[ "$TYPE" == "preview" ]]; then
         # undo all changes on git
         git reset --hard && git clean -fd
     else
@@ -226,11 +222,11 @@ while (($#)); do
     opt="$1"
     case "$opt" in
         -u | --user)
-            USER="$opt"
+            USER_NAME="$opt"
             shift
             ;;
         -e | --email)
-            EMAIL="$opt"
+            USER_EMAIL="$opt"
             shift
             ;;
         -t | --type)
@@ -246,7 +242,7 @@ while (($#)); do
             shift
             ;;
         -p | --preview)
-            opt_pre=true
+            TYPE="preview"
             ;;
         -h | --help)
             help
