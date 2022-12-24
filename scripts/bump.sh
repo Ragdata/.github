@@ -23,7 +23,7 @@
 
 if [[ -z "$baseDir" ]]; then
     declare -gx baseDir
-    baseDir="$(dirname $(dirname "$(realpath "$0")"))"
+    baseDir="$(dirname "$(dirname "$(realpath "$0")")")"
 fi
 
 set -eu
