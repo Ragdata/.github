@@ -52,7 +52,7 @@ labels:
       description: Discussion Thread
 
     - name: 'DOCS 📘'
-      color: 0075ca
+      color: "#0075ca"
       description: Improvements or additions to documentation
 
     - name: 'EPIC 📌'
@@ -60,7 +60,7 @@ labels:
       description: Work unit containing sub-tasks
 
     - name: 'FEATURE 🚩'
-      color: 00ff00
+      color: "#00ff00"
       description: New feature or request
 
     - name: 'QUESTION ❓'
@@ -76,11 +76,11 @@ labels:
       description: Response required by admin
 
     - name: 'good first issue'
-      color: 0052CC
+      color: "#0052CC"
       description: Good first issue for new contributor
 
     - name: 'help wanted'
-      color: 0E8A16
+      color: "#0E8A16"
       description: Extra attention is required
 
     - name: '💤 STALE'
@@ -100,7 +100,7 @@ labels:
       description: =
 
     - name: 'Priority: Low -'
-      color: 0E8A16
+      color: "#0E8A16"
       description: -
 
     - name: 'Priority: None --'
@@ -112,15 +112,15 @@ labels:
       description: (TRIAGE)
 
     - name: 'Status: Confirmed'
-      color: 0052CC
+      color: "#0052CC"
       description: (TODO)
 
     - name: 'Status: ToDo'
-      color: 0052CC
+      color: "#0052CC"
       description: (TODO)
 
     - name: 'Status: Blocked'
-      color: 000000
+      color: "#000000"
       description: (BLOCKED)
 
     - name: 'Status: Returned'
@@ -136,11 +136,11 @@ labels:
       description: (BLOCKING)
 
     - name: 'Status: For Review'
-      color: 006B75
+      color: "#006B75"
       description: (FOR REVIEW)
 
     - name: 'Status: Under Review'
-      color: 0E8A16
+      color: "#0E8A16"
       description: (UNDER REVIEW)
 
     - name: 'Status: To Merge'
@@ -160,7 +160,7 @@ labels:
       description: (CLOSED)
 
     - name: 'Status: DONE'
-      color: 0E8A16
+      color: "#0E8A16"
       description: (DONE)
 
 # Collaborators: give specific users access to this repository.
