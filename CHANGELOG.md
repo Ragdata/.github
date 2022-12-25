@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.2](https://github.com/Ragdata/.github/compare/v0.1.1...v0.1.2) (2022-12-25)
+
+
+### Features
+
+* add links to README header ([06130b1](https://github.com/Ragdata/.github/commit/06130b1ea2fa9cbc91f5d924c9f79acbbc90a13c))
+* update settings bot ([84cb796](https://github.com/Ragdata/.github/commit/84cb79669eb5da3797f41cd8b65f65d834d0cbd2))
+* update settings bot ([0c31799](https://github.com/Ragdata/.github/commit/0c31799a88bd4d9d8399d69a274bbc143a508bc5))
+* update settings to include downloads ([e34cb16](https://github.com/Ragdata/.github/commit/e34cb16291c2d88e079630d9c74348261b83255b))
+* update template link on readme ([faac977](https://github.com/Ragdata/.github/commit/faac977824aeb998dac374f2d1f1fd948786117e))
+
+
+### Bug Fixes
+
+* attempt to fix labelling issue ([0e16e44](https://github.com/Ragdata/.github/commit/0e16e448394aafd3cf205c3ed7ae807050c6693a))
+
 ### 0.1.1 (2022-12-24)
 
 * First Full Release of Project Templates Project [[issue#1]](https://github.com/Ragdata/.github/issues/1) - ([827ddba4](https://github.com/Ragdata/.github/commit/827ddba42d8af94013631d6ec808d4e8f9059a88) - [2f5ba4b](https://github.com/Ragdata/.github/commit/2f5ba4b2a6db40f0225f4a621e64fddc3b1f6a3e))
