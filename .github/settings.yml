@@ -43,6 +43,8 @@ repository:
 # Labels: define labels for Issues and Pull Requests
 labels:
 
+labels:
+
     - name: 'BUG 🐞'
       color: ff0000
       description: Something isn't working
@@ -162,6 +164,11 @@ labels:
     - name: 'Status: DONE'
       color: "#0E8A16"
       description: (DONE)
+
+collaborators:
+
+    - username: Ragdata
+      permission: admin
 
 # Collaborators: give specific users access to this repository.
 #collaborators:
