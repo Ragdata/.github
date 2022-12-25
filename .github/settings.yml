@@ -43,14 +43,12 @@ repository:
 # Labels: define labels for Issues and Pull Requests
 labels:
 
-labels:
-
     - name: 'BUG 🐞'
-      color: ff0000
+      color: "#ff0000"
       description: Something isn't working
 
     - name: 'DISCUSSION 💬'
-      color: cfd3d7
+      color: "#cfd3d7"
       description: Discussion Thread
 
     - name: 'DOCS 📘'
@@ -58,7 +56,7 @@ labels:
       description: Improvements or additions to documentation
 
     - name: 'EPIC 📌'
-      color: 7057ff
+      color: "#7057ff"
       description: Work unit containing sub-tasks
 
     - name: 'FEATURE 🚩'
@@ -66,15 +64,15 @@ labels:
       description: New feature or request
 
     - name: 'QUESTION ❓'
-      color: d876e3
+      color: "#d876e3"
       description: Support Question
 
     - name: 'REQUEST 🚧'
-      color: FBCA04
+      color: "#FBCA04"
       description: Feature request or suggestion
 
     - name: 'RESPONSE REQUIRED 🚨'
-      color: B60205
+      color: "#B60205"
       description: Response required by admin
 
     - name: 'good first issue'
@@ -86,31 +84,31 @@ labels:
       description: Extra attention is required
 
     - name: '💤 STALE'
-      color: C2E0C6
+      color: "#C2E0C6"
       description:
 
     - name: 'Priority: Critical ++'
-      color: B60205
-      description: ++
+      color: "#B60205"
+      description:
 
     - name: 'Priority: High +'
-      color: D93F0B
-      description: +
+      color: "#D93F0B"
+      description:
 
     - name: 'Priority: Medium ='
-      color: FBCA04
-      description: =
+      color: "#FBCA04"
+      description:
 
     - name: 'Priority: Low -'
       color: "#0E8A16"
-      description: -
+      description:
 
     - name: 'Priority: None --'
-      color: c5def5
-      description: --
+      color: "#c5def5"
+      description:
 
     - name: 'Status: Triage'
-      color: 5319E7
+      color: "#5319E7"
       description: (TRIAGE)
 
     - name: 'Status: Confirmed'
@@ -126,15 +124,15 @@ labels:
       description: (BLOCKED)
 
     - name: 'Status: Returned'
-      color: D93F0B
+      color: "#D93F0B"
       description: (REVIEWER RETURNED)
 
     - name: 'Status: In Progress'
-      color: FBCA04
+      color: "#FBCA04"
       description: (IN PROGRESS)
 
     - name: 'Status: Blocking'
-      color: B60205
+      color: "#B60205"
       description: (BLOCKING)
 
     - name: 'Status: For Review'
@@ -146,19 +144,19 @@ labels:
       description: (UNDER REVIEW)
 
     - name: 'Status: To Merge'
-      color: F9D0C4
+      color: "#F9D0C4"
       description: (TO MERGE)
 
     - name: "Status: Can't Replicate"
-      color: D4C5F9
+      color: "#D4C5F9"
       description: (CLOSED)
 
     - name: 'Status: Duplicate'
-      color: D4C5F9
+      color: "#D4C5F9"
       description: (CLOSED)
 
     - name: "Status: Won't Fix"
-      color: D4C5F9
+      color: "#D4C5F9"
       description: (CLOSED)
 
     - name: 'Status: DONE'
