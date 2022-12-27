@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.4](https://github.com/Ragdata/.github/compare/v0.1.3...v0.1.4) (2022-12-27)
+
+
+### Features
+
+* enable blank issues ([6e73577](https://github.com/Ragdata/.github/commit/6e73577fd86aa15e539b704f9f062534cdf6cd72))
+
 ## [0.1.3](https://github.com/Ragdata/.github/compare/v0.1.2...v0.1.3) (2022-12-27)
 
 

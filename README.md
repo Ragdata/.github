@@ -4,14 +4,14 @@
 
 Ragdata's Project Starter Template
 
-v0.1.3
+v0.1.4
 </h1>
 
 <h3 align="center">
 
 <a href="https://github.com/Ragdata/.github/issues">Open An Issue</a>
 &nbsp;🔹&nbsp;
-<a href="https://github.com/Ragdata/.github/tree/c54ca30aab9767333bf9c99e56a0ee4e0656eaa7/generate">Template v0.1.3</a>
+<a href="https://github.com/Ragdata/.github/tree/c54ca30aab9767333bf9c99e56a0ee4e0656eaa7/generate">Template v0.1.4</a>
 &nbsp;🔹&nbsp;
 <a href="https://github.com/Ragdata/.github/discussions">Discussions</a>
 </h3>
@@ -184,7 +184,7 @@ Where `<options>` are:
 Once the script has run, if you're happy with the results, you'll need to push the tag manually:
 
 ```shell
-git push origin v0.1.3
+git push origin v0.1.4
 ```
 
 ### Project Setup Script
