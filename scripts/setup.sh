@@ -116,6 +116,10 @@ main() {
     rm -f "$baseDir"/.github/ISSUE_TEMPLATE/config.yml 2>/dev/null || :         # remove the .github/ISSUE_TEMPLATE/config.yml file
     rm -f "$baseDir"/.github/SUPPORT.md 2>/dev/null || :                        # remove the .github/SUPPORT.md file
 
+    if [[ "$FUNDING" == false ]]; then
+        rm -f "$baseDir"/.github/FUNDING.yml                                    # remove the .github/FUNDING.yml file
+    fi
+
     writeREADME
     writeLICENSE
     writeCOPYRIGHT
