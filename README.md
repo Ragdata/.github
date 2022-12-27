@@ -11,7 +11,7 @@ v0.1.4
 
 <a href="https://github.com/Ragdata/.github/issues">Open An Issue</a>
 &nbsp;🔹&nbsp;
-<a href="https://github.com/Ragdata/.github/tree/c54ca30aab9767333bf9c99e56a0ee4e0656eaa7/generate">Template v0.1.4</a>
+<a href="https://github.com/Ragdata/.github/tree/42b66c04c5ae306d70881add7ce25db175ab4750/generate">Template v0.1.4</a>
 &nbsp;🔹&nbsp;
 <a href="https://github.com/Ragdata/.github/discussions">Discussions</a>
 </h3>
