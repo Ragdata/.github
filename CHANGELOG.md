@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.3](https://github.com/Ragdata/.github/compare/v0.1.2...v0.1.3) (2022-12-27)
+
+
+### Features
+
+* add option to delete FUNDING file on setup ([c54ca30](https://github.com/Ragdata/.github/commit/c54ca30aab9767333bf9c99e56a0ee4e0656eaa7))
+* added patreon to funding options ([3ece4b3](https://github.com/Ragdata/.github/commit/3ece4b31c478fd5172ba4c8c2da897b07744b323))
+
 ## [0.1.2](https://github.com/Ragdata/.github/compare/v0.1.1...v0.1.2) (2022-12-25)
 
 
