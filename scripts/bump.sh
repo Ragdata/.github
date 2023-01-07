@@ -1,7 +1,15 @@
 #!/usr/bin/env bash
-#
+# shellcheck disable=SC2154
 # ==================================================================
 # bump.sh
+# ==================================================================
+# Bash Bits - Modular Bash Library
+#
+# File:         bump.sh
+# Author:       Ragdata
+# Date:         07/01/2023
+# License:      MIT License
+# Copyright:    Copyright © 2022-2023 Darren Poulton (Ragdata)
 # ==================================================================
 # Bumps version, creates changelog, tags, and release.
 # Usage:
@@ -21,19 +29,19 @@
 #   - standard-version
 # ==================================================================
 
-if [[ -z "$baseDir" ]]; then
-    declare -gx baseDir
-    baseDir="$(dirname "$(dirname "$(realpath "$0")")")"
+if [[ -z "$rootPath" ]]; then
+    declare -gx rootPath
+    rootPath="$(dirname "$(dirname "$(dirname "$(realpath "$0")")")")"
 fi
 
 set -eu
 
 set -a
 
-if [ -f "$baseDir/.env" ]; then
-    source "$baseDir"/.env
+if [ -f "$rootPath/.env" ]; then
+    source "$rootPath"/.env
 else
-    source "$baseDir"/.env.dist
+    source "$rootPath"/.env.dist
 fi
 
 set +a
@@ -43,13 +51,12 @@ STAGING_BRANCH="$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remot
 PROD_BRANCH="master"
 
 TYPE=""
-MESSAGE=""
-BRANCH=""
 
 FILES=(
-    "$baseDir/COPYRIGHT"
-    "$baseDir/README.md"
-    "$baseDir/package.json"
+    "$rootPath/COPYRIGHT"
+    "$rootPath/docs/index.md"
+    "$rootPath/README.md"
+    "$rootPath/package.json"
 )
 
 TOOLS=(
@@ -68,18 +75,14 @@ help() {
     echo "      bash scripts/bump.sh <options>"
     echo
     echo "Options:"
-    echo "      -u, --user          Git user name       (optional)  Default: $USER_NAME"
-    echo "      -e, --email         Git user email      (optional)  Default: $USER_EMAIL"
-    echo "      -m, --message       Commit message      (optional)  Default: 'chore(release): release vX.X.X'"
-    echo "      -b, --branch        Git branch          (optional)  Default: master"
     echo "      -t, --type          [patch|minor|major] (optional)  Default: patch"
     echo "                              - The 'type' argument is a special one:"
-    echo "                                  - First Release: first-release"
-    echo "                                  - Pre-Release: prerelease [optional name] - eg: prerelease alpha = 1.0.0-alpha.0"
-    echo "                                  - Patch Release: patch"
-    echo "                                  - Minor Release: minor"
-    echo "                                  - Major Release: major"
-    echo "                                  - Force Version: release-as [prerelease|minor|major|X.X.X] (where X.X.X is a version number)"
+    echo "                                  - First Release: -t --first-release"
+    echo "                                  - Pre-Release: -t --prerelease "
+    echo "                                  - Patch Release: -t \"--release-as patch\""
+    echo "                                  - Minor Release: -t \"--release-as minor\""
+    echo "                                  - Major Release: -t \"--release-as major\""
+    echo "                                  - Force Version: -t \"--release-as X.X.X\""
     echo "      -p, --preview       Preview Mode        (optional)  Default: false"
     echo "                              - branches will not be modified"
     echo
@@ -147,6 +150,7 @@ bump() {
 }
 
 standardVersion() {
+    echo "Arguments: $TYPE"
     if [[ "$TYPE" == "preview" ]]; then
         standard-version --prerelease rc
     else
@@ -203,7 +207,7 @@ main() {
     fi
 
     # change heading of patch version to level 2 (a bug from `standard-version`)
-    sed -i "s/^### \[/## \[/g" "$baseDir"/CHANGELOG.md
+    sed -i "s/^### \[/## \[/g" "$rootPath"/CHANGELOG.md
 
     _version="$(grep '"version":' package.json | sed 's/.*: "//;s/".*//')"
 
@@ -221,28 +225,8 @@ main() {
 while (($#)); do
     opt="$1"
     case "$opt" in
-        -u | --user)
-            USER_NAME="$2"
-            shift
-            shift
-            ;;
-        -e | --email)
-            USER_EMAIL="$2"
-            shift
-            shift
-            ;;
         -t | --type)
             TYPE="$2"
-            shift
-            shift
-            ;;
-        -m | --msg | --message)
-            MESSAGE="$2"
-            shift
-            shift
-            ;;
-        -b | --branch)
-            BRANCH="$2"
             shift
             shift
             ;;
@@ -255,6 +239,7 @@ while (($#)); do
             exit 0
             ;;
         *)
+            echo "OPT is $opt"
             help
             exit 1
             ;;
