@@ -222,27 +222,27 @@ while (($#)); do
     opt="$1"
     case "$opt" in
         -u | --user)
-            USER_NAME="$opt"
+            USER_NAME="$2"
             shift
             shift
             ;;
         -e | --email)
-            USER_EMAIL="$opt"
+            USER_EMAIL="$2"
             shift
             shift
             ;;
         -t | --type)
-            TYPE="$opt"
+            TYPE="$2"
             shift
             shift
             ;;
         -m | --msg | --message)
-            MESSAGE="$opt"
+            MESSAGE="$2"
             shift
             shift
             ;;
         -b | --branch)
-            BRANCH="$opt"
+            BRANCH="$2"
             shift
             shift
             ;;
