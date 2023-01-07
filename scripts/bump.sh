@@ -1,15 +1,7 @@
 #!/usr/bin/env bash
-# shellcheck disable=SC2154
+#
 # ==================================================================
 # bump.sh
-# ==================================================================
-# Bash Bits - Modular Bash Library
-#
-# File:         bump.sh
-# Author:       Ragdata
-# Date:         07/01/2023
-# License:      MIT License
-# Copyright:    Copyright © 2022-2023 Darren Poulton (Ragdata)
 # ==================================================================
 # Bumps version, creates changelog, tags, and release.
 # Usage:
@@ -29,19 +21,19 @@
 #   - standard-version
 # ==================================================================
 
-if [[ -z "$rootPath" ]]; then
-    declare -gx rootPath
-    rootPath="$(dirname "$(dirname "$(dirname "$(realpath "$0")")")")"
+if [[ -z "$baseDir" ]]; then
+    declare -gx baseDir
+    baseDir="$(dirname "$(dirname "$(realpath "$0")")")"
 fi
 
 set -eu
 
 set -a
 
-if [ -f "$rootPath/.env" ]; then
-    source "$rootPath"/.env
+if [ -f "$baseDir/.env" ]; then
+    source "$baseDir"/.env
 else
-    source "$rootPath"/.env.dist
+    source "$baseDir"/.env.dist
 fi
 
 set +a
@@ -53,10 +45,9 @@ PROD_BRANCH="master"
 TYPE=""
 
 FILES=(
-    "$rootPath/COPYRIGHT"
-    "$rootPath/docs/index.md"
-    "$rootPath/README.md"
-    "$rootPath/package.json"
+    "$baseDir/COPYRIGHT"
+    "$baseDir/README.md"
+    "$baseDir/package.json"
 )
 
 TOOLS=(
@@ -150,7 +141,6 @@ bump() {
 }
 
 standardVersion() {
-    echo "Arguments: $TYPE"
     if [[ "$TYPE" == "preview" ]]; then
         standard-version --prerelease rc
     else
@@ -207,7 +197,7 @@ main() {
     fi
 
     # change heading of patch version to level 2 (a bug from `standard-version`)
-    sed -i "s/^### \[/## \[/g" "$rootPath"/CHANGELOG.md
+    sed -i "s/^### \[/## \[/g" "$baseDir"/CHANGELOG.md
 
     _version="$(grep '"version":' package.json | sed 's/.*: "//;s/".*//')"
 
@@ -239,7 +229,6 @@ while (($#)); do
             exit 0
             ;;
         *)
-            echo "OPT is $opt"
             help
             exit 1
             ;;
