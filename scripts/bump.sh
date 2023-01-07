@@ -42,7 +42,9 @@ WORKING_BRANCH="$(git branch --show-current)"
 STAGING_BRANCH="$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')"
 PROD_BRANCH="master"
 
-TYPE=""
+[[ -z "${1:-}" ]] && TYPE="patch" || TYPE="";
+
+MESSAGE=""
 
 FILES=(
     "$baseDir/COPYRIGHT"
@@ -55,27 +57,35 @@ TOOLS=(
     "standard-version"
 )
 
+VALID_OPTS=(
+    "preview"
+    "prerelease"
+    "first"
+    "patch"
+    "minor"
+    "major"
+)
+
 help() {
     echo
     echo "A script to release a new version of a project"
     echo
     echo "Usage:"
     echo
-    echo "      npm run release <options>"
+    echo "      npm run release -- <arg>"
     echo "- or -"
-    echo "      bash scripts/bump.sh <options>"
+    echo "      bash scripts/bump.sh <arg>"
     echo
-    echo "Options:"
-    echo "      -t, --type          [patch|minor|major] (optional)  Default: patch"
-    echo "                              - The 'type' argument is a special one:"
-    echo "                                  - First Release: -t --first-release"
-    echo "                                  - Pre-Release: -t --prerelease "
-    echo "                                  - Patch Release: -t \"--release-as patch\""
-    echo "                                  - Minor Release: -t \"--release-as minor\""
-    echo "                                  - Major Release: -t \"--release-as major\""
-    echo "                                  - Force Version: -t \"--release-as X.X.X\""
-    echo "      -p, --preview       Preview Mode        (optional)  Default: false"
-    echo "                              - branches will not be modified"
+    echo "Arguments:"
+    echo "      The only argument you need to supply is a single string which defines the type of release you want to perform:"
+    echo "          - First Release: first"
+    echo "          - Pre-Release: prerelease"
+    echo "          - Patch Release: patch (Default)"
+    echo "          - Minor Release: minor"
+    echo "          - Major Release: major"
+    echo "          - Version Release: X.X.X"
+    echo "          - Preview Release: preview"
+    echo "              - branches will not be modified"
     echo
 }
 
@@ -141,10 +151,10 @@ bump() {
 }
 
 standardVersion() {
-    if [[ "$TYPE" == "preview" ]]; then
+    if [[ "$1" == "preview" ]]; then
         standard-version --prerelease rc
     else
-        standard-version "$TYPE"
+        standard-version --release-as "$1"
     fi
 }
 
@@ -155,7 +165,7 @@ standardVersionPlus() {
     git checkout -b "$temp_branch" "$PROD_BRANCH"
     git merge --no-ff --no-edit "$STAGING_BRANCH"
 
-    standardVersion
+    standardVersion "${1}"
 
     cp package.json CHANGELOG.md "$temp_dir"
 
@@ -191,9 +201,9 @@ main() {
     check
 
     if [[ "$WORKING_BRANCH" == "$STAGING_BRANCH" ]]; then
-        standardVersionPlus
+        standardVersionPlus "${TYPE}"
     else
-        standardVersion
+        standardVersion "${TYPE}"
     fi
 
     # change heading of patch version to level 2 (a bug from `standard-version`)
@@ -215,22 +225,22 @@ main() {
 while (($#)); do
     opt="$1"
     case "$opt" in
-        -t | --type)
-            TYPE="$2"
-            shift
-            shift
-            ;;
-        -p | --preview)
-            TYPE="preview"
-            shift
-            ;;
-        -h | --help)
+        help)
             help
             exit 0
             ;;
         *)
-            help
-            exit 1
+            # shellcheck disable=SC2076
+            if [[ " ${VALID_OPTS[*]} " =~ " ${opt} " ]]; then
+                TYPE="${opt}"
+            elif [[ "${opt}" =~ \d\.\d\.\d ]]; then
+                TYPE=${opt}
+            else
+                echo "ERROR :: Invalid Argument '${opt}"
+                help
+                exit 1
+            fi
+            shift
             ;;
     esac
 done
