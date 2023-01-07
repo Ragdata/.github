@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/Ragdata/.github/compare/v0.1.5...v0.2.0) (2023-01-07)
+
+
+### Bug Fixes
+
+* fix script arguments bug ([2a3782b](https://github.com/Ragdata/.github/commit/2a3782b9c185c2c7c1e4055d108be4882ac632fd))
+* fix script arguments bug ([1926126](https://github.com/Ragdata/.github/commit/192612685cc12ce03530ef720945b104a68daa08))
+* fix script arguments bug ([19a6b2f](https://github.com/Ragdata/.github/commit/19a6b2fcd081725b5ed3ee52be0e39848a0878eb))
+
 ## [0.1.5](https://github.com/Ragdata/.github/compare/v0.1.4...v0.1.5) (2023-01-07)
 
 
