@@ -21,10 +21,8 @@
 #   - standard-version
 # ==================================================================
 
-if [[ -z "$baseDir" ]]; then
-    declare -gx baseDir
-    baseDir="$(dirname "$(dirname "$(realpath "$0")")")"
-fi
+# preserve $PWD
+[[ -z "$rootPath" ]] && declare -gx rootPath="$PWD"
 
 set -eu
 
