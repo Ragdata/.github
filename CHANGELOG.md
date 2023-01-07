@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.5](https://github.com/Ragdata/.github/compare/v0.1.4...v0.1.5) (2023-01-07)
+
+
+### Features
+
+* enable blank issues ([64e6004](https://github.com/Ragdata/.github/commit/64e60049942e63ea15190533fa7f1e7d3fbd3b46))
+* update default patreon account ([881ef37](https://github.com/Ragdata/.github/commit/881ef37c521970da05181b4919c01bc6c47ee811))
+
+
+### Bug Fixes
+
+* fix script arguments bug ([1cb4c35](https://github.com/Ragdata/.github/commit/1cb4c35489bf1c1b312080f89cf3cc01ff1c5056))
+
 ## [0.1.4](https://github.com/Ragdata/.github/compare/v0.1.3...v0.1.4) (2022-12-27)
 
 
