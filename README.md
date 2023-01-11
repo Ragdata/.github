@@ -136,56 +136,7 @@ The following bots are configured and ready to use with this template, and insta
 
 ### Release (Bump) Script
 
-#### Usage:
-
-Use either as an `npn` script:
-
-```shell
-npn run release <options>
-```
-
-Or from the command line under bash:
-
-```shell
-bash scripts/bump.sh <options>
-```
-
-Where `<options>` are:
-
-```shell
--u, --user          Git user name       (optional)  Default: $USER_NAME
--e, --email         Git user email      (optional)  Default: $USER_EMAIL
--m, --message       Commit message      (optional)  Default: 'chore(release): release vX.X.X'
--b, --branch        Git branch          (optional)  Default: master
--p, --preview       Preview Mode        (optional)  Default: false
--t, --type          [patch|minor|major] (optional)  Default: patch
-
-    - The 'type' argument is a special one:
-        - Preview: preview
-        - First Release: first-release
-        - Pre-Release: prerelease [optional name] - eg: prerelease alpha = 1.0.0-alpha.0
-        - Patch Release: patch
-        - Minor Release: minor
-        - Major Release: major
-        - Force Version: release-as [prerelease|minor|major|X.X.X] (where X.X.X is a version number)
-```
-
-> **NOTE**: If you're going to use this script in `npn` mode, you need to remember to pass any arguments like so:
->
-> ```shell
-> npn run release -- --preview
-> ```
-> OR
-> ```shell
-> npn run release -- -u "Ragdata"
->```
-> Without the extra '--' preceding your arguments, `npn` will assume that any arguments were intended for it to consume and it will eat them on you.
-
-Once the script has run, if you're happy with the results, you'll need to push the tag manually:
-
-```shell
-git push origin v0.2.0
-```
+I've moved the release script into its own project called [**Release Manager**](https://github.com/ragdata/release-manager)
 
 ### Project Setup Script
 
