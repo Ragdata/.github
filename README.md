@@ -182,7 +182,7 @@ bash scripts/setup.sh
 <h3 align="center">
 <a href="https://github.com/ragdata" target="_blank"><img src="https://raw.githubusercontent.com/Ragdata/Ragdata/master/images/logo/banner/Social-SW-01-800.png" alt="RedEyed Software" />
 
-Ragdata's RedEyed Software</a>
+Created with ☕ by Ragdata</a>
 
 </h3>
 
