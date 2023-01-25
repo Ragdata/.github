@@ -23,7 +23,7 @@ repository:
     has_wiki: false
 
     # Either `true` to enable downloads for this repository, `false` to disable them.
-    has_downloads: true
+    has_downloads: false
 
     # Updates the default branch for this repository.
     default_branch: master
@@ -43,35 +43,79 @@ repository:
 # Labels: define labels for Issues and Pull Requests
 labels:
 
-    - name: 'BUG 🐞'
-      color: "#ff0000"
-      description: Something isn't working
+    - name: 'website'
+      color: "#0052CC"
+      description: Website Tasks
 
-    - name: 'DISCUSSION 💬'
-      color: "#cfd3d7"
-      description: Discussion Thread
-
-    - name: 'DOCS 📘'
-      color: "#0075ca"
-      description: Improvements or additions to documentation
-
-    - name: 'EPIC 📌'
-      color: "#7057ff"
-      description: Work unit containing sub-tasks
-
-    - name: 'FEATURE 🚩'
-      color: "#00ff00"
-      description: New feature or request
-
-    - name: 'QUESTION ❓'
+    - name: 'support'
       color: "#d876e3"
       description: Support Question
 
-    - name: 'REQUEST 🚧'
+    - name: 'show & tell'
+      color: "#FEF2C0"
+      description: Show & Tell - The ONLY place you can legally post links to your shit in this community
+
+    - name: 'Q&A'
+      color: "#E99695"
+      description: Q&A Thread
+
+    - name: 'poll'
+      color: "#C2E0C6"
+      description: A Poll
+
+    - name: 'idea'
+      color: "#FEF2C0"
+      description: Idea / Suggestion
+
+    - name: 'announcement'
+      color: "#F9D0C4"
+      description: A broadcast message for everyone's attention
+
+    - name: 'chore'
+      color: "#D93F0B"
+      description: Work that needs to happen
+
+    - name: 'bug'
+      color: "#ff0000"
+      description: Something isn't working
+
+    - name: 'discussion'
+      color: "#cfd3d7"
+      description: Discussion Thread
+
+    - name: 'enhancement'
+      color: "#D93F0B"
+      description: Discussion Thread
+
+    - name: 'style'
+      color: "#006B75"
+      description: Discussion Thread
+
+    - name: 'refactor'
+      color: "#000000"
+      description: Discussion Thread
+
+    - name: 'docs'
+      color: "#0075ca"
+      description: Improvements or additions to documentation
+
+    - name: 'epic'
+      color: "#7057ff"
+      description: Work unit containing sub-tasks
+
+    - name: 'feature'
+      color: "#00ff00"
+      description: New feature or request
+
+    - name: 'question'
+      color: "#d876e3"
+      description: Support Question
+
+    - name: 'request'
       color: "#FBCA04"
       description: Feature request or suggestion
 
-    - name: 'RESPONSE REQUIRED 🚨'
+    - name: 'requires response'
       color: "#B60205"
       description: Response required by admin
 
@@ -80,100 +124,55 @@ labels:
       description: Good first issue for new contributor
 
     - name: 'help wanted'
-      color: "#0E8A16"
+      color: "#B60205"
       description: Extra attention is required
 
-    - name: '💤 STALE'
+    - name: 'stale'
       color: "#C2E0C6"
-      description:
+      description: Stale Issue
 
-    - name: 'Priority: Critical ++'
+    - name: 'critical'
       color: "#B60205"
-      description:
+      description: Priority Critical
 
-    - name: 'Priority: High +'
+    - name: 'high'
       color: "#D93F0B"
-      description:
+      description: Priority High
 
-    - name: 'Priority: Medium ='
+    - name: 'medium'
       color: "#FBCA04"
-      description:
+      description: Priority Medium
 
-    - name: 'Priority: Low -'
+    - name: 'low'
       color: "#0E8A16"
-      description:
+      description: Priority Low
 
-    - name: 'Priority: None --'
+    - name: 'none'
       color: "#c5def5"
-      description:
+      description: Priority None
 
-    - name: 'Status: Triage'
-      color: "#5319E7"
-      description: (TRIAGE)
+    - name: "can't replicate"
+      color: "#D4C5F9"
+      description: "STATUS: CLOSED"
 
-    - name: 'Status: Confirmed'
-      color: "#0052CC"
-      description: (TODO)
+    - name: 'duplicate'
+      color: "#D4C5F9"
+      description: "STATUS: CLOSED"
 
-    - name: 'Status: ToDo'
-      color: "#0052CC"
-      description: (TODO)
+    - name: "won't fix"
+      color: "#D4C5F9"
+      description: "STATUS: CLOSED"
 
-    - name: 'Status: Blocked'
-      color: "#000000"
-      description: (BLOCKED)
-
-    - name: 'Status: Returned'
-      color: "#D93F0B"
-      description: (REVIEWER RETURNED)
-
-    - name: 'Status: In Progress'
-      color: "#FBCA04"
-      description: (IN PROGRESS)
-
-    - name: 'Status: Blocking'
-      color: "#B60205"
-      description: (BLOCKING)
-
-    - name: 'Status: For Review'
-      color: "#006B75"
-      description: (FOR REVIEW)
-
-    - name: 'Status: Under Review'
+    - name: 'DONE'
       color: "#0E8A16"
-      description: (UNDER REVIEW)
-
-    - name: 'Status: To Merge'
-      color: "#F9D0C4"
-      description: (TO MERGE)
-
-    - name: "Status: Can't Replicate"
-      color: "#D4C5F9"
-      description: (CLOSED)
-
-    - name: 'Status: Duplicate'
-      color: "#D4C5F9"
-      description: (CLOSED)
-
-    - name: "Status: Won't Fix"
-      color: "#D4C5F9"
-      description: (CLOSED)
-
-    - name: 'Status: DONE'
-      color: "#0E8A16"
-      description: (DONE)
-
-collaborators:
-
-    - username: Ragdata
-      permission: admin
+      description: "STATUS: DONE"
 
 # Collaborators: give specific users access to this repository.
 #collaborators:
 #    - username: bkeepers
-          # Note: Only valid on organization-owned repositories.
-          # The permission to grant the collaborator. Can be one of:
-          # * `pull` - can pull, but not push to or administer this repository.
-          # * `push` - can pull and push, but not administer this repository.
-          # * `admin` - can pull, push and administer this repository.
-          # permission: push
+# Note: Only valid on organization-owned repositories.
+# The permission to grant the collaborator. Can be one of:
+# * `pull` - can pull, but not push to or administer this repository.
+# * `push` - can pull and push, but not administer this repository.
+# * `admin` - can pull, push and administer this repository.
+# permission: push

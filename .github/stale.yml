@@ -4,22 +4,16 @@ daysUntilStale: 30
 daysUntilClose: 7
 # Issues with these labels will never be considered stale
 exemptLabels:
-    - 'Status: Triage'
-    - 'Status: Confirmed'
-    - 'Status: ToDo'
-    - 'Status: Blocked'
-    - 'Status: Returned'
-    - 'Status: In Progress'
-    - 'Status: Blocking'
-    - 'Status: For Review'
-    - 'Status: Under Review'
-    - 'Status: To Merge'
-    - "Status: Can't Replicate"
-    - 'Status: Duplicate'
-    - "Status: Won't Fix"
-    - 'Status: DONE'
+    - "critical"
+    - "high"
+    - "medium"
+    - "low"
+    - "can't replicate"
+    - 'duplicate'
+    - "won't fix"
+    - 'DONE'
 # Label to use when marking an issue as stale
-staleLabel: '💤 STALE'
+staleLabel: 'stale'
 # Comment to post when marking an issue as stale. Set to `false` to disable
 markComment: >
     This issue has been automatically marked as stale because it has not had
