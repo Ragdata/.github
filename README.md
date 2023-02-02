@@ -4,14 +4,14 @@
 
 Ragdata's Project Starter Template
 
-v0.2.0
+v0.3.0
 </h1>
 
 <h3 align="center">
 
 <a href="https://github.com/Ragdata/.github/issues">Open An Issue</a>
 &nbsp;🔹&nbsp;
-<a href="https://github.com/Ragdata/.github/tree/42b66c04c5ae306d70881add7ce25db175ab4750/generate">Template v0.2.0</a>
+<a href="https://github.com/Ragdata/.github/releases">Releases</a>
 &nbsp;🔹&nbsp;
 <a href="https://github.com/Ragdata/.github/discussions">Discussions</a>
 </h3>
