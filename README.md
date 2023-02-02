@@ -118,7 +118,7 @@ The following bots are configured and ready to use with this template, and insta
 
 ### Highly Recommended
 
-1. [Settings Bot](https://probot.github.io/apps/settings/) - configured by [`.github/settings.yml`](.github/settings.yml)
+1. [Bootstrap Bot](https://probot.github.io/apps/bootstrap/) - configured by [`.github/bootstrap.yml`](.github/bootstrap.yml)
 2. [Welcome Bot](https://probot.github.io/apps/welcome/) - configured by [`.github/config.yml`](.github/config.yml)
 3. [Sentiment Bot](https://probot.github.io/apps/sentiment-bot/) - configured by [`.github/config.yml`](.github/config.yml)
 
