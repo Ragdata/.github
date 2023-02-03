@@ -1,7 +1,7 @@
 name: 📘 DOCS ISSUE
 description: File a Documentation Issue
 title: "[DOCS]: <title>"
-labels: ["DOCS 📘","Status: Triage"]
+labels: ["docs","NEW"]
 assignees:
     - Ragdata
 body:

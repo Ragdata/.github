@@ -118,9 +118,8 @@ The following bots are configured and ready to use with this template, and insta
 
 ### Highly Recommended
 
-1. [Bootstrap Bot](https://probot.github.io/apps/bootstrap/) - configured by [`.github/bootstrap.yml`](.github/bootstrap.yml)
-2. [Welcome Bot](https://probot.github.io/apps/welcome/) - configured by [`.github/config.yml`](.github/config.yml)
-3. [Sentiment Bot](https://probot.github.io/apps/sentiment-bot/) - configured by [`.github/config.yml`](.github/config.yml)
+1. [Welcome Bot](https://probot.github.io/apps/welcome/) - configured by [`.github/config.yml`](.github/config.yml)
+2. [Sentiment Bot](https://probot.github.io/apps/sentiment-bot/) - configured by [`.github/config.yml`](.github/config.yml)
 
 ### Worth Considering
 
@@ -128,6 +127,10 @@ The following bots are configured and ready to use with this template, and insta
 - [No Response Bot](https://probot.github.io/apps/no-response/) - configured by [`.github/no-response.yml`](.github/no-response.yml)
 - [All Contributors Bot](https://probot.github.io/apps/allcontributors/)
 - [Unfurl Links Bot](https://probot.github.io/apps/unfurl-links/)
+
+### Special Mention
+
+If you want to reliably manage the labels for each of your repositories, I'd recommend you give [GH-Label](https://github.com/erdaltsksn/gh-label) a try.  It takes a little more setup, but it's worth it in the long run.
 
 [`^ Top`](#-table-of-contents)
 

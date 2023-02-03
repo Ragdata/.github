@@ -1,7 +1,7 @@
 name: 🚧 FEATURE REQUEST
 description: Submit a Feature Request
 title: "[REQUEST]: <title>"
-labels: ["REQUEST 🚧","Status: Triage"]
+labels: ["request","NEW"]
 assignees:
     - Ragdata
 body:
