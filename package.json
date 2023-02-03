@@ -1,13 +1,13 @@
 {
     "name": "github",
-    "description": "Ragdata's Project Starter Template",
+    "description": "Ragdata's Project Template Repository",
     "version": "0.3.0",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Ragdata/.github"
     },
     "author": {
-        "name": "Darren Poulton (Ragdata)",
+        "name": "Darren (Ragdata) Poulton",
         "email": "ragdata@users.noreply.github.com",
         "url": "https://github.com/ragdata"
     },
