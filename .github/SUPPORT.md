@@ -1,6 +1,8 @@
 # ❓ Where to Find Support
 
 > 👉 This file is included by default with all of my repositories by virtue of its inclusion in my [`.github`](https://github.com/ragdata/.github) repository, which defines defaults for all other repositories under an account.
+> 
+> `Community Support Document v-0.2.0`
 
 Looking for support for one of my projects?  Here are some suggestions:
 
