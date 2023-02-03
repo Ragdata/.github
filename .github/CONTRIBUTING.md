@@ -1,6 +1,8 @@
-# Contributing to this project
+# Contributing to This Project
 
 > 👉 This file is included by default with all of my repositories by virtue of its inclusion in my [`.github`](https://github.com/ragdata/.github) repository, which defines defaults for all other repositories under an account.
+> 
+> `Contributor's Guide v-0.2.0`
 
 Firstly, I'd like to thank you personally for taking the time to help improve this project, I truly appreciate it! 💓 Here are a few guidelines to help ensure that all contributions are heading in the same direction:
 
@@ -12,19 +14,37 @@ You can contribute by:
 - [sponsor me on Patreon][patreon]
 - supporting me through one of my social channels (see [SUPPORT][support])
 
+## 📖 Index / Table of Contents
+
+- [Contributing to This Project](#contributing-to-this-project)
+  - [Standards](#-standards) 
+    - [Versioning Standards](#-versioning-standards)
+    - [VCS Standards](#-vcs-standards)
+    - [Code Stability](#-code-stability)
+  - [Tools](#-tools)
+  - [Basic Process for Pull Requests](#-basic-process-for-pull-requests)
+  - [Verify Your Commit Messages!](#-verify-your-commit-messages-)
+    - [Valid Commit Types](#-valid-commit-types)
+    - [Valid Commit Message Structure](#-valid-commit-message-structure)
+    - [RULES](#-rules)
+    - [Examples](#-examples)
+  - [Remember Always](#-remember-always-)
+
 ## 🌟 Standards
 
 All of my projects employ the following standard procedures for code production and management.  Please be aware that failure to adhere to the following standards may see your contributions excluded from the project.
 
 #### 💞 Versioning Standards
 
-All of my projects use [**Semantic Versioning 2.0.0 (SemVer)**](https://semver.org/).  Briefly:
+All of my projects use [**Semantic Versioning 2.0.0 (SemVer)**][semver].  Briefly:
 
 1. **MAJOR** version increments when you make a _breaking change_ (ie _NOT backwards compatible_)
 2. **MINOR** version increments when you add functionality which _IS backwards compatible_
 3. **PATCH** version increments whenever you make _minor backwards compatible releases_ such as bugfixes
 
-Adding a new feature will generally cause either the PATCH or MINOR version to increment, depending upon the extend of the feature.
+Adding a new feature will generally cause either the PATCH or MINOR version to increment, depending upon the extent of the feature.
+
+[`^ Top`](#-index--table-of-contents)
 
 #### 🚧 VCS Standards
 
@@ -53,6 +73,8 @@ Adding a new feature will generally cause either the PATCH or MINOR version to i
     - `gh-pages/hotfix/issue-number`
     - `gh-pages/release/version`
 
+[`^ Top`](#-index--table-of-contents)
+
 #### 🚥 Code Stability
 
 With reference to the VCS Standard above, code stability is generally like so:
@@ -68,6 +90,8 @@ With reference to the VCS Standard above, code stability is generally like so:
 | `gh-pages/develop`   | latest unstable | most recent code |     🔴      |
 | `gh-pages/release/*` |     stable      | tagged versions  |     🟡      |
 
+[`^ Top`](#-index--table-of-contents)
+
 ## 🔨 Tools
 
 I like to put my money where my mouth is and demonstrate confidence in my own work, therefore, wherever possible, my GitHub repositories will include some of my other repositories as either a submodule or a few essential files.  The most common of these being:
@@ -78,19 +102,25 @@ I like to put my money where my mouth is and demonstrate confidence in my own wo
 
 > 💡 **DID YOU KNOW?** If you include a repository for your GitHub Account or Organization called `.github`, the files that you include in **its** `.github/` directory will serve as the defaults for ALL other repositories under that account or organization.
 
-The ['community standards'](https://github.com/Ragdata/.github/community) files utilized by ALL of my repositories ALL come from this one project.  If any repository has need of a custom version of one of these files, it gets it, otherwise you can find all of the default versions here.
+The ['community standards'](https://github.com/Ragdata/.github/community) files utilized by ALL of my repositories ALL come from this one project.  If any repository has need of a custom version of one of these files, it gets it, otherwise you can find all the default versions here.
 
 ### ⚡ [Reusable Workflows](https://github.com/ragdata/workflows)
 
 > 💡 **DID YOU KNOW?** You don't **_have_** to use a GitHub Action from the marketplace in your GitHub workflows - you can just as effectively use a file from one of your own repositories! 
 
-All of the github actions and associated workflows I use in all of my repositories live here.  This allows me to create workflows which are tailored specifically for _my_ code, and are a lot lighter than generic actions.
+All the GitHub actions and associated workflows I use in all of my repositories live here.  This allows me to create workflows which are tailored specifically for _my_ code, and are a lot lighter than generic actions.  I've left this as a public repo so that you can study the techniques used and implement them for yourself!
 
 ### 🎁 [Release Manager](https://github.com/ragdata/release-manager)
 
-I include a copy of Release Manager in every single one of my repositories.  It takes care of writing my CHANGELOGS and ensures that my releases are orderly and compliant with semantic versioning.
+I include a copy of `Release Manager` in every single one of my repositories.  It takes care of writing my CHANGELOGS, incrementing versions recorded throughout my repositories and ensures that my releases are orderly and compliant with [semantic versioning][semver].  `Release Manager` can be used from the Linux command line, or as part of a GitHub workflow!
 
-## Basic Process for Pull Requests
+### 🧩 [Bash Bits](https://github.com/ragdata/bash-bits)
+
+`Bash Bits` is my modular library for Bash.  Because a fair amount of the stuff I write is written for the Linux command line, `Bash Bits` ends up finding a place in most of my repositories, and if you're writing for Bash, it could be a valuable part of one of yours too!  `BB` is unique in that it is written particularly with users of WSL2 (Ubuntu) in mind!
+
+[`^ Top`](#-index--table-of-contents)
+
+## ✂️ Basic Process for Pull Requests
 
 Generally, the way to create a **Pull Request** is to:
 
@@ -99,13 +129,13 @@ Generally, the way to create a **Pull Request** is to:
 3. AFTER completing development AND TESTING, submit a new _Pull Request_
    1. (note that your commit message MUST follow the [Conventional Commits Guidelines][conventional-commits], otherwise it will fail the PR check)
 
+[`^ Top`](#-index--table-of-contents)
 
-
-## Verify Your Commit Messages!
+## 🔍 Verify Your Commit Messages!
 
 If you want to make sure your commit messages will pass the CI check, implement the following:
 
-### Valid Commit Types
+### 📝 Valid Commit Types
 
 - build
 - chore
@@ -119,7 +149,9 @@ If you want to make sure your commit messages will pass the CI check, implement 
 - style
 - test
 
-### Valid Commit Message Structure
+[`^ Top`](#-index--table-of-contents)
+
+### 📜 Valid Commit Message Structure
 
 ```console
 <type>(optional scope): <subject>
@@ -129,7 +161,9 @@ If you want to make sure your commit messages will pass the CI check, implement 
 <optional footer>
 ```
 
-### RULES
+[`^ Top`](#-index--table-of-contents)
+
+### 📑 RULES
 
 - Type MUST be one of those in the list above
 - Type MUST be all lowercase
@@ -151,7 +185,9 @@ If you want to make sure your commit messages will pass the CI check, implement 
 - Footer MUST be preceded by a blank line
 - Max length of footer is 100 chars PER LINE
 
-### Examples
+[`^ Top`](#-index--table-of-contents)
+
+### 💼 Examples
 
 #### Commit message with description and BREAKING CHANGE footer:
 ```
@@ -196,12 +232,16 @@ Reviewed-by: Z
 Refs: #123
 ```
 
-### Remember Always:
+[`^ Top`](#-index--table-of-contents)
+
+### 📌 Remember Always:
 
 > _We see much further, and reach much higher, only because we stand upon the shoulders of giants_
 
 
 :tada: **THANK YOU** :tada:
+
+[`^ Top`](#-index--table-of-contents)
 
 [sponsorship]: https://github.com/sponsors/Ragdata
 [patreon]: https://patreon.com/ragdata
@@ -210,3 +250,4 @@ Refs: #123
 [git]: https://git-scm.com/
 [github]: https://github.com
 [gitflow]: https://nvie.com/posts/a-successful-git-branching-model
+[semver]: https://semver.org/
