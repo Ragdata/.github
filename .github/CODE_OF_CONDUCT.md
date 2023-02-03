@@ -1,6 +1,8 @@
 # Contributor Covenant Code of Conduct
 
 > 👉 This file is included by default with all of my repositories by virtue of its inclusion in my [`.github`](https://github.com/ragdata/.github) repository, which defines defaults for all other repositories under an account.
+> 
+> `Code of Conduct v-0.1.0`
 
 ## Our Pledge
 
