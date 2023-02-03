@@ -1,5 +1,7 @@
 # Contributor Covenant Code of Conduct
 
+> 👉 This file is included by default with all of my repositories by virtue of its inclusion in my [`.github`](https://github.com/ragdata/.github) repository, which defines defaults for all other repositories under an account.
+
 ## Our Pledge
 
 In the interests of fostering an open and welcoming environment, we as contributors and maintainers pledge to make participation in our project and community an harassment-free experience for EVERYONE, regardless of age, body size, (dis)ability, ethnicity, sex, gender identity and expression, level of technical experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.

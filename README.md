@@ -71,7 +71,9 @@ v0.3.0
 - [License](#-license)
 - [Resources](#-resources)
 
-## 👀 Overview
+## ⭐ Project Overview
+
+> ⚠️ This is a specially-named repository which GitHub treats differently to other repositories.  [Find out more]()
 
 This project is intended to be used as the basis for other projects.  As such, it provides everything a good GitHub project needs including:
 
@@ -82,6 +84,18 @@ This project is intended to be used as the basis for other projects.  As such, i
 - Pre-Configured Probot Apps
 - Issue Labels
 - and more!
+
+#### Branch Reliability
+
+| Branch               |    Stability    | Code Age         | Reliability |
+|----------------------|:---------------:|------------------|:-----------:|
+| `master`             |  latest stable  | latest release   |     🟢      |
+| `develop`            | latest unstable | most recent code |     🔴      |
+| `hotfix/*`           |    unstable     | unpredictable    |     🔴      |
+| `release/*`          |     stable      | tagged versions  |     🟡      |
+| `gh-pages/master`    |  latest stable  | latest release   |     🟢      |
+| `gh-pages/develop`   | latest unstable | most recent code |     🔴      |
+| `gh-pages/release/*` |     stable      | tagged versions  |     🟡      |
 
 ## 📂 Installation
 

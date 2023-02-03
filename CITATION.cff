@@ -1,0 +1,31 @@
+# See: https://citation-file-format.github.io/
+
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+
+title: Ragdata's Project Template Repository
+
+message: >-
+  If you use this software, please cite using the
+  information provided here
+
+type: software
+
+authors:
+  - given-names: Darren (Ragdata)
+    family-names: Poulton
+    email: ragdata@users.noreply.github.com
+    orcid: 'https://orcid.org/0000-0001-8986-2886'
+    affiliation: Redeyed Software
+
+repository-code: 'https://github.com/ragdata/.github'
+
+url: 'https://ragdata.github.io/.github'
+
+abstract: >-
+  Everything you need to build a healthy GitHub Repository
+  and Open Source Community
+
+license: MIT

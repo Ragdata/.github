@@ -1,15 +1,16 @@
-# Where to Find Support
-> 👉 This file is included by default with all of Ragdata's Repositories.
+# ❓ Where to Find Support
+
+> 👉 This file is included by default with all of my repositories by virtue of its inclusion in my [`.github`](https://github.com/ragdata/.github) repository, which defines defaults for all other repositories under an account.
 
 Looking for support for one of my projects?  Here are some suggestions:
 
-### Asking Quality Questions
+### 🙋 Asking Quality Questions
 
 > #### [🛈]() If this is your first time participating in one of my communities, please read and adhere to the [code of conduct][coc].  By interacting with any of my repositories or communities, you agree to abide by these terms.
 
 If you have any questions, most repositories have `Discussions`
 
-**Give yourself the best chance of getting the help you need!  Spend a little time framing your question and adding links and resources.  Spending a little extra time up-front can save everyone time (and frustration) in the long-run.  Here are a few tips:**
+> **Give yourself the best chance of getting the help you need!  Spend a little time framing your question and adding links and resources.  Spending a little extra time up-front can save everyone time (and frustration) in the long-run.  Here are a few tips:**
 
 - [**Talk to a rubber duck**](https://rubberduckdebugging.com/)
 - Don't bring us an [**X/Y Problem**](https://meta.stackexchange.com/questions/66377/what-is-the-xy-problem/66378#66378)
@@ -27,19 +28,24 @@ If you have any questions, most repositories have `Discussions`
 - The more time you put into asking your question, the more likely you are to get an answer
   - anyone who makes a habit of posting lazy questions will share the fate of those who post pages of code (and those who )!
 
+### ⚓ Support Resources
 
 - Click the `Wiki` tab at the top of the page (if it exists)
 - Click the `Issues` tab at the top of the page (if it exists)
 - Click the `Discussions` tab at the top of the page (if it exists)
+
+
+- [Discord Server][discord]
+
+
 - Check my repositories:
-  - [Ragdata @ GitHub][github] 
+	- [Ragdata @ GitHub][github]
 - Check my social media accounts:
   - [Substack][substack]
   - [Ragdata @ Patreon][patreon]
   - [@RagdataAU on Twitter][twitter]
   - [/r/RedeyedSoftware on Reddit][reddit]
   - [RedEyed Software Facebook Page][facebook]
-- And you'll always find someone online at our [Discord Server][discord]
 
 <br>
 
