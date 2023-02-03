@@ -1,6 +1,8 @@
-# 🔐 SECURITY POLICY
+# 🔐 GLOBAL SECURITY POLICY
 
 > 👉 This file is included by default with all of my repositories by virtue of its inclusion in my [`.github`](https://github.com/ragdata/.github) repository, which defines defaults for all other repositories under an account.
+> 
+> `Global Security Policy v-0.2.2`
 
 #### This document outlines the security policies and default procedures for all projects I initiate.
 
@@ -75,6 +77,6 @@ At no point will we - through neglect or omission - put the security of our cust
 
 ## 💬 Comments on This Policy
 
-If you have any comments on how this policy might be improved, please don't hesitate to get in touch - you can find a list of places you might be able to do that in our [Community Support Document][SUPPORT].
+If you have any comments on how this policy might be improved, please don't hesitate to get in touch - you can find a list of places you might be able to do that in our [**Community Support Document**][SUPPORT].
 
-[SUPPORT]: SUPPORT.md
+[SUPPORT]: https://github.com/Ragdata/.github/blob/master/.github/SUPPORT.md
