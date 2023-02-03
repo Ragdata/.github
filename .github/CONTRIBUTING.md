@@ -5,9 +5,9 @@ Firstly, I'd like to thank you personally for taking the time to help improve th
 You can contribute by:
 
 - creating pull requests
+- giving the project a star ⭐
 - creating or responding to issues
 - supporting the development and maintenance of my projects by [sponsoring me on GitHub][sponsorship] by taking up a monthly subscription or by making one-off donations.
-- giving the project a star ⭐
 - supporting me through one of my social channels (see [SUPPORT][support])
 
 ## Basic Process

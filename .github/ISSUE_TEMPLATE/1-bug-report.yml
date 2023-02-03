@@ -1,7 +1,7 @@
 name: 🐞 BUG REPORT
 description: File a Bug Report
 title: "[BUG]: <title>"
-labels: ["BUG 🐞","Status: Triage"]
+labels: ["bug","NEW"]
 assignees:
     - Ragdata
 body:

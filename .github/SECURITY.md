@@ -4,18 +4,14 @@ This document outlines the security policies and default procedures for all proj
 
 ## 📖 Index / Table of Contents
 
-- [MAIN README](../README.md)
-- [SECURITY POLICIES](SECURITY.md)
+- [SECURITY POLICIES](#-security-policy)
   - [Supported Versions](#supported-versions)
   - [Reporting an Issue](#-reporting-an-issue)
   - [Disclosure Policy](#-disclosure-policy)
   - [Scope of Policy](#-scope-of-policy)
-  - [A Word About 'Bug Bounties'](#-a-word-about-bug-bounties)
+  - [A Word About 'Bug Bounties'](#-a-word-about--bug-bounties-)
   - [Security Advisories](#-security-advisories)
   - [Comments on this Policy](#-comments-on-this-policy)
-- [CODE OF CONDUCT](CODE_OF_CONDUCT.md)
-- [CONTRIBUTING](CONTRIBUTING.md)
-- [SUPPORT](SUPPORT.md)
 
 ## Supported Versions
 
@@ -63,8 +59,8 @@ The following are NOT in the scope of this policy:
    - (ie: the latest opinions of one outspoken "thought leader" or another neither concern nor impress me)
 
 
-> ## 💰 A Word About "Bug Bounties"
->
+## 💰 A Word About "Bug Bounties"
+
 > (the opinion of one outspoken and internationally ignored "thought leader")
 >
 > Unfortunately, I have not yet made my fortune out of software - although that is most certainly still my intention - so I do not currently offer a paid "Bug Bounty" program.  I'm just some random bloke like any other trying to scratch out a living using his meagre wit and talents.  If I do suddenly stumble upon that elusive something which proves to be the basis upon which I may build a fortune, then this will likely change - until then, however, we (being myself and those I may have chosen to collaborate with) will make every effort to show our appreciation to the people who generously give their time and make the effort to expose vulnerabilities in our code in a responsible, discreet manner, and reserve our everlasting disdain for those who do otherwise - including those withholding information in the hope of or while demanding monetary reward in exchange.  I believe it is ENTIRELY in opposition to the fundamental principles of open-source software for this sort of practice to be engaged in, and will not beat about the bush before telling anyone who inquires about such exactly where they can find their "Bug Bounty", and when they can expect to receive it.
