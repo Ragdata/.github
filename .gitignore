@@ -2,6 +2,8 @@
 *.iml
 .env
 
+*.bak
+
 composer.lock
 package-lock.json
 vendor/
