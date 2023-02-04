@@ -65,7 +65,7 @@ v0.3.0
 - [Installation](#-installation)
 - [What's Included](#-whats-included)
   - [Recommended Bots (Probot Apps)](#-recommended-bots--probot-apps-)
-  - [Included Scripts](#-included-scripts)
+  - [Recommended GitHub Apps](#-recommended-github-apps)
 - [Author / Maintainer](#-author--maintainer)
 - [Security](#-security)
 - [Available Support](#-available-support)
@@ -146,40 +146,19 @@ The following bots are configured and ready to use with this template, and insta
 
 - [Stale Bot](https://github.com/apps/stale) - configured by [`.github/stale.yml`](.github/stale.yml)
 - [No Response Bot](https://probot.github.io/apps/no-response/) - configured by [`.github/no-response.yml`](.github/no-response.yml)
-- [All Contributors Bot](https://probot.github.io/apps/allcontributors/)
 - [Unfurl Links Bot](https://probot.github.io/apps/unfurl-links/)
 
-#### Special Mention
+### 📀 [Recommended GitHub Apps](#-table-of-contents)
 
-If you want to reliably manage the labels for each of your repositories, I'd recommend you give [GH-Label](https://github.com/erdaltsksn/gh-label) a try.  It takes a little more setup, but it's worth it in the long run.
+The following GitHub Apps are NOT pre-configured for use with this repository, but those that I've listed here are the ones I end up using over and over again in my repositories.  It would be well worth your time to check these out:
 
-[`^ Top`](#-table-of-contents)
+#### [ALL-Contributors][all-contributors]
 
+If you're building a community around your repository and you'd like to recognise everyone's input, then you can't go past [**All-Contributors**][all-contributors].  With this app, all you need to do is add a comment to any GitHub Issue or Pull Request attached to your repository, and the app will take care of making sure that person's contribution is recorded.
 
-### 📃 [Included Scripts](#-table-of-contents)
+#### [GitHub Label Manager][gh-label]
 
-#### Release (Bump) Script
-
-I've moved the release script into its own project called [**Release Manager**](https://github.com/ragdata/release-manager)
-
-#### Project Setup Script
-
-**Usage:**
-
-Use either as an `npn` script:
-
-```shell
-npn run setup
-```
-
-Or from the command line under bash:
-
-```shell
-bash scripts/setup.sh
-```
-
-[//]: # (### Workflows)
-
+If you want to reliably manage the labels for each of your repositories, I'd recommend you give [**GH-Label**][gh-label] a try.  It takes a little more setup, but it's worth it in the long run.  Honestly, I tried the _Settings Bot_ and other workflow-based solutions, but they just didn't perform consistently at all whenever I had any more than 10 labels configured.  Don't waste your time trying to use anything else.
 
 [`^ Top`](#-table-of-contents)
 
@@ -209,7 +188,7 @@ If you discover any issue regarding the security of this project, please disclos
 
 ## 💎 [Contributors](#-table-of-contents)
 
-If you'd like to make a contribution of code, then please see my [Contributor's Guidelines](https://github.com/Ragdata/.github/blob/master/.github/CONTRIBUTING.md)
+If you'd like to make a contribution of code, then please see my [**Contributor's Guide**][contributors-guide]
 
 It's not just code that I'm looking for though.  If you have any ideas or suggestions about how this project may be improved, don't hesitate to [open an Issue](https://github.com/ragdata/release-manager/issues) and let me know!  Contributions of ALL kinds will be recognised here if they are made a part of this project.
 
@@ -330,3 +309,6 @@ Find out more on my [**Sponsor's Page**][sponsors]
 [`^ Top`](#-table-of-contents)
 
 [sponsors]: https://github.com/sponsors/ragdata
+[all-contributors]: https://allcontributors.org
+[contributors-guide]: https://github.com/Ragdata/.github/blob/master/.github/CONTRIBUTING.md
+[gh-label]: https://github.com/erdaltsksn/gh-label

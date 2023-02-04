@@ -1,7 +1,7 @@
 {
     "name": "github",
     "description": "Ragdata's Project Template Repository",
-    "version": "0.3.0",
+    "version": "1.0.0",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Ragdata/.github"
