@@ -2,19 +2,44 @@
 
 <img src="https://raw.githubusercontent.com/Ragdata/Ragdata/master/images/logo/banner/RedEyed-SW-D-800.png" alt="Ragdata - the Red-Eyed Rogue" />
 
-Ragdata's Project Starter Template
-
-v0.3.0
+[Project Template v-1.0.0](https://github.com/ragdata/.github/releases/tag/v-1.0.0)
 </h1>
 
+<h3 align="center"><em>
+Ragdata's Project Template Repository
+<br /><br />
+And Default Project Files
+</em></h3>
+<br />
 <h3 align="center">
-
-<a href="https://github.com/Ragdata/.github/issues">Open An Issue</a>
-&nbsp;🔹&nbsp;
-<a href="https://github.com/Ragdata/.github/releases">Releases</a>
-&nbsp;🔹&nbsp;
+<a href="https://github.com/Ragdata/.github/issues">Issues</a>
+🔹
 <a href="https://github.com/Ragdata/.github/discussions">Discussions</a>
+🔹
+<a href="https://github.com/Ragdata/.github/releases">Releases</a>
+
+<a href="https://ragdata.github.io/.github">Project Site (Documentation)</a>
 </h3>
+
+<br />
+
+> Please help me increase signal strength on this repo - give it a ⭐
+
+
+[//]: # (<h3 align="center">)
+
+[//]: # ()
+[//]: # (<a href="https://github.com/Ragdata/.github/issues">Open An Issue</a>)
+
+[//]: # (&nbsp;🔹&nbsp;)
+
+[//]: # (<a href="https://github.com/Ragdata/.github/releases">Releases</a>)
+
+[//]: # (&nbsp;🔹&nbsp;)
+
+[//]: # (<a href="https://github.com/Ragdata/.github/discussions">Discussions</a>)
+
+[//]: # (</h3>)
 
 <p align="center">
 

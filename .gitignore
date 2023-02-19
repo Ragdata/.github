@@ -1,8 +1,12 @@
+.archive/
 .idea/
 *.iml
 .env
+.path
+cfg/.defaults
+.releaserc
+.releaserc.yml
 
-.archive/
 *.bak
 
 composer.lock

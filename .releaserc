@@ -1,55 +1,29 @@
-{
-    "name": ".github",
-    "description": "Ragdata's Project Template Repository",
-    "version": "1.0.0",
-    "extends": "angular",
-    "license": "MIT",
-    "git": {
-        "user": {
-            "name": "Ragdata",
-            "email": "ragdata@users.noreply.github.com"
-        }
-    },
-    "files": [
-        "package.json",
-        "README.md",
-        "COPYRIGHT"
-    ],
-    "homepage": "https://ragdata.github.io/.github",
-    "repository": {
-        "label": "GitHub Repository",
-        "url": "https://github.com/ragdata/.github"
-    },
-    "author": {
-        "name": "Darren (Ragdata) Poulton",
-        "email": "ragdata@users.noreply.github.com",
-        "url": "https://github.com/ragdata"
-    },
-    "support": {
-		"issues": {
-			"label": "issues",
-			"url": "https://github.com/ragdata/.github/issues"
-		},
-		"discussions": {
-			"label": "discussions",
-			"url": "https://github.com/ragdata/.github/discussions"
-		}
-    },
-	"dependencies": {
-		"git": {
-			"name": "Git",
-			"check": "what -q git",
-			"install": "sudo apt install -y git"
-		},
-		"yq": {
-			"name": "YQ",
-			"check": "what -q yq",
-			"install": "wget https://github.com/mikefarah/yq/releases/download/4.30.8/yq_linux_amd64.tar.gz -O - | tar xz && mv yq_linux_amd64 /usr/bin/yq"
-		},
-		"moreutils": {
-			"name": "MoreUtils",
-			"check": "what -q sponge",
-			"install": "sudo apt install -y moreutils"
-		}
-	}
-}
+id: .github
+name: Project Template
+description: Ragdata's Project Template Repository & Default Project Files
+version: 1.0.0
+extends: angular
+license: MIT
+git:
+    user:
+        name: Ragdata
+        email: ragdata@users.noreply.github.com
+files:
+    - .releaserc
+    - README.md
+    - COPYRIGHT
+homepage: https://github.com/ragdata/.github
+repository:
+    label: GitHub Repository
+    url: https://github.com/ragdata/.github
+author:
+    name: Darren (Ragdata) Poulton
+    email: ragdata@users.noreply.github.com
+    url: https://github.com/ragdata
+support:
+    issues:
+        label: issues
+        url: https://github.com/ragdata/.github/issues
+    discussions:
+        label: discussions
+        url: https://github.com/ragdata/.github/discussions
