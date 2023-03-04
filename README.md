@@ -24,7 +24,7 @@ And Default Project Files
 <br />
 
 <p align="center">
-<img src="https://github.com/Ragdata/Ragdata/blob/a579ff9d6b9420e8b74785a62f132c0beaea8226/images/logo/banner/star-repo.png" alt="Star This Repo!">
+<img src="https://github.com/Ragdata/Ragdata/blob/d88213616f1bc874ee8c812d06b6a7b3b067f622/images/logo/banner/star-repo.png" alt="Star This Repo!">
 </p>
 
 [//]: # (<h3 align="center">)
@@ -259,7 +259,7 @@ It's not just code that I'm looking for though.  If you have any ideas or sugges
 ## 👍 [Supporting the Project](#-table-of-contents)
 
 <p align="center">
-<img src="https://github.com/Ragdata/Ragdata/blob/a579ff9d6b9420e8b74785a62f132c0beaea8226/images/logo/banner/star-repo.png" alt="Star This Repo!">
+<img src="https://github.com/Ragdata/Ragdata/blob/d88213616f1bc874ee8c812d06b6a7b3b067f622/images/logo/banner/star-repo.png" alt="Star This Repo!">
 </p>
 
 The creation and maintenance of Open Source Software is definitely a labour of love - this is never going to be a path to riches.  The truth is, it takes not only a lot of time, it creates a substantial amount of personal expense, even when you're working on a shoestring, to keep these projects online and freely available.
