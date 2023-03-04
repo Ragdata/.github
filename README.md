@@ -1,6 +1,6 @@
 <h1 align="center">
 
-<img src="https://raw.githubusercontent.com/Ragdata/Ragdata/master/images/logo/banner/RedEyed-SW-D-800.png" alt="Ragdata - the Red-Eyed Rogue" />
+<img src="https://github.com/Ragdata/Ragdata/blob/00711e8949e149a3e187f45654b47f1c524b85c0/images/logo/banner/ProjectTemplates-Social-800x400.png" alt="Project Templates" />
 
 [Project Template v-1.0.0](https://github.com/ragdata/.github/releases/tag/v-1.0.0)
 </h1>
@@ -23,8 +23,9 @@ And Default Project Files
 
 <br />
 
-> Please help me increase signal strength on this repo - give it a ⭐
-
+<p align="center">
+<img src="https://github.com/Ragdata/Ragdata/blob/a579ff9d6b9420e8b74785a62f132c0beaea8226/images/logo/banner/star-repo.png" alt="Star This Repo!">
+</p>
 
 [//]: # (<h3 align="center">)
 
@@ -190,7 +191,7 @@ If you want to reliably manage the labels for each of your repositories, I'd rec
 ## 🚧 [Author / Maintainer](#-table-of-contents)
 
 <h3 align="center">
-<a href="https://github.com/ragdata" target="_blank"><img src="https://raw.githubusercontent.com/Ragdata/Ragdata/master/images/logo/banner/Social-SW-01-800.png" alt="RedEyed Software" />
+<a href="https://github.com/ragdata" target="_blank"><img src="https://github.com/Ragdata/Ragdata/blob/e7d2606fb2007dfea00bb396e4670274272a2635/images/logo/banner/Ragdata-800x200.png" alt="Ragdata's RedEyed Software" />
 
 Created with ☕ by Ragdata</a>
 
@@ -209,6 +210,41 @@ If you discover any issue regarding the security of this project, please disclos
 
 ## 💪 [Available Support](#-table-of-contents)
 
+<div align="center">
+
+<h3>
+<a href="https://github.com/Ragdata/.github/blob/master/.github/SUPPORT.md" target="_blank">Read the Community Support Document</a>
+
+🔸
+
+<a href="https://github.com/ragdata/.github/issues" target="_blank">Issues Register</a>
+🔸
+<a href="https://ragdata.github.io/.github" target="_blank">Project Website</a>
+🔸
+<a href="https://github.com/ragdata/.github/discussions" target="_blank">Discussions</a>
+
+🔸
+
+<a href="https://discord.gg/54PkrM7TKq" target="_blank">Join the Discord Server</a>
+
+🔸
+
+Connect with my Social Channels
+</h3>
+
+<a href="https://twitter.com/RagdataAU" target="_blank"><img src="https://img.shields.io/badge/Twitter-55ACEE?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a>
+<a href="https://reddit.com/r/RedeyedSoftware" target="_blank"><img src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white" alt="Reddit"></a>
+<a href="https://facebook.com/redeyedsoftware" target="_blank"><img src="https://img.shields.io/badge/Facebook-3B5998?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"></a>
+<a href="https://discord.gg/54PkrM7TKq" target="_blank"><img src="https://img.shields.io/badge/Discord-7289da?style=for-the-badge&logo=discord&logoColor=white" alt="Substack"></a>
+
+[//]: # (<a href="https://ragdata.substack.com" target="_blank"><img src="https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white" alt="Substack"></a>)
+
+<a href="https://github.com/sponsors/Ragdata" target="_blank"><img src="https://img.shields.io/badge/Sponsors-30363D?style=for-the-badge&logo=github-sponsors&logoColor=EA4AAA" alt="GitHub Sponsors"></a>
+<a href="https://patreon.com/ragdata" target="_blank"><img src="https://img.shields.io/badge/Patreon-FF424D?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon"></a>
+
+
+</div>
+
 [`^ Top`](#-table-of-contents)
 
 ## 💎 [Contributors](#-table-of-contents)
@@ -222,7 +258,9 @@ It's not just code that I'm looking for though.  If you have any ideas or sugges
 
 ## 👍 [Supporting the Project](#-table-of-contents)
 
-> Help me increase signal strength on this repo - give it a  ⭐
+<p align="center">
+<img src="https://github.com/Ragdata/Ragdata/blob/a579ff9d6b9420e8b74785a62f132c0beaea8226/images/logo/banner/star-repo.png" alt="Star This Repo!">
+</p>
 
 The creation and maintenance of Open Source Software is definitely a labour of love - this is never going to be a path to riches.  The truth is, it takes not only a lot of time, it creates a substantial amount of personal expense, even when you're working on a shoestring, to keep these projects online and freely available.
 
