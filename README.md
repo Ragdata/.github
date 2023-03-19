@@ -9,7 +9,7 @@
 <h3 align="center"><em>
 Ragdata's Project Template Repo 
 <br /><br />
-And Default Project Files
+with Community Health Files
 </em></h3>
 
 
