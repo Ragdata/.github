@@ -1,7 +1,7 @@
-name: 🚧 FEATURE REQUEST
-description: Submit a Feature Request
-title: "[REQUEST]: <title>"
-labels: ["REQUEST 🚧","Status: Triage"]
+name: ⭐ Sponsor's Issue
+description: Submit a Question or Support Request
+title: "[QUESTION]: <title>"
+labels: ["VIP","NEW"]
 assignees:
     - Ragdata
 body:
@@ -9,10 +9,9 @@ body:
     - type: markdown
       attributes:
           value: |
-              Thanks for taking the time to make this suggestion
+              Thanks for taking the time to get in touch
 
     - type: checkboxes
-      id: unique
       attributes:
           label: Unique Issue?
           description: Please search to ensure that this feature has not already been requested
@@ -30,28 +29,32 @@ body:
           required: true
 
     - type: textarea
-      id: problem
-      attributes:
-          label: Does your suggestion arise from a problem?
-          description: Are you making this suggestion because of a problem you've encountered?  Please describe it clearly.
-      validations:
-          required: false
-
-    - type: textarea
       id: details
       attributes:
-          label: Describe the feature / solution you'd like to see
-          description: Please provide a clear and concise description of what you'd like to happen
+          label: Your Question
+          description: Please state your question or describe the situation you need support with as clearly as possible
       validations:
           required: true
 
     - type: textarea
-      id: alternatives
+      id: environment
       attributes:
-          label: Describe alternatives you've considered
-          description: Please provide a clear and concise description of any alternative solutions or features you might have considered
-      validations:
-          required: false
+          label: Environment
+          description: |
+              Please describe your local environment
+              Examples:
+                - **OS**: WSL Ubuntu 20.04
+                - **PHP**: 8.1
+                - **Node**: 13.14.0
+                - **NPM**: 7.6.3
+                - **Browser**: Firefox 107.0.1
+          value: |
+              - **OS**:
+              - **PHP**:
+              - **Node**:
+              - **NPM**:
+              - **Browser**:
+          render: markdown
 
     - type: textarea
       id: further

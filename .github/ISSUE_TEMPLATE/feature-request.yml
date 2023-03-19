@@ -1,7 +1,7 @@
-name: 📘 DOCS ISSUE
-description: File a Documentation Issue
-title: "[DOCS]: <title>"
-labels: ["DOCS 📘","Status: Triage"]
+name: 🚧 FEATURE REQUEST
+description: Submit a Feature Request
+title: "[REQUEST]: <title>"
+labels: ["request","NEW"]
 assignees:
     - Ragdata
 body:
@@ -9,12 +9,13 @@ body:
     - type: markdown
       attributes:
           value: |
-              Thanks for taking the time to contact us about this issue
+              Thanks for taking the time to make this suggestion
 
     - type: checkboxes
+      id: unique
       attributes:
           label: Unique Issue?
-          description: Please search to ensure that this issue has not already been reported
+          description: Please search to ensure that this feature has not already been requested
           options:
               - label: I have searched all existing issues
                 required: true
@@ -28,21 +29,29 @@ body:
       validations:
           required: true
 
-    - type: input
-      id: url
+    - type: textarea
+      id: problem
       attributes:
-          label: Page URL
-          description: Please provide the URL of the page which contains the issue (one issue per report please)
+          label: Does your suggestion arise from a problem?
+          description: Are you making this suggestion because of a problem you've encountered?  Please describe it clearly.
       validations:
-          required: true
+          required: false
 
     - type: textarea
       id: details
       attributes:
-          label: Issue Details
-          description: Please provide a clear and succinct description the issue you've identified
+          label: Describe the feature / solution you'd like to see
+          description: Please provide a clear and concise description of what you'd like to happen
       validations:
           required: true
+
+    - type: textarea
+      id: alternatives
+      attributes:
+          label: Describe alternatives you've considered
+          description: Please provide a clear and concise description of any alternative solutions or features you might have considered
+      validations:
+          required: false
 
     - type: textarea
       id: further

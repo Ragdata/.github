@@ -1,7 +1,7 @@
 name: ❓ SUPPORT QUESTION
 description: Submit a Question or Support Request
 title: "[QUESTION]: <title>"
-labels: ["QUESTION ❓","Status: Triage"]
+labels: ["question","NEW"]
 assignees:
     - Ragdata
 body:

@@ -1,5 +1,9 @@
 # Pull Request
 
+> 👉 This file is included by default with all of my repositories by virtue of its inclusion in my [`.github`](https://github.com/ragdata/.github) repository, which defines defaults for all other repositories under an account.
+>
+> `Pull Request Template v-1.0.0`
+
 ## Proposed Changes
 
 <!--
@@ -38,7 +42,7 @@ Please also list any relevant details for your test configuration(s).
 
 <!-- Select checkboxes by changing "[ ]" to "[x]" -->
 
-- [ ] I have read the [Contributor's Guide](CONTRIBUTING.md) and implemented those parts I needed to
+- [ ] I have read the [Contributor's Guide](https://github.com/Ragdata/.github/blob/master/.github/CONTRIBUTING.md) and implemented those parts I needed to
 - [ ] I have performed a self-review of my code
 - [ ] I have commented my code, particularly in areas which are harder to understand
 - [ ] I have made corresponding changes to the documentation
