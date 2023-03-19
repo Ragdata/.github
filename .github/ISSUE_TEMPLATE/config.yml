@@ -1,10 +1,6 @@
 blank_issues_enabled: true
 contact_links:
 
-    - name: Start a Discussion
-      url: https://github.com/ragdata/.github/discussions/new/choose
-      about: Start a new discussion topic to ask a question or get support
-
     - name: Ragdata's Dev Site
       url: https://ragdata.dev
       about: Details & Docs for Ragdata's Public Projects

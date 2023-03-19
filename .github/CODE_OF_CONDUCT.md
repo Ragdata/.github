@@ -1,14 +1,14 @@
-# Contributor Covenant Code of Conduct
+# 📣 Code of Conduct
 
 > 👉 This file is included by default with all of my repositories by virtue of its inclusion in my [`.github`](https://github.com/ragdata/.github) repository, which defines defaults for all other repositories under an account.
-> 
+>
 > `Code of Conduct v-0.1.0`
 
-## Our Pledge
+## ✌️ Our Pledge
 
 In the interests of fostering an open and welcoming environment, we as contributors and maintainers pledge to make participation in our project and community an harassment-free experience for EVERYONE, regardless of age, body size, (dis)ability, ethnicity, sex, gender identity and expression, level of technical experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
-## Our Standards
+## ⭐ Community Standards
 
 Examples of behaviour that contributes to creating a positive environment include:
 
@@ -29,25 +29,25 @@ Examples of unacceptable behaviour by participants include:
 
 The general rule of thumb you should apply is: if you wouldn't say / do it in front of your grandmother, it isn't acceptable here!
 
-## Our Responsibilities
+## 👍 Our Responsibilities
 
-Project maintainers are responsible for clarifying the standards of acceptable behaviour and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behaviour.
+Project maintainers and community moderators (including Discord, Reddit and any other properties which represent this community) are responsible for clarifying the standards of acceptable behaviour and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behaviour.
 
 It's OK to give a warning where the situation warrants one - it's also OK to slap a permanent ban on ANYONE for a first offence if that offence, likewise, warrants such a response.
 
-Project maintainers have the right and responsibility to remove, edit, or reject ANY comments, commit messages, code, wiki edits, issues, and any other form of communication or contribution that are not aligned with this Code of Conduct, or to ban temporarily or permanently any contributor for any behaviour that they deem to be inappropriate, threatening, offensive, or harmful to the general membership of our community.
+Project maintainers and community moderators have the right and responsibility to remove, edit, or reject ANY comments, commit messages, code, wiki edits, issues, and any other form of communication or contribution that are not aligned with this Code of Conduct, or to ban temporarily or permanently any contributor for any behaviour that they deem to be inappropriate, threatening, offensive, or harmful to the general membership of our community.
 
-## Scope
+## 👌 Scope
 
-This Code of Conduct applies within project management spaces and any other public spaces when an individual is representing the project or our community.  Examples of representing the project include using an official email tied to the project, posting via an official social media account, or acting as an appointed representative at an online or offline event.  Representation of the project may be further defined and clarified by the project maintainers.
+This Code of Conduct applies within project management spaces, collaborative spaces, social media spaces, and any other public spaces when an individual is representing the project or our community.  Examples of representing the project include using an official email tied to the project, posting via an official social media account, or acting as an appointed representative at an online or offline event.  Representation of the project may be further defined and clarified by the project maintainers.
 
-## Enforcement
+## 💪 Enforcement
 
-Instances of abuseive, harrassing, or otherwise unacceptable behaviour may be reported by contacting the project team at `admin@ragdata.dev`.  All complaints will be reviewed and investigated and will result in a response that is appropriate to the circumstances.  The project team is obligated to maintain confidentiality with regard to the reporter of an incident.  Further details of specific enforcement policies may be posted separately from this one.
+Instances of abuseive, harrassing, or otherwise unacceptable behaviour may be reported by contacting the administration team at `admin@ragdata.dev`.  All complaints will be reviewed and investigated and will result in a response that is appropriate to the circumstances.  The project team is obligated to maintain confidentiality with regard to the reporter of an incident.  Further details of specific enforcement policies may be posted separately from this one.
 
-Project maintainers who do not follow or enforce this Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
+Project maintainers and community moderators who do not follow or enforce this Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
 
-## Attribution
+## 📒 Attribution
 
 This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4, available at <https://www.contributor-covenant.org/version/1/4/code-of-conduct.html>
 

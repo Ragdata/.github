@@ -1,9 +1,11 @@
 .archive/
 .idea/
 *.iml
+
 .env
 .path
 cfg/.defaults
+
 .releaserc
 .releaserc.yml
 
@@ -11,5 +13,6 @@ cfg/.defaults
 
 composer.lock
 package-lock.json
+
 vendor/
 node_modules/

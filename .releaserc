@@ -1,29 +1,29 @@
 id: .github
-name: Project Template
-description: Ragdata's Project Template Repository & Default Project Files
+name: Repository Template
+description: "Ragdata's Community Health Files & Repository Template"
 version: 1.0.0
 extends: angular
 license: MIT
 git:
-    user:
-        name: Ragdata
-        email: ragdata@users.noreply.github.com
+	user:
+		name: Ragdata
+		email: ragdata@users.noreply.github.com
 files:
-    - .releaserc
-    - README.md
-    - COPYRIGHT
+	- .releaserc
+	- README.md
+	- COPYRIGHT
 homepage: https://github.com/ragdata/.github
 repository:
-    label: GitHub Repository
-    url: https://github.com/ragdata/.github
+	label: GitHub Repository
+	url: https://github.com/ragdata/.github
 author:
-    name: Darren (Ragdata) Poulton
-    email: ragdata@users.noreply.github.com
-    url: https://github.com/ragdata
+	name: Darren (Ragdata) Poulton
+	email: ragdata@users.noreply.github.com
+	url: https://github.com/ragdata
 support:
-    issues:
-        label: issues
-        url: https://github.com/ragdata/.github/issues
-    discussions:
-        label: discussions
-        url: https://github.com/ragdata/.github/discussions
+	issues:
+		label: issues
+		url: https://github.com/ragdata/.github/issues
+	discussions:
+		label: discussions
+		url: https://github.com/ragdata/.github/discussions

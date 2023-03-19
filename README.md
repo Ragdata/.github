@@ -1,235 +1,213 @@
 <h1 align="center">
 
-<img src="https://github.com/Ragdata/Ragdata/blob/00711e8949e149a3e187f45654b47f1c524b85c0/images/logo/banner/ProjectTemplates-Social-800x400.png" alt="Project Templates" />
+<img src="https://user-images.githubusercontent.com/6827931/226095111-7e50d415-9543-4190-872a-9523877a2e91.png" alt="Ragdata's Community Health Files">
 
-[Project Template v-1.0.0](https://github.com/ragdata/.github/releases/tag/v-1.0.0)
+[Community Health Files v-1.0.0](https://github.com/ragdata/.github/releases/tag/v-1.0.0)
+
 </h1>
 
 <h3 align="center"><em>
-Ragdata's Project Template Repository
+Ragdata's Project Template Repo 
 <br /><br />
 And Default Project Files
 </em></h3>
-<br />
-<h3 align="center">
-<a href="https://github.com/Ragdata/.github/issues">Issues</a>
-🔹
-<a href="https://github.com/Ragdata/.github/discussions">Discussions</a>
-🔹
-<a href="https://github.com/Ragdata/.github/releases">Releases</a>
 
-<a href="https://ragdata.github.io/.github">Project Site (Documentation)</a>
+
+<h3 align="center">
+<a href="https://github.com/ragdata/.github/issues" target="_blank">Issues</a>
+🔸
+<a href="https://ragdata.github.io/.github" target="_blank">Documentation</a>
+🔸
+<a href="https://github.com/ragdata/.github/releases" target="_blank">Releases</a>
+</h3>
+
+<h3 align="center">
+
+[This Project is Configured as a Public Template<br /><br />You can use it as the basis for a new repository by clicking here](https://github.com/Ragdata/.github/generate)
+
 </h3>
 
 <br />
 
 <p align="center">
-<img src="https://github.com/Ragdata/Ragdata/blob/d88213616f1bc874ee8c812d06b6a7b3b067f622/images/logo/banner/star-repo.png" alt="Star This Repo!">
+<img src="https://user-images.githubusercontent.com/6827931/226095520-41c44432-4e1c-42f9-b505-700fc06644ed.png" alt="Star - Helped">
+<br />
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ragdata/.github?style=social">
 </p>
 
-[//]: # (<h3 align="center">)
 
-[//]: # ()
-[//]: # (<a href="https://github.com/Ragdata/.github/issues">Open An Issue</a>)
-
-[//]: # (&nbsp;🔹&nbsp;)
-
-[//]: # (<a href="https://github.com/Ragdata/.github/releases">Releases</a>)
-
-[//]: # (&nbsp;🔹&nbsp;)
-
-[//]: # (<a href="https://github.com/Ragdata/.github/discussions">Discussions</a>)
-
-[//]: # (</h3>)
-
-<p align="center">
-
-
-
-<!-- Uncomment any of the badges below that you think you might like to display on your README -->
-
-[//]: # (<a href="" target="_blank"><img src="https://img.shields.io/github/workflow/status/ragdata/.github/:ci?style=for-the-badge&logo=github" alt="Build"></a>)
-
-[//]: # (&nbsp;)
-
-[//]: # (<a href="" target="_blank"><img src="https://img.shields.io/github/license/ragdata/.github?style=for-the-badge" alt="License"></a>)
-
-[//]: # (&nbsp;)
-
-[//]: # (<a href="" target="_blank"><img src="https://img.shields.io/github/v/release/ragdata/.github?style=for-the-badge&display_name=release&sort=date" alt="Latest Release"></a>)
-
-[//]: # (&nbsp;)
-
-[//]: # (<a href="" target="_blank"><img src="https://img.shields.io/github/release-date/ragdata/.github?style=for-the-badge&display_name=release&sort=date" alt="Latest Release"></a>)
-
-[//]: # (&nbsp;)
-
-[//]: # (<a href="" target="_blank"><img src="https://img.shields.io/github/last-commit/ragdata/.github?style=for-the-badge&display_name=release&sort=date" alt="Latest Release"></a>)
-
-[//]: # (<br>)
-
-[//]: # (<a href="" target="_blank"><img src="https://img.shields.io/github/languages/top/ragdata/.github?style=for-the-badge" alt="Top Language"></a>)
-
-[//]: # (&nbsp;)
-
-[//]: # (<a href="" target="_blank"><img src="https://img.shields.io/github/repo-size/ragdata/.github?style=for-the-badge" alt="Code Size"></a>)
-
-[//]: # (&nbsp;)
-
-[//]: # (<a href="" target="_blank"><img src="https://img.shields.io/github/directory-file-count/ragdata/.github?style=for-the-badge" alt="File Count"></a>)
-
-[//]: # (<br>)
-
-[//]: # (<a href="" target="_blank"><img src="https://img.shields.io/badge/sponsor_this_project-gray?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white?style=for-the-badge" alt="File Count"></a>)
-
-</p>
-
-## 📖 Table of Contents
+<display>
+<summary><h2><a name="toc">📖 Table of Contents</a></h2></summary>
 
 - [Project Overview](#-project-overview)
   - [Branch Reliability](#branch-reliability)
+- [What's Included?](#-whats-included)
+  - [Recommended Bots & GitHub Apps](#-recommended-bots--github-apps)
+  - [GitHub Apps Worth Considering](#-github-apps-worth-considering)
 - [Installation](#-installation)
-- [What's Included](#-whats-included)
-  - [Recommended Bots (Probot Apps)](#-recommended-bots--probot-apps-)
-  - [Recommended GitHub Apps](#-recommended-github-apps)
-- [Author / Maintainer](#-author--maintainer)
+- [Dockerfiles](#-dockerfiles)
+- [Author/Maintainer](#-author--maintainer)
 - [Security](#-security)
 - [Available Support](#-available-support)
 - [Contributors](#-contributors)
 - [Supporting the Project](#-supporting-the-project)
+  - [Project Partners](#-project-partners)
   - [Project Sponsors](#-project-sponsors)
-  - [Supporters & Patrons](#-supporters--patrons)
-  - [Backers](#-backers)
-- [Copyright & Attributions](#-copyright--attributions)
+  - [Backers & Supporters](#-backers--supporters)
 - [License](#-license)
 - [Resources](#-resources)
+- [Support This Project](#support-this-project)
 
-## ⭐ [Project Overview](#-table-of-contents)
+</display>
+
+## ⭐ [Project Overview](#toc)
 
 > ⚠️ This is a specially-named repository which GitHub treats differently to other repositories.  [Find out more]()
 
-This project is intended to be used as the basis for other projects.  As such, it provides everything a good GitHub project needs including:
+> ✨ This repository is configured as a [Public Template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) - which means you can use it as the basis for your own repositories (and automatically include ALL files in this repository) just by clicking [HERE](https://github.com/Ragdata/.github/generate) 
 
-- Issue Templates
-- GitHub Workflows
-- Release Script
-- Community Health Docs
-- Pre-Configured Probot Apps
-- Issue Labels
-- and more!
+This repository was created with 2 purposes in mind:
 
-#### [Branch Reliability](#-table-of-contents)
+1. To serve as my default & community health files repository
+2. To serve as a template for YOU to use when creating your own repositories
+
+Why would you do that?  Because I've been quite pedantic about assembling EVERY file you need to create a well-supported, healthy community for your project so that YOU DON'T HAVE TO!
+
+Seriously, this project has every file a GitHub project could possibly need, all ready and waiting for you to edit them and make them your own!
+
+(See [What's Included](#-whats-included) for a list of files)
+
+### [Branch Reliability](#toc)
 
 | Branch               |    Stability    | Code Age         | Reliability |
 |----------------------|:---------------:|------------------|:-----------:|
 | `master`             |  latest stable  | latest release   |     🟢      |
 | `develop`            | latest unstable | most recent code |     🔴      |
-| `hotfix/*`           |    unstable     | unpredictable    |     🔴      |
 | `release/*`          |     stable      | tagged versions  |     🟡      |
 | `gh-pages/master`    |  latest stable  | latest release   |     🟢      |
 | `gh-pages/develop`   | latest unstable | most recent code |     🔴      |
 | `gh-pages/release/*` |     stable      | tagged versions  |     🟡      |
 
-## 📂 [Installation](#-table-of-contents)
 
-1. Create your new repository [using this repo as a template](https://github.com/ragdata/.github/generate)
-   1. (if you name your new repository `.github` it will be the default for ALL of your other repos)
-2. Install and configure [Probot Apps](#-recommended-bots--probot-apps-)
-3. Customise ALL files according to your needs
+[`^ Top`](#toc)
 
-[`^ Top`](#-table-of-contents)
+## ❓ [What's Included?](#toc)
 
-## ❓ [What's Included?](#-table-of-contents)
+This template repository contains everything you need to build a well-supported, healthy community around your GitHub repo!
 
-1. A **README** template with all the information every project needs!
-2. **Community Health Docs**:
-   1. [CODE OF CONDUCT](.github/CODE_OF_CONDUCT.md) - the standard Contributor Covenant.  [Learn more](https://docs.github.com/en/github/building-a-strong-community/adding-a-code-of-conduct-to-your-project)
-   2. [CONTRIBUTING](.github/CONTRIBUTING.md) - a guide for your project contributors. [Learn more](https://docs.github.com/en/github/building-a-strong-community/setting-guidelines-for-repository-contributors)
-   3. [SECURITY](.github/SECURITY.md) - a default Security Policy for your project. [Learn more](https://docs.github.com/en/code-security/getting-started/adding-a-security-policy-to-your-repository)
-   4. [SUPPORT](.github/SUPPORT.md) - a template for listing project support options. [Learn more](https://docs.github.com/en/github/building-a-strong-community/adding-support-resources-to-your-project)
-   5. [CODEOWNERS](.github/CODEOWNERS) - a template defining who owns what code.  [Learn more](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners)
-   6. [PULL REQUEST TEMPLATE](.github/PULL_REQUEST_TEMPLATE.md) - a default Pull Request template for contributors.  [Learn more](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository)
-3. **Multiple Issue Templates**:
-   1. [Bug Issue Template](.github/ISSUE_TEMPLATE/1-bug-report.yml)
-   2. [Documentation Issue Template](.github/ISSUE_TEMPLATE/2-docs-issue.yml)
-   3. [Feature Request Template](.github/ISSUE_TEMPLATE/4-feature-request.yml)
-   4. [Question / Support Issue Template](.github/ISSUE_TEMPLATE/6-support-issue.yml)
-   5. [config.yml](.github/ISSUE_TEMPLATE/config.yml) - configuration file for issue templates.
+1. A **README-TEMPLATE** - which not only looks great, it includes a collapsable Table of Contents with links to suggested section headings
+2. **COMMUNITY HEALTH FILES**:
+   1. [CODE OF CONDUCT](.github/CODE_OF_CONDUCT.md) - based on the standard Contributor Covenant.  [Learn More](https://docs.github.com/en/github/building-a-strong-community/adding-a-code-of-conduct-to-your-project)
+   2. [CONTRIBUTING](.github/CONTRIBUTING.md) - a basic guide for your project's contributors. [Learn More](https://docs.github.com/en/github/building-a-strong-community/setting-guidelines-for-repository-contributors)
+   3. [SECURITY](.github/SECURITY.md) - a default Security Policy for your project.  [Learn More](https://docs.github.com/en/code-security/getting-started/adding-a-security-policy-to-your-repository)
+   4. [SUPPORT](.github/SUPPORT.md) - a template for listing project support options.  [Learn More](https://docs.github.com/en/github/building-a-strong-community/adding-support-resources-to-your-project)
+   5. [CODEOWNERS](.github/CODEOWNERS) - a template to define who owns what code.  [Learn More](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners)
+   6. [PULL REQUEST TEMPLATE](.github/PULL_REQUEST_TEMPLATE.md) - a default Pull Request Template for contributors.  [Learn More](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository)
+   7. [FUNDING](.github/FUNDING.yml) - a file which adds a sponsorship button to your repo. [Learn More](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository)
+   8. [Dependabot](.github/dependabot.yml) - a default config file for Dependabot (security bot). [Learn More](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file)
+3. **Multiple Issues Templates**
+   1. [Bug Issue Template](.github/ISSUE_TEMPLATE/bug-report.yml)
+   2. [Documentation Issue Template](.github/ISSUE_TEMPLATE/docs-issue.yml)
+   3. [Feature Request Template](.github/ISSUE_TEMPLATE/feature-request.yml)
+   4. [Question / Support Issue Template](.github/ISSUE_TEMPLATE/support-issue.yml)
+   5. [config.yml](.github/ISSUE_TEMPLATE/config.yml) - configuration file for issue templates
+4. **Common Configuration Files**
+   1. [.all-contributorsrc](.all-contributorsrc) - config for all-contributors bot
+   2. [.editorconfig](.editorconfig) - commonly-used and well-supported config for code editors
+   3. [.gitattributes](.gitattributes) - config file ensuring git doesn't screw up line endings
+   4. [.gitignore](.gitignore) - every repository should have one ...
+   5. [.licrc](.licrc) - config for [Licensebat](https://github.com/licensebat) software license compliance app
+   6. [.releaserc](.releaserc) - config for my Release Manager project (you'll love it - promise!)
+5. **ESSENTIAL FILES**
+   1. [CITATION](CITATION.cff) - helps others correctly cite your repo
+   2. [COPYRIGHT](COPYRIGHT) - your statement of copyright + a place to list attributions
+   3. [LICENSE](LICENSE) - a copy of the MIT license.  [Learn More](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
 
-[`^ Top`](#-table-of-contents)
 
+### 🤖 [Recommended Bots & GitHub Apps](#toc)
 
-### 🤖 [Recommended Bots (Probot Apps)](#-table-of-contents)
-
-The following bots are configured and ready to use with this template, and installing them will ultimately improve your coding experience.  If you only install one of them it should be the [Settings Bot](https://probot.github.io/apps/settings/), as this little beauty makes it quick and easy for you to configure your whole repo.  You can see a list of all available [**probot** apps here](https://probot.github.io/apps/).  The bots listed below have all been configured for use with this project template:
+In a directory of their own (so they don't cause you any unexpected issues) you can find a collection of config files for recommended GitHub Apps that I thought you might find useful. 
 
 #### Highly Recommended
 
-1. [Welcome Bot](https://probot.github.io/apps/welcome/) - configured by [`.github/config.yml`](.github/config.yml)
-2. [Sentiment Bot](https://probot.github.io/apps/sentiment-bot/) - configured by [`.github/config.yml`](.github/config.yml)
+1. Welcome Bot - configured by [`.github/.bots/config.yml`](.github/.bots/config.yml) [Learn More](https://probot.github.io/apps/welcome/)
+2. Sentiment Bot - configured by [`.github/.bots/config.yml`](.github/.bots/config.yml) [Learn More](https://probot.github.io/apps/sentiment-bot/)
+3. All Contributors - configured by [`.all-contributorsrc`](.all-contributorsrc)  [Learn More](https://allcontributors.org/)
 
 #### Worth Considering
 
-- [Stale Bot](https://github.com/apps/stale) - configured by [`.github/stale.yml`](.github/stale.yml)
-- [No Response Bot](https://probot.github.io/apps/no-response/) - configured by [`.github/no-response.yml`](.github/no-response.yml)
-- [Unfurl Links Bot](https://probot.github.io/apps/unfurl-links/)
+1. Stale Bot - configured by [`.github/.bots/stale.yml`](.github/.bots/stale.yml)  [Learn More](https://github.com/apps/stale)
+2. No Response Bot - configured by [`.github/.bots/no-response.yml`](.github/.bots/no-response.yml)  [Learn More](https://probot.github.io/apps/no-response/)
 
-### 📀 [Recommended GitHub Apps](#-table-of-contents)
-
-The following GitHub Apps are NOT pre-configured for use with this repository, but those that I've listed here are the ones I end up using over and over again in my repositories.  It would be well worth your time to check these out:
-
-#### [ALL-Contributors][all-contributors]
-
-If you're building a community around your repository and you'd like to recognise everyone's input, then you can't go past [**All-Contributors**][all-contributors].  With this app, all you need to do is add a comment to any GitHub Issue or Pull Request attached to your repository, and the app will take care of making sure that person's contribution is recorded.
+### [📀 GitHub Apps Worth Considering](#toc)
 
 #### [GitHub Label Manager][gh-label]
 
-If you want to reliably manage the labels for each of your repositories, I'd recommend you give [**GH-Label**][gh-label] a try.  It takes a little more setup, but it's worth it in the long run.  Honestly, I tried the _Settings Bot_ and other workflow-based solutions, but they just didn't perform consistently at all whenever I had any more than 10 labels configured.  Don't waste your time trying to use anything else.
+If you want to reliably manage labels for each of your repositories, I'd recommend you take a look at [GH-Label][gh-label].  It takes a little more setup than others, but it's worth it in the long run.  Honestly, I tried the _Settings Bot_ and a couple of other workflow-based solutions, but the just didn't perform consistently at all whenever I had more than 10 labels configured.  Don't waste your time trying to use anything else.  
 
-[`^ Top`](#-table-of-contents)
+[`^ Top`](#toc)
 
-## 🚧 [Author / Maintainer](#-table-of-contents)
+## 📂 [Installation](#toc)
+
+Installation literally couldn't be any easier - you've got 2 choices:
+
+1. Use this repo as a [template for your own](https://github.com/Ragdata/.github/generate)
+2. [Fork this repo](https://github.com/Ragdata/.github/fork) and edit as you see fit
+
+Then you just need to install and configure any GitHub Apps you want to include, and customize any of the other files as you require.
+
+[`^ Top`](#toc)
+
+## 🐳 [Dockerfiles](#toc)
+
+### COMING SOON
+
+[`^ Top`](#toc)
+
+## 🚧 [Author / Maintainer](#toc)
 
 <h3 align="center">
-<a href="https://github.com/ragdata" target="_blank"><img src="https://github.com/Ragdata/Ragdata/blob/e7d2606fb2007dfea00bb396e4670274272a2635/images/logo/banner/Ragdata-800x200.png" alt="Ragdata's RedEyed Software" />
+
+<a href="https://github.com/ragdata" target="_blank"><img src="https://user-images.githubusercontent.com/6827931/226143394-2003d556-9dc9-46a6-b4be-565b60546609.png" alt="Ragdata's RedEyed Software">
 
 Created with ☕ by Ragdata</a>
 
 </h3>
 
+[`^ Top`](#toc)
 
-[`^ Top`](#-table-of-contents)
+## 🔐 [Security](#toc)
 
-## 🔐 [Security](#-table-of-contents)
+While all of my repositories follow good security practices, 100% security can never be guaranteed in any software package.  My `Community Health Files & Repository Template` is provided AS IS, and without warranty.  You can find more details in the [LICENSE](LICENSE) file included with this repository.
 
-While this repository follows good security practices, 100% security can never be guaranteed in any software package.  The `Project Template Repo` is provided AS IS, and without warranty. You can find more details in the [**LICENSE**](LICENSE) file included with this repository.
+If you discover any issue regarding the security of this project, please disclose that information responsibly by sending an email to security@ragdata.dev.  **PLEASE DO NOT CREATE AN ISSUE OR DISCUSSION TOPIC.**  You can read more about this project's security policies [HERE](https://github.com/ragdata/.github/security/policy)
 
-If you discover any issue regarding the security of this project, please disclose the information responsibly by sending an email to [`security@ragdata.dev`](mailto:security@ragdata.dev).  Please DO NOT create an Issue in the project's Issue Register.  You can read more about the project's security policies [**HERE**](https://github.com/ragdata/.github/security/policy)
+[`^ Top`](#toc)
 
-[`^ Top`](#-table-of-contents)
-
-## 💪 [Available Support](#-table-of-contents)
+## 💪 [Available Support](#toc)
 
 <div align="center">
 
 <h3>
+
+[//]: # (<a href="" target="_blank"></a>)
+
 <a href="https://github.com/Ragdata/.github/blob/master/.github/SUPPORT.md" target="_blank">Read the Community Support Document</a>
 
 🔸
 
 <a href="https://github.com/ragdata/.github/issues" target="_blank">Issues Register</a>
 🔸
-<a href="https://ragdata.github.io/.github" target="_blank">Project Website</a>
-🔸
-<a href="https://github.com/ragdata/.github/discussions" target="_blank">Discussions</a>
+<a href="https://ragdata.github.io/.github" target="_blank">Documentation</a>
 
 🔸
 
-<a href="https://discord.gg/54PkrM7TKq" target="_blank">Join the Discord Server</a>
+<a href="https://discord.gg/54PkrM7TKq" target="_blank">Join my Discord Server</a>
 
 🔸
 
 Connect with my Social Channels
+
 </h3>
 
 <a href="https://twitter.com/RedEyedSoftware" target="_blank"><img src="https://img.shields.io/badge/Twitter-55ACEE?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a>
@@ -237,97 +215,98 @@ Connect with my Social Channels
 <a href="https://facebook.com/redeyedsoftware" target="_blank"><img src="https://img.shields.io/badge/Facebook-3B5998?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"></a>
 <a href="https://discord.gg/54PkrM7TKq" target="_blank"><img src="https://img.shields.io/badge/Discord-7289da?style=for-the-badge&logo=discord&logoColor=white" alt="Substack"></a>
 
-[//]: # (<a href="https://ragdata.substack.com" target="_blank"><img src="https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white" alt="Substack"></a>)
-
-<a href="https://github.com/sponsors/Ragdata" target="_blank"><img src="https://img.shields.io/badge/Sponsors-30363D?style=for-the-badge&logo=github-sponsors&logoColor=EA4AAA" alt="GitHub Sponsors"></a>
-<a href="https://patreon.com/ragdata" target="_blank"><img src="https://img.shields.io/badge/Patreon-FF424D?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon"></a>
+<a href="https://github.com/sponsors/Ragdata" target="_blank"><img src="https://img.shields.io/badge/Sponsor_Ragdata-30363D?style=for-the-badge&logo=github-sponsors&logoColor=EA4AAA" alt="GitHub Sponsors"></a>
+<a href="https://ko-fi.com/ragdata" target="_blank"><img src="https://img.shields.io/badge/Support_Ragdata-F16061?style=for-the-badge&logo=ko-fi&logoColor=white" alt="GitHub Sponsors"></a>
 
 
 </div>
 
-[`^ Top`](#-table-of-contents)
 
-## 💎 [Contributors](#-table-of-contents)
+[`^ Top`](#toc)
 
-If you'd like to make a contribution of code, then please see my [**Contributor's Guide**][contributors-guide]
+## 💎 [Contributors](#toc)
 
-It's not just code that I'm looking for though.  If you have any ideas or suggestions about how this project may be improved, don't hesitate to [open an Issue](https://github.com/ragdata/release-manager/issues) and let me know!  Contributions of ALL kinds will be recognised here if they are made a part of this project.
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=for-the-badge)](CONTRIBUTORS.md)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+If you'd like to make a contribution of code, then please see my [**Contributor's Guide**](.github/CONTRIBUTING.md)
+
+It's not just contributions of code that I'm looking for though.  If you have any ideas or suggestions about how this project may be improved, don't hesitate to [open an issue](https://github.com/ragdata/.github/issues) and let me know!  Contributions of ALL kinds will be recognised here if they are made part of this project - thanks to the [All-Contributors][all-contributors] bot.
 
 
-[`^ Top`](#-table-of-contents)
-
-## 👍 [Supporting the Project](#-table-of-contents)
+[`^ Top`](#toc)
 
 <p align="center">
-<img src="https://github.com/Ragdata/Ragdata/blob/d88213616f1bc874ee8c812d06b6a7b3b067f622/images/logo/banner/star-repo.png" alt="Star This Repo!">
+<img src="https://user-images.githubusercontent.com/6827931/226095520-41c44432-4e1c-42f9-b505-700fc06644ed.png" alt="Star - Helped">
+<br />
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ragdata/.github?style=social">
 </p>
 
-The creation and maintenance of Open Source Software is definitely a labour of love - this is never going to be a path to riches.  The truth is, it takes not only a lot of time, it creates a substantial amount of personal expense, even when you're working on a shoestring, to keep these projects online and freely available.
+## 👍 [Supporting the Project](#toc)
 
-If you'd like more info about how you can help out, head to [my sponsor's page][sponsors].
+The creation and maintenance of Open Source Software is definitely a labour of love - this is never going to be a path to riches.  The truth is, it takes not only a lot of time, it creates a substantial amount of personal expense (even when you're working on a shoestring) to keep these projects freely available for all.
 
-### 🥇 [Project Sponsors](#-table-of-contents)
-
-[FIND OUT ABOUT BECOMING A PROJECT SPONSOR][sponsors]
-
-### 🥈 [Supporters & Patrons](#-table-of-contents)
-
-[FIND OUT ABOUT BECOMING A SUPPORTER OR PATRON][sponsors]
-
-### 🥉 [Backers](#-table-of-contents)
-
-[FIND OUT ABOUT BECOMING A BACKER][sponsors]
-
-[`^ Top`](#-table-of-contents)
+If you'd like more info about how you can help out, head to my [Sponsor's Page][sponsors]
 
 
-## ©️ [Copyright & Attributions](#-table-of-contents)
+[//]: # (### 🥇 [Project Partners]&#40;#toc&#41;)
 
-This project incorporates ideas and / or code crafted by the following talented individuals:
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # ([FIND OUT ABOUT BECOMING A PROJECT PARTNER][sponsors])
 
-- [Josee9988/project-template](https://github.com/Josee9988/project-template)<br/>
-  Copyright © 2020 Jose Gracia Berenguer<br/>
-  MIT Licensed
+[//]: # ()
+[//]: # (### 🥈 [Project Sponsors]&#40;#toc&#41;)
 
-- [cotes2020/jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)<br/>
-  Copyright © 2019 Cotes Chung<br/>
-  MIT Licensed
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # ([FIND OUT ABOUT BECOMING A PROJECT SPONSOR][sponsors])
 
-> "We see much further, and reach much higher,<br>
-> only because we stand upon the shoulders of giants"
+[//]: # ()
+[//]: # (### 🥉 [Backers & Supporters]&#40;#toc&#41;)
 
-[`^ Top`](#-table-of-contents)
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # ([FIND OUT ABOUT BECOMING A BACKER OR SUPPORTER][sponsors])
 
+[//]: # ()
+[//]: # ([`^ Top`]&#40;#toc&#41;)
 
-## 📄 [License](#-table-of-contents)
+[//]: # (## ©️ [Copyright & Attributions]&#40;#toc&#41;)
+
+[//]: # ()
+[//]: # (This project incorporates ideas and / or code crafted by the following talented individuals:)
+
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # (> "We see much further, and reach much higher,<br>)
+
+[//]: # (> only because we stand upon the shoulders of giants")
+
+[//]: # ()
+[//]: # ([`^ Top`]&#40;#toc&#41;)
+
+## 📄 [License](#toc)
 
 MIT License
 
-Copyright © 2022 Darren (Ragdata) Poulton
+Copyright © 2022-2023 Darren (Ragdata) Poulton
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+[`^ Top`](#toc)
 
-[`^ Top`](#-table-of-contents)
-
-
-## 📖 [Resources](#-table-of-contents)
+## 📖 [Resources](#toc)
 
 - [Probot](https://probot.github.io/)
 - [Code Security](https://docs.github.com/en/code-security)
@@ -339,12 +318,14 @@ SOFTWARE.
 - [GitHub Sponsors](https://github.com/sponsors)
 - [GitHub Skills](https://skills.github.com/)
 
-[`^ Top`](#-table-of-contents)
+[`^ Top`](#toc)
 
-<h2 align="center">
-✨ Please help me boost the signal on this project
-</h2>
-
+[//]: # (<h2 align="center">)
+[//]: # (✨ Please help me boost the signal on this project)
+[//]: # (</h2>)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/6827931/226142057-e0866834-aeee-41f2-8437-5db3d57fe794.png" alt="Star - Useful">
+</p>
 
 <h3 align="center">
 
@@ -354,9 +335,9 @@ SOFTWARE.
 
 <br /><br />
 
-!! SUPPORT THIS REPO !!
+<a name="support-this-project" href="#toc">!! SUPPORT THIS PROJECT !!</a>
 
-<a href="https://github.com/sponsors/ragdata" target="_blank"><img src="https://img.shields.io/badge/support_this_repo-gray?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white?style=for-the-badge" alt="Support This Repo"></a>
+<a href="https://github.com/sponsors/ragdata" target="_blank"><img src="https://img.shields.io/badge/support_this_project-gray?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white?style=for-the-badge" alt="Support This Project"></a>
 
 </h3>
 
@@ -369,7 +350,7 @@ EVERY financial supporter gets their name associated with the project.
 
 Find out more on my [**Sponsor's Page**][sponsors]
 
-[`^ Top`](#-table-of-contents)
+[`^ Top`](#toc)
 
 [sponsors]: https://github.com/sponsors/ragdata
 [all-contributors]: https://allcontributors.org
