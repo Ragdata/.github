@@ -17,7 +17,7 @@ Project Description
 <a href="https://github.com/user/repo/releases" target="_blank">Releases</a>
 </h3>
 
-<display>
+<details>
 <summary><h2><a name="toc">📖 Table of Contents</a></h2></summary>
 
 - [Project Overview](#-project-overview)
@@ -32,7 +32,7 @@ Project Description
 - [License](#-license)
 - [Resources](#-resources)
 
-</display>
+</details>
 
 ## ⭐ [Project Overview](#toc)
 

@@ -36,7 +36,7 @@ with Community Health Files
 </p>
 
 
-<display>
+<details>
 <summary><h2><a name="toc">📖 Table of Contents</a></h2></summary>
 
 - [Project Overview](#-project-overview)
@@ -58,7 +58,7 @@ with Community Health Files
 - [Resources](#-resources)
 - [Support This Project](#support-this-project)
 
-</display>
+</details>
 
 ## ⭐ [Project Overview](#toc)
 
