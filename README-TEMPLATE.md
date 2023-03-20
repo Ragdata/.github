@@ -97,7 +97,7 @@ Project Description
 
 [`^ Top`](#toc)
 
-## 📄 [License](#toc)
+## ⚖️ [License](#toc)
 
 MIT License
 

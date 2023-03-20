@@ -187,21 +187,15 @@ If you discover any issue regarding the security of this project, please disclos
 
 <h3>
 
-[//]: # (<a href="" target="_blank"></a>)
-
 <a href="https://github.com/Ragdata/.github/blob/master/.github/SUPPORT.md" target="_blank">Read the Community Support Document</a>
-
-🔸
 
 <a href="https://github.com/ragdata/.github/issues" target="_blank">Issues Register</a>
 🔸
 <a href="https://ragdata.github.io/.github" target="_blank">Documentation</a>
 
-🔸
-
 <a href="https://discord.gg/54PkrM7TKq" target="_blank">Join my Discord Server</a>
 
-🔸
+🔹
 
 Connect with my Social Channels
 
@@ -224,13 +218,14 @@ Connect with my Social Channels
 ## 💎 [Contributors](#toc)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=for-the-badge)](CONTRIBUTORS.md)
+[![All Contributors](https://img.shields.io/github/all-contributors/ragdata/.github?color=ee8449&style=for-the-badge)](CONTRIBUTORS.md)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-If you'd like to make a contribution of code, then please see my [**Contributor's Guide**](.github/CONTRIBUTING.md)
+If you'd like to make a contribution, then please see my [**Contributor's Guide**](.github/CONTRIBUTING.md)
 
-It's not just contributions of code that I'm looking for though.  If you have any ideas or suggestions about how this project may be improved, don't hesitate to [open an issue](https://github.com/ragdata/.github/issues) and let me know!  Contributions of ALL kinds will be recognised here if they are made part of this project - thanks to the [All-Contributors][all-contributors] bot.
+It's not just contributions of code that I'm looking for.  If you have any ideas or suggestions about how this project may be improved, don't hesitate to [open an issue](https://github.com/ragdata/.github/issues) and let me know!  Contributions of ALL kinds will be recognised here if they are made part of this project - thanks to the [All-Contributors][all-contributors] bot.
 
+[**VIEW PROJECT CONTRIBUTORS**](CONTRIBUTORS.md)
 
 [`^ Top`](#toc)
 
@@ -274,22 +269,18 @@ If you'd like more info about how you can help out, head to my [Sponsor's Page][
 [//]: # ([`^ Top`]&#40;#toc&#41;)
 
 [//]: # (## ©️ [Copyright & Attributions]&#40;#toc&#41;)
-
 [//]: # ()
 [//]: # (This project incorporates ideas and / or code crafted by the following talented individuals:)
-
 [//]: # ()
 [//]: # ()
 [//]: # ()
 [//]: # ()
 [//]: # (> "We see much further, and reach much higher,<br>)
-
 [//]: # (> only because we stand upon the shoulders of giants")
-
 [//]: # ()
 [//]: # ([`^ Top`]&#40;#toc&#41;)
 
-## 📄 [License](#toc)
+## ⚖️ [License](#toc)
 
 MIT License
 
