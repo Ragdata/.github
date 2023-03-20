@@ -24,6 +24,3 @@ support:
 	issues:
 		label: issues
 		url: https://github.com/ragdata/.github/issues
-	discussions:
-		label: discussions
-		url: https://github.com/ragdata/.github/discussions
