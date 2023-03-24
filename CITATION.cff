@@ -16,7 +16,7 @@ type: software
 authors:
   - given-names: Darren (Ragdata)
     family-names: Poulton
-    email: ragdata@users.noreply.github.com
+    email: ragdata@ragdata.dev
     orcid: 'https://orcid.org/0000-0001-8986-2886'
     affiliation: Redeyed Software
 
