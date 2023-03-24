@@ -7,7 +7,7 @@ license: MIT
 git:
 	user:
 		name: Ragdata
-		email: ragdata@users.noreply.github.com
+		email: ragdata@ragdata.dev
 files:
 	- .releaserc
 	- README.md
@@ -18,7 +18,7 @@ repository:
 	url: https://github.com/ragdata/.github
 author:
 	name: Darren (Ragdata) Poulton
-	email: ragdata@users.noreply.github.com
+	email: ragdata@ragdata.dev
 	url: https://github.com/ragdata
 support:
 	issues:
