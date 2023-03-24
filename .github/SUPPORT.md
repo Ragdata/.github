@@ -1,8 +1,8 @@
-# ❓ [Where to Find Support](#toc)
+# 💪 [Community Support Document](#toc)
 
 > 👉 This file is included by default with all of my repositories by virtue of its inclusion in my [`.github`](https://github.com/ragdata/.github) repository, which defines defaults for all other repositories under an account.
 >
-> `Community Support Document v-1.0.0`
+> `Community Support Document v-1.0.1`
 
 <a name="toc"></a>
 
@@ -10,9 +10,9 @@ Looking for support for one of my projects?  Here are some suggestions:
 
 ### 🙋 [Asking Quality Questions](#toc)
 
-> #### [🛈]() If this is your first time participating in one of my communities, please read and adhere to the [code of conduct][coc].  By interacting with any of my repositories or communities, you agree to abide by these terms.
+> #### 👉 If this is your first time participating in one of my communities, please read and adhere to the [code of conduct][coc].  By interacting with any of my repositories or communities, you agree to abide by these terms.
 
-If you have any questions, most repositories have `Discussions`
+If you have any questions, join the [`Discord Server`][discord]
 
 > **Give yourself the best chance of getting the help you need!  Spend a little time framing your question and adding links and resources.  Spending a little extra time up-front can save everyone time (and frustration) in the long-run.  Here are a few tips:**
 
