@@ -2,7 +2,7 @@
 
 > 👉 This file is included by default with all of my repositories by virtue of its inclusion in my [`.github`](https://github.com/ragdata/.github) repository, which defines defaults for all other repositories under an account.
 >
-> `Contributor's Guide v-1.0.0`
+> `Contributor's Guide v-1.0.1`
 
 Firstly, I'd like to thank you personally for taking the time to help improve this project, I truly appreciate it! 💓 Here are a few guidelines to help ensure that all contributions are heading in the same direction:
 
@@ -18,6 +18,7 @@ You can contribute by:
 <summary><h2><a name="toc" href="#toc">📖 Index / Table of Contents</a></h2></summary>
 
 - [Contributor's Guide](#-contributors-guide)
+  - [NON-CODE CONTRIBUTIONS](#-non-code-contributions)
   - [Standards](#-standards)
     - [Versioning Standards](#-versioning-standards)
     - [VCS Standards](#-vcs-standards)
@@ -36,6 +37,14 @@ You can contribute by:
   - [Remember Always](#-remember-always-)
 
 </details>
+
+## 💡 [NON-CODE CONTRIBUTIONS](#toc)
+
+To make a contribution which will be recognised on the appropriate `CONTRIBUTORS` page, submit a `contribution` issue to the appropriate repository's issue register.  Once it has been reviewed and accepted, your contribution will be recorded on the appropriate `CONTRIBUTORS` page.  More significant contributions may be recognised elsewhere in relation to the project as well.
+
+The recognition of Non-Code Contributions are made possible by the [All-Contributors](https://allcontributors.org) bot.
+
+[`^ Top`](#toc)
 
 ## 🌟 [Standards](#toc)
 
