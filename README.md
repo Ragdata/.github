@@ -1,8 +1,8 @@
 <h1 align="center">
 
-<img src="https://user-images.githubusercontent.com/6827931/226095111-7e50d415-9543-4190-872a-9523877a2e91.png" alt="Ragdata's Community Health Files">
+<img src="https://user-images.githubusercontent.com/6827931/227746211-5de229ec-622d-4314-9acc-e3275e36ffc8.png" alt="Ragdata's Community Health Files">
 
-[Community Health Files v-1.0.0](https://github.com/ragdata/.github/releases/tag/v-1.0.0)
+[Ragdata's Repository Template v-1.0.0](https://github.com/ragdata/.github/releases/tag/v-1.0.0)
 
 </h1>
 
@@ -165,9 +165,9 @@ Then you just need to install and configure any GitHub Apps you want to include,
 
 <h3 align="center">
 
-<a href="https://github.com/ragdata" target="_blank"><img src="https://user-images.githubusercontent.com/6827931/226143394-2003d556-9dc9-46a6-b4be-565b60546609.png" alt="Ragdata's RedEyed Software">
+<a href="https://github.com/ragdata" target="_blank"><img src="https://user-images.githubusercontent.com/6827931/226143394-2003d556-9dc9-46a6-b4be-565b60546609.png" alt="Ragdata's RedEyed Software"></a>
 
-Created with ☕ by Ragdata</a>
+<a href="https://github.com/ragdata" target="_blank">Created with ☕ by Ragdata</a>
 
 </h3>
 
