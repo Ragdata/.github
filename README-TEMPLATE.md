@@ -17,8 +17,7 @@ Project Description
 <a href="https://github.com/user/repo/releases" target="_blank">Releases</a>
 </h3>
 
-<details>
-<summary><h2><a name="toc">📖 Table of Contents</a></h2></summary>
+<details><summary><h2><a name="toc">📖 Table of Contents</a></h2></summary>
 
 - [Project Overview](#-project-overview)
 - [What's Included?](#-whats-included)
@@ -51,6 +50,12 @@ Project Description
 ## 📂 [Installation](#toc)
 
 
+
+[`^ Top`](#toc)
+
+## 📛 [Badges](#toc)
+
+[//]: # (https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/<WORKFLOW_FILE>/badge.svg)
 
 [`^ Top`](#toc)
 
