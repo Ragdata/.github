@@ -2,7 +2,7 @@
 
 > 👉 This file is included by default with all of my repositories by virtue of its inclusion in my [`.github`](https://github.com/ragdata/.github) repository, which defines defaults for all other repositories under an account.
 >
-> `Global Security Policy v-1.0.0`
+> `Global Security Policy v-1.0.1`
 
 #### This document outlines the security policies and default procedures for all projects I initiate.
 
@@ -44,9 +44,9 @@ Your submission will be acknowledged within 48 hours, and a more detailed respon
 Please report bugs discovered in any third-party modules to the person or team maintaining that module.  It is neither within our power or our purview to fix bugs in code that we are not responsible for maintaining.
 
 <h4 align="center">
-<a href="../../issues">Please report low-level bugs using the Issue Tracker</a>
+<a href="https://github.com/bash-bits/bash-bits/issues">Please report low-level bugs using the Issue Tracker</a>
 <br><br>
-<a href="mailto:security@ragdata.dev">For more serious issues, please report via email</a>
+<a href="https://github.com/bash-bits/bash-bits/security/advisories/new">For more serious issues, please submit a Security Advisory</a>
 </h4>
 
 ## 📃 [Disclosure Policy](#toc)
