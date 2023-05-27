@@ -21,10 +21,9 @@ Ragdata's Project Template Repo with Community Health Files
 
 <div align="center">
 
-[//]: # (![Check Status]&#40;https://img.shields.io/github/checks-status/ragworks/devcontainers/master?logo=github&style=for-the-badge&#41;)
-![Open Bug Issues](https://img.shields.io/github/issues/ragworks/devcontainers/bug?logo=github&style=for-the-badge)
-![Last Commit](https://img.shields.io/github/last-commit/ragworks/devcontainers/master?logo=github&style=for-the-badge)
-![Code Size](https://img.shields.io/github/repo-size/ragworks/devcontainers?logo=github&style=for-the-badge)
+![Check Status](https://img.shields.io/github/checks-status/ragdata/.github/master?logo=github&style=for-the-badge)
+![Open Bug Issues](https://img.shields.io/github/issues/ragdata/.github/bug?logo=github&style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/ragdata/.github/master?logo=github&style=for-the-badge)
 ![MIT](https://img.shields.io/badge/License-MIT-gold?style=for-the-badge)
 
 #### _Elapsed Project Time_
@@ -292,7 +291,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 If you like this repo, please give it a ⭐ (it really does help)
 
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ragworks/devcontainers?style=social">
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ragdata/.github?style=social">
 
 </h3>
 
