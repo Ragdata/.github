@@ -19,6 +19,20 @@ Ragdata's Project Template Repo with Community Health Files
 <a href="https://github.com/ragdata/.github/releases" target="_blank">Releases</a>
 </h3>
 
+<div align="center">
+
+![Check Status](https://img.shields.io/github/checks-status/ragworks/devcontainers/master?logo=github&style=for-the-badge)
+![Open Bug Issues](https://img.shields.io/github/issues/ragworks/devcontainers/bug?logo=github&style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/ragworks/devcontainers/master?logo=github&style=for-the-badge)
+![Code Size](https://img.shields.io/github/repo-size/ragworks/devcontainers?logo=github&style=for-the-badge)
+![MIT](https://img.shields.io/badge/License-MIT-gold?style=for-the-badge)
+
+#### _Elapsed Project Time_
+
+[![wakatime](https://wakatime.com/badge/github/Ragdata/.github.svg)](https://wakatime.com/badge/github/Ragdata/.github)
+
+</div>
+
 <h3 align="center">
 
 [This Project is Configured as a Public Template<br /><br />You can use it as the basis for a new repository by clicking here](https://github.com/Ragdata/.github/generate)
