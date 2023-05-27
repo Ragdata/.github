@@ -22,11 +22,12 @@ Project Description
 - [Project Overview](#-project-overview)
 - [What's Included?](#-whats-included)
 - [Installation](#-installation)
+- [Badges](#-badges)
+- [Available Support](#-available-support)
+- [Project Supporters](#-project-supporters)
 - [Author/Maintainer](#-author--maintainer)
 - [Security](#-security)
-- [Available Support](#-available-support)
 - [Contributors](#-contributors)
-- [Supporting the Project](#-supporting-the-project)
 - [Copyright & Attributions](#-copyright--attributions)
 - [License](#-license)
 - [Resources](#-resources)
@@ -37,11 +38,9 @@ Project Description
 
 
 
-
 [`^ Top`](#toc)
 
 ## ❓ [What's Included?](#toc)
-
 
 
 
@@ -55,12 +54,23 @@ Project Description
 
 ## 📛 [Badges](#toc)
 
-[//]: # (https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/<WORKFLOW_FILE>/badge.svg)
+
+
+[`^ Top`](#toc)
+
+## 💪 [Available Support](#toc)
+
+
+
+[`^ Top`](#toc)
+
+## ❤️ [Project Supporters](#toc)
+
+
 
 [`^ Top`](#toc)
 
 ## 🚧 [Author / Maintainer](#toc)
-
 
 
 
@@ -70,26 +80,9 @@ Project Description
 
 
 
-
-[`^ Top`](#toc)
-
-## 💪 [Available Support](#toc)
-
-
-
-
 [`^ Top`](#toc)
 
 ## 💎 [Contributors](#toc)
-
-
-
-
-[`^ Top`](#toc)
-
-## 👍 [Supporting the Project](#toc)
-
-
 
 
 
@@ -99,12 +92,11 @@ Project Description
 
 
 
-
 [`^ Top`](#toc)
 
 ## ⚖️ [License](#toc)
 
-MIT License
+![MIT](https://img.shields.io/badge/License-MIT-gold)
 
 Copyright © 2023 Author Name
 
@@ -117,9 +109,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [`^ Top`](#toc)
 
 ## 📖 [Resources](#toc)
-
-
-
 
 
 
