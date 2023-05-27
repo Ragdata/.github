@@ -29,7 +29,7 @@ Ragdata's Project Template Repo with Community Health Files
 
 #### _Elapsed Project Time_
 
-[![wakatime](https://wakatime.com/badge/github/Ragdata/.github.svg)](https://wakatime.com/badge/github/Ragdata/.github)
+[![wakatime](https://wakatime.com/badge/github/Ragdata/.github.svg?style=for-the-badge)](https://wakatime.com/badge/github/Ragdata/.github)
 
 </div>
 
