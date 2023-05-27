@@ -21,7 +21,7 @@ Ragdata's Project Template Repo with Community Health Files
 
 <div align="center">
 
-![Check Status](https://img.shields.io/github/checks-status/ragworks/devcontainers/master?logo=github&style=for-the-badge)
+[//]: # (![Check Status]&#40;https://img.shields.io/github/checks-status/ragworks/devcontainers/master?logo=github&style=for-the-badge&#41;)
 ![Open Bug Issues](https://img.shields.io/github/issues/ragworks/devcontainers/bug?logo=github&style=for-the-badge)
 ![Last Commit](https://img.shields.io/github/last-commit/ragworks/devcontainers/master?logo=github&style=for-the-badge)
 ![Code Size](https://img.shields.io/github/repo-size/ragworks/devcontainers?logo=github&style=for-the-badge)
