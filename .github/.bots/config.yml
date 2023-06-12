@@ -20,7 +20,7 @@ newPRWelcomeComment: >
 
 # Comment to be posted to on pull requests merged by a first time user
 firstPRMergeComment: >
-    Congrats on merging your first pull request! We are very proud of you!
+    Congrats on merging your first pull request! You should be proud of yourself!
 
 # ==================================================================
 # Configuration for sentiment-bot - https://github.com/behaviorbot/sentiment-bot

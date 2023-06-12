@@ -136,11 +136,7 @@ In a directory of their own (so they don't cause you any unexpected issues) you 
 1. Welcome Bot - configured by [`.github/.bots/config.yml`](.github/.bots/config.yml) [Learn More](https://probot.github.io/apps/welcome/)
 2. Sentiment Bot - configured by [`.github/.bots/config.yml`](.github/.bots/config.yml) [Learn More](https://probot.github.io/apps/sentiment-bot/)
 3. All Contributors - configured by [`.all-contributorsrc`](.all-contributorsrc)  [Learn More](https://allcontributors.org/)
-
-#### Worth Considering
-
-1. Stale Bot - configured by [`.github/.bots/stale.yml`](.github/.bots/stale.yml)  [Learn More](https://github.com/apps/stale)
-2. No Response Bot - configured by [`.github/.bots/no-response.yml`](.github/.bots/no-response.yml)  [Learn More](https://probot.github.io/apps/no-response/)
+4. No Response Bot - configured by [`.github/.bots/no-response.yml`](.github/.bots/no-response.yml)  [Learn More](https://probot.github.io/apps/no-response/)
 
 ### [📀 GitHub Apps Worth Considering](#toc)
 
