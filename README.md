@@ -32,11 +32,9 @@ Ragdata's Project Template Repo with Community Health Files
 
 </div>
 
-<h3 align="center">
-
-[This Project is Configured as a Public Template<br /><br />You can use it as the basis for a new repository by clicking here](https://github.com/Ragdata/.github/generate)
-
-</h3>
+[//]: # (<h3 align="center">)
+[//]: # ([This Project is Configured as a Public Template<br /><br />You can use it as the basis for a new repository by clicking here]&#40;https://github.com/Ragdata/.github/generate&#41;)
+[//]: # (</h3>)
 
 <br />
 
@@ -72,7 +70,7 @@ If you like this repo, please give it a ⭐ (it really does help)
 
 > ⚠️ This is a specially-named repository which GitHub treats differently to other repositories.  [Find out more]()
 
-> ✨ This repository is configured as a [Public Template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) - which means you can use it as the basis for your own repositories (and automatically include ALL files in this repository) just by clicking [HERE](https://github.com/Ragdata/.github/generate) 
+[//]: # (> ✨ This repository is configured as a [Public Template]&#40;https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template&#41; - which means you can use it as the basis for your own repositories &#40;and automatically include ALL files in this repository&#41; just by clicking [HERE]&#40;https://github.com/Ragdata/.github/generate&#41; )
 
 This repository was created with 2 purposes in mind:
 
