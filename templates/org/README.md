@@ -1,35 +1,31 @@
 <h1 align="center">
 
-<img height="196" src="https://raw.githubusercontent.com/Ragdata/media/master/project/ragsworks/logo/ragsworks-256.png" alt="Ragdata" />
+<img height="256" src="https://raw.githubusercontent.com/Ragdata/media/master/logo/Ragdata-64.svg" alt="RagsWorks - Reusable Actions and Workflows" />
 
-[RagsWorks Organization Template v-0.1.0](https://github.com/ragsworks/repo-template/releases/tag/v-0.1.0)
+[Ragdata's Organization Template v-0.1.0](https://github.com/ragdata/org-template/releases/tag/v-0.1.0)
 
 </h1>
 
 <h3 align="center">
-
-<a href="https://github.com/ragsworks/repo-template/issues">Issues</a>
+<a href="https://github.com/user/ragdata/issues" target="_blank">Issues</a>
 🔸
-<a href="https://ragsworks.github.io/repo-template">Documentation</a>
+<a href="https://docs.example.com" target="_blank">Documentation</a>
 🔸
-<a href="https://github.com/ragsworks/repo-template/releases">Releases</a>
-
+<a href="https://github.com/user/ragdata/releases" target="_blank">Releases</a>
 </h3>
 
-<br />
-
 <h3 align="center">
-<em>Master Repository with<br /><br />Full Set of Community Health Files</em></h3>
+<em>Subordinate Repository<br /><br />Uses Master's Community Health Files</em></h3>
 
 <div align="center">
 
-![GitHub issues](https://img.shields.io/github/issues-raw/ragsworks/repo-template?style=for-the-badge&logo=github)
-![Last Commit](https://img.shields.io/github/last-commit/ragsworks/repo-template/master?logo=github&style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues-raw/ragdata/org-template?style=for-the-badge&logo=github)
+![Last Commit](https://img.shields.io/github/last-commit/ragdata/org-template/master?logo=github&style=for-the-badge)
 ![MIT](https://img.shields.io/badge/License-MIT-gold?style=for-the-badge)
 
 #### _Elapsed Project Time_
 
-[![wakatime](https://wakatime.com/badge/github/ragsworks/repo-template.svg?style=for-the-badge)](https://wakatime.com/badge/github/ragsworks/repo-template)
+[![wakatime](https://wakatime.com/badge/github/ragdata/org-template.svg?style=for-the-badge)](https://wakatime.com/badge/github/ragdata/org-template)
 
 </div>
 
@@ -37,22 +33,18 @@
 
 If you like this repository, please give it a ⭐ (it really does help)
 
-<img alt="GitHub repository stars" src="https://img.shields.io/github/stars/ragsworks/repo-template?style=social">
+<img alt="GitHub repository stars" src="https://img.shields.io/github/stars/ragdata/org-template?style=social">
 
 </h3>
 
-<details>
-<summary><h2><a name="toc">📖 Table of Contents</a></h2></summary>
-
-## 📖 Table of Contents
+<details><summary><h2><a name="toc">📖 Table of Contents</a></h2></summary>
 
 - [Project Overview](#-project-overview)
 	- [Branch Reliability](#branch-reliability)
 - [What's Included?](#-whats-included)
 - [Installation](#-installation)
-  - [Prerequisites](#prerequisites)
-- [Available Support](#-available-support)
 - [Badges](#-badges)
+- [Available Support](#-available-support)
 - [Project Supporters](#-project-supporters)
 - [Author/Maintainer](#-author--maintainer)
 - [Security](#-security)
@@ -63,9 +55,7 @@ If you like this repository, please give it a ⭐ (it really does help)
 
 </details>
 
-## ⭐ [Project Overview](#-table-of-contents)
-
-
+## ⭐ [Project Overview](#toc)
 
 ### [Branch Reliability](#toc)
 
@@ -86,11 +76,9 @@ If you're contributing code to the project, you'll want 🔴
 
 
 
-
 [`^ Top`](#toc)
 
 ## 📂 [Installation](#toc)
-
 
 
 
@@ -106,23 +94,20 @@ If you're contributing code to the project, you'll want 🔴
 
 ### Project Resources
 
-- ✅ [Issues Register](https://github.com/ragsworks/repo-template/issues)
-- ✅ [Project Site](https://ragsworks.github.io/repo-template)
+- [Issues Register](https://github.com/ragdata/org-template/issues)
+- [Project Site](https://ragdata.github.io/org-template)
 
-<details><summary><h3>Community Resources</h3></summary>
+### Community Resources
 
 - [**The RedEyed Community Discord Server**](https://discord.gg/s6gZZUc67y)
 
-
-- [Community Support Document](https://github.com/ragsworks/.github/blob/master/.github/SUPPORT.md)
-- [Community Code of Conduct](https://github.com/ragsworks/.github/blob/master/.github/CODE_OF_CONDUCT.md)
-- [Community Standards](https://github.com/ragsworks/repo-template/community)
-- [Security Policy](https://github.com/ragsworks/repo-template/security/policy)
-	- [Security Overview](https://github.com/ragsworks/repo-template/security)
-	- [Security Advisories](https://github.com/ragsworks/repo-template/security/advisories)
-	- [Dependabot Alerts](https://github.com/ragsworks/repo-template/security/dependabot)
-
-</details>
+- [Community Support Document](https://github.com/ragdata/.github/blob/master/.github/SUPPORT.md)
+- [Community Code of Conduct](https://github.com/ragdata/.github/blob/master/.github/CODE_OF_CONDUCT.md)
+- [Community Standards](https://github.com/ragdata/org-template/community)
+- [Security Policy](https://github.com/ragdata/org-template/security/policy)
+	- [Security Overview](https://github.com/ragdata/org-template/security)
+	- [Security Advisories](https://github.com/ragdata/org-template/security/advisories)
+	- [Dependabot Alerts](https://github.com/ragdata/org-template/security/dependabot)
 
 [`^ Top`](#toc)
 
@@ -161,11 +146,11 @@ If you're contributing code to the project, you'll want 🔴
 
 ### [Join me & the RedEyed Community!](https://discord.gg/s6gZZUc67y)
 
-<a href="https://twitter.com/intent/follow?screen_name=RagdataAU" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white" /></a>
-<a href="https://www.reddit.com/r/RedeyedSoftware/" target="_blank"><img alt="Reddit" src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=Reddit&logoColor=white" /></a>
-<a href="https://dev.to/ragdata" target="_blank"><img alt="Dev.to" src="https://img.shields.io/badge/dev.to-373737?style=for-the-badge&logo=dev.to&logoColor=white" /></a>
-<a href="https://ragdata.substack.com/" target="_blank"><img alt="SubStack" src="https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=Substack&logoColor=white" /></a>
-<a href="https://www.facebook.com/RedEyedSoftware/" target="_blank"><img alt="Facebook" src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=Facebook&logoColor=white" /></a>
+<a href="https://www.facebook.com/RedeyedAU/" target="_blank"><img alt="Facebook" src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=Facebook&logoColor=white" /></a>
+<a href="https://redeyedau.substack.com/" target="_blank"><img alt="SubStack" src="https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=Substack&logoColor=white" /></a>
+<a href="https://dev.to/redeyed-au" target="_blank"><img alt="Dev.to" src="https://img.shields.io/badge/dev.to-373737?style=for-the-badge&logo=dev.to&logoColor=white" /></a>
+<a href="https://www.reddit.com/r/RedeyedAU/" target="_blank"><img alt="Reddit" src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=Reddit&logoColor=white" /></a>
+<a href="https://twitter.com/intent/follow?screen_name=RedeyedAU" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white" /></a>
 
 [![Discord](https://img.shields.io/discord/1067204348251230298?labelColor=5865F2&label=RedEyed%20Software%20&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/s6gZZUc67y)
 
@@ -175,7 +160,7 @@ If you're contributing code to the project, you'll want 🔴
 
 ## 🔐 [Security](#toc)
 
-While the `RagsWorks` Organization follows good security practices, 100% security can never be guaranteed in any software package.  The `RagsWorks Repository Template` is provided AS IS, and without warranty.  You can find more details in the [LICENSE](LICENSE) file included with this repository.
+While I always good security practices, 100% security can never be guaranteed in any software package.  The `Repository Template` is provided AS IS, and without warranty.  You can find more details in the [LICENSE](LICENSE) file included with this repository.
 
 If you discover any issue regarding the security of this project, please disclose that information responsibly by sending a [security advisory][advisory].  **PLEASE DO NOT CREATE AN ISSUE OR DISCUSSION TOPIC.**  You can read more about this project's security policies [HERE][security]
 
@@ -184,7 +169,7 @@ If you discover any issue regarding the security of this project, please disclos
 ## 💎 [Contributors](#toc)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/github/all-contributors/ragsworks/repo-template?color=ee8449&style=for-the-badge)](CONTRIBUTORS.md)
+[![All Contributors](https://img.shields.io/github/all-contributors/ragdata/org-template?color=ee8449&style=for-the-badge)](CONTRIBUTORS.md)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 If you'd like to make a contribution, then please see the [**Bash Bits Contributor's Guide**][contributing]
@@ -206,11 +191,11 @@ This project incorporates ideas and / or code crafted by the following talented 
 
 ## ⚖️ [License](#toc)
 
-![MIT](https://img.shields.io/badge/License-MIT-gold?style=for-the-badge)
+![MIT](https://img.shields.io/badge/License-MIT-gold)
 
 Copyright © 2023 Darren (Ragdata) Poulton
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: 
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
@@ -220,7 +205,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## 📖 [Resources](#toc)
 
-### Attributed Projects
 
 
 [`^ Top`](#toc)
@@ -229,20 +213,20 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 If you like this repository, please give it a ⭐ (it really does help)
 
-<img alt="GitHub repository stars" src="https://img.shields.io/github/stars/ragsworks/repo-template?style=social">
+<img alt="GitHub repository stars" src="https://img.shields.io/github/stars/ragdata/org-template?style=social">
 
 </h3>
 
 <div align="center">
 
-<a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fragsworks%2Frepo-template" target="_blank"><img alt="Visitors" src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fragsworks%2Frepo-template&countColor=%23d20000" /></a>
+<a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fragdata%2Forg-template" target="_blank"><img alt="Visitors" src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fragdata%2Forg-template&countColor=%23d20000" /></a>
 <a href="https://github.com/ragdata" target="_blank"><img alt="Ragdata" src="https://img.shields.io/badge/-Made_With_☕_By_Ragdata-D20000?style=for-the-badge" /></a>
 
 </div>
 
-[advisory]: https://github.com/ragsworks/repo-template/security/advisories/new
+[advisory]: https://github.com/ragdata/org-template/security/advisories/new
 [all-contributors]: https://allcontributors.org
-[contributing]: https://github.com/ragsworks/.github/blob/master/.github/CONTRIBUTING.md
-[issues]: https://github.com/ragsworks/repo-template/issues
-[security]: https://github.com/ragsworks/repo-template/security/policy
+[contributing]: https://github.com/ragdata/.github/blob/master/.github/CONTRIBUTING.md
+[issues]: https://github.com/ragdata/org-template/issues
+[security]: https://github.com/ragdata/org-template/security/policy
 [sponsors]: https://github.com/sponsors/Ragdata
