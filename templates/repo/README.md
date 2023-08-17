@@ -7,11 +7,11 @@
 </h1>
 
 <h3 align="center">
-<a href="https://github.com/user/ragdata/issues" target="_blank">Issues</a>
+<a href="https://github.com/ragdata/repo-template/issues" target="_blank">Issues</a>
 🔸
 <a href="https://docs.example.com" target="_blank">Documentation</a>
 🔸
-<a href="https://github.com/user/ragdata/releases" target="_blank">Releases</a>
+<a href="https://github.com/ragdata/repo-template/releases" target="_blank">Releases</a>
 </h3>
 
 <h3 align="center">
