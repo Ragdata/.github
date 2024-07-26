@@ -1,0 +1,240 @@
+####################################################################
+# mega-linter.reuse.yml
+####################################################################
+# Mega Linter Reusable Workflow
+#
+# File:         mega-linter.reuse.yml
+# Version:      1.0
+# Author:       Ragdata
+# Date:         07/07/2024
+# License:      MIT License
+# Copyright:    Copyright © 2024 Darren (Ragdata) Poulton
+####################################################################
+name: MegaLinter - Reusable
+
+on:
+    workflow_call:
+        # These variables are the ones most likely to be required to be declared
+        # by a caller workflow residing in another repository
+        inputs:
+            megalinter_config:
+                description: "Name of MegaLinter configuration file. Can be defined remotely, in that case set this environment variable with the remote URL of .mega-linter.yml config file"
+                required: false
+                type: string
+                default: ".mega-linter.yml"
+            extends:
+                description: "Base mega-linter.yml config file(s) to extend local configuration from. Can be a single URL or a list of .mega-linter.yml config files URLs. Later files take precedence."
+                required: false
+                type: string
+            linter_rules_path:
+                description: "Directory for all linter configuration rules. Can be a local folder or a remote URL (ex: https://raw.githubusercontent.com/some_org/some_repo/mega-linter-rules )"
+                required: false
+                type: string
+                default: ".github/linters"
+            filter_regex_exclude:
+                description: "Regular expression defining which files will be excluded from linting (ex: .*src/test.*)"
+                required: false
+                type: string
+            commit_message:
+                description: "Message to use when committing fixes"
+                required: false
+                type: string
+                default: "[auto](MegaLinter): apply linters fixes"
+            commit_user_name:
+                description: "Username to use when committing fixes"
+                required: false
+                type: string
+                default: "megalinter-bot"
+            commit_user_email:
+                description: "Email address to use when committing fixes"
+                required: false
+                type: string
+                default: "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
+        secrets:
+            token:
+                required: true
+
+# Comment env block if you do not want to apply fixes
+env:
+    # Apply linter fixes configuration
+    #
+    # When active, APPLY_FIXES must also be defined as an environment variable
+    # (in .github/workflows/mega-linter.yml or other CI tool)
+    APPLY_FIXES: all
+
+    # Decide which event triggers application of fixes in a commit or PR
+    # (pull_request, push, all)
+    APPLY_FIXES_EVENT: pull_request
+
+    # If APPLY_FIXES is used, this defines if the fixes are committed directly (commit)
+    # or if they are posted in a PR (pull_request)
+    APPLY_FIXES_MODE: commit
+
+concurrency:
+    group: ${{ github.ref }}-${{ github.workflow }}
+    cancel-in-progress: true
+
+jobs:
+
+    megalinter:
+        name: MegaLinter
+        runs-on: ubuntu-latest
+
+        # Give the default GITHUB_TOKEN write permissions to commit & push, comment
+        # issues, and post a new PR; remove those not required
+        permissions:
+            contents: write
+            issues: write
+            pull-requests: write
+
+        steps:
+
+            - name: Checkout
+              uses: actions/checkout@v4
+              with:
+                  token: ${{ secrets.token }}
+                  # If you use VALIDATE_ALL_CODEBASE = true, you can remove this line to
+                  # improve performance
+                  # fetch-depth: 0
+
+            ########################################################
+            # Transcribe Input Variables to ENV
+            ########################################################
+            # Makes critical variables passed by workflow caller available to MegaLinter
+
+            # Name of MegaLinter configuration file - can be local file or remote URL
+            - name: MEGALINTER_CONFIG
+              if: ${{ inputs.megalinter_config }}
+              run: echo "MEGALINTER_CONFIG=${{ inputs.megalinter_config }}" >> "$GITHUB_ENV"
+
+            # Base mega-linter.yml config file(s) to extend local configuration from
+            # Can be a single URL or a list of .mega-linter.yml config files URLs
+            # Later files take precedence
+            - name: EXTENDS
+              if: ${{ inputs.extends }}
+              run: echo "EXTENDS=${{ inputs.extends }}" >> "$GITHUB_ENV"
+
+            # Directory for all linter configuration rules - can be a local folder or a remote URL
+            # (ex: https://raw.githubusercontent.com/some_org/some_repo/mega-linter-rules )
+            - name: LINTER_RULES_PATH
+              if: ${{ inputs.linter_rules_path }}
+              run: echo "LINTER_RULES_PATH=${{ inputs.linter_rules_path }}" >> "$GITHUB_ENV"
+
+            # Regular expression defining which files will be excluded from linting (ex: .*src/test.*)
+            - name: FILTER_REGEX_EXCLUDE
+              if: ${{ inputs.filter_regex_exclude }}
+              run: echo "FILTER_REGEX_EXCLUDE=${{ inputs.filter_regex_exclude }}" >> "$GITHUB_ENV"
+
+            ########################################################
+            # MegaLinter
+            ########################################################
+            - name: MegaLinter
+              # You can override the flavour of MegaLinter in favour of faster performance
+              # More info at https://megalinter.io/flavors/
+              uses: oxsecurity/megalinter@v7
+              id: ml
+              # All available variables are described in documentation
+              # https://megalinter.io/configuration/
+              env:
+                  # Validates all source on push to $default-branch, else just the git diff with
+                  # $default-branch.  Override with `true` if you always want to lint all sources
+                  #
+                  # To validate the entire codebase, set to:
+                  # VALIDATE_ALL_CODEBASE: true
+                  #
+                  # To validate only diff with main, set to:
+                  # VALIDATE_ALL_CODEBASE: >-
+                  #   ${{
+                  #     github.event_name == 'push' &&
+                  #     contains(fromJSON('["refs/heads/main", "refs/heads/master"]'), github.ref)
+                  #   }}
+                  VALIDATE_ALL_CODEBASE: >-
+                      ${{
+                        (github.event_name == 'push' || github.event_name == 'workflow_dispatch') &&
+                        contains(fromJSON('["refs/heads/main", "refs/heads/master"]'), github.ref)
+                      }}
+
+                  GITHUB_TOKEN: ${{ secrets.token }}
+
+                  # ADD YOUR CUSTOM ENV VARIABLES HERE OR DEFINE THEM IN A FILE
+                  # .mega-linter.yml AT THE ROOT OF YOUR REPOSITORY
+
+                  # Uncomment to disable copy-paste and spell checks
+                  # DISABLE: COPYPASTE,SPELL
+
+            ########################################################
+            # Upload MegaLinter Artifacts
+            ########################################################
+            - name: Archive Production Artifacts
+              uses: actions/upload-artifact@v4
+              if: success() || failure()
+              with:
+                  name: MegaLinter Reports
+                  path: |
+                      megalinter-reports
+                      mega-linter.log
+
+            ########################################################
+            # APPLY_FIXES_IF_*
+            ########################################################
+            # Set APPLY_FIXES_IF_* var for use in future steps
+            - name: Set APPLY_FIXES_IF_* vars
+              run: |
+                  printf 'APPLY_FIXES_IF_PR=%s\n' "${{
+                      env.APPLY_FIXES_IF == 'true' &&
+                      env.APPLY_FIXES_MODE == 'pull_request'
+                  }}" >> "${GITHUB_ENV}"
+                  printf 'APPLY_FIXES_IF_COMMIT=%s\n' "${{
+                      env.APPLY_FIXES_IF == 'true' &&
+                      env.APPLY_FIXES_MODE == 'commit' &&
+                      (!contains(fromJSON('["refs/heads/main", "refs/heads/master"]'), github.ref))
+                  }}" >> "${GITHUB_ENV}"
+
+            ########################################################
+            # Create Pull Request
+            ########################################################
+            # Create pull request if applicable
+            # (for now works only on PR from same repository, not from forks)
+            - name: Create Pull Request with Applied Fixes
+              uses: peter-evans/create-pull-request@v6
+              id: cpr
+              if: env.APPLY_FIXES_IF_PR == 'true'
+              with:
+                  token: ${{ secrets.token }}
+                  commit-message: ${{ inputs.commit_message }}
+                  title: "[MegaLinter] Apply Linters Automatic Fixes"
+                  labels: bot
+
+            ########################################################
+            # Create PR Output
+            ########################################################
+            - name: Create PR output
+              if: env.APPLY_FIXES_IF_PR == 'true'
+              run: |
+                echo "PR Number - ${{ steps.cpr.outputs.pull-request-number }}"
+                echo "PR URL - ${{ steps.cpr.outputs.pull-request-url }}"
+
+            ########################################################
+            # Prepare Commit
+            ########################################################
+            - name: Prepare Commit
+              if: env.APPLY_FIXES_IF_COMMIT == 'true'
+              run: sudo chown -Rc $UID .git/
+
+            ########################################################
+            # Push Commit
+            ########################################################
+            # (for now works only on PR from same repository, not from forks)
+            - name: Commit and Push Applied Linter Fixes
+              uses: stefanzweifel/git-auto-commit-action@v4
+              if: env.APPLY_FIXES_IF_COMMIT == 'true'
+              with:
+                branch: >-
+                    ${{
+                        github.event.pull_request.head.ref ||
+                        github.head_ref ||
+                        github.ref
+                    }}
+                commit_message: ${{ inputs.commit_message }}
+                commit_user_name: ${{ inputs.commit_user_name }}
+                commit_user_email: ${{ inputs.commit_user_email }}

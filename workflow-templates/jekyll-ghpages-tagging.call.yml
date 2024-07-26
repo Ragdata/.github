@@ -1,0 +1,38 @@
+####################################################################
+# jekyll-ghpages-tagging.call.yml
+####################################################################
+# Jekyll GH-Pages Tagging Caller Workflow
+#
+# File:         jekyll-ghpages-tagging.call.yml
+# Version:      1.0
+# Author:       Ragdata
+# Date:         30/06/2024
+# License:      MIT License
+# Copyright:    Copyright © 2024 Darren (Ragdata) Poulton
+####################################################################
+name: Jekyll GH-Pages Tagging - Caller
+
+on:
+    # Trigger whenever .md files in the _posts directory on the master branch are pushed
+    push:
+        branches:
+            - $default-branch
+        paths:
+            - "_posts/*.md"
+    # Allows for manual triggering via Actions tab
+    workflow_dispatch:
+
+jobs:
+    call_reusable_workflow:
+        permissions:
+            contents: write
+        uses: ragdata/reusable-workflows/.github/workflows/jekyll-ghpages-tagging.yml@master
+        with:
+            posts_dir: "_posts"
+            tags_dir: "_tags"
+            tags_layout: "tags"
+            feeds_dir: "_feeds"
+            feeds_layout: "feed"
+            prune_tags: true
+        secrets:
+            token: ${{ secrets.GITHUB_TOKEN }}

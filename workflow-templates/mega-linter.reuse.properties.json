@@ -1,0 +1,7 @@
+{
+    "name": "MegaLinter - Reusable",
+    "description": "MegaLinter is an Open-Source tool for CI/CD workflows that analyzes the consistency of your code, IAC, configuration, and scripts in your repository sources, to ensure all your projects sources are clean and formatted",
+    "iconName": "octicon hubot",
+    "creator": "Ragdata",
+    "categories": ["Continuous integration", "Code-Quality", "Code-Review"]
+}

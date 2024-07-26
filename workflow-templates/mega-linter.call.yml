@@ -1,0 +1,34 @@
+####################################################################
+# mega-linter.call.yml
+####################################################################
+# Mega Linter Caller Workflow
+#
+# File:         mega-linter.call.yml
+# Version:      1.0
+# Author:       Ragdata
+# Date:         07/07/2024
+# License:      MIT License
+# Copyright:    Copyright © 2024 Darren (Ragdata) Poulton
+####################################################################
+name: MegaLinter - Caller
+
+on:
+    # Trigger whenever files are pushed to any branch of the repo
+    push: null
+    # Trigger whenever a pull_request is raised on the master branch
+    pull_request:
+        branches:
+            - $default-branch
+    # Allows for manual triggering via the Actions tab
+    workflow_dispatch:
+
+jobs:
+
+    call_reusable_workflow:
+        permissions:
+            contents: write
+            issues: write
+            pull-requests: write
+        uses: ragdata/reusable-workflows/.github/workflows/mega-linter.yml@master
+        secrets:
+            token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}

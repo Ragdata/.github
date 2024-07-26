@@ -1,0 +1,3 @@
+[submodule "submodules/workflow-templates"]
+	path = submodules/workflow-templates
+	url = https://github.com/ragdata/workflow-templates
