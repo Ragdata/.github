@@ -1,8 +1,14 @@
+<div align="center">
+
+![Pre-Release](https://img.shields.io/badge/Status-Pre--Release-d20000)
+
+</div>
+
 <h1 align="center">
 
 <img height="256" src="https://raw.githubusercontent.com/Ragdata/media/master/logo/Ragdata-64.svg" alt="RagsWorks - Reusable Actions and Workflows" />
 
-[Ragdata's Organization Template v-0.1.0](https://github.com/ragdata/org-template/releases/tag/v-0.1.0)
+[Ragdata's Organization Template](https://github.com/ragdata/org-template/releases/tag/v0.1.0)
 
 </h1>
 

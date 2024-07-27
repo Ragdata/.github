@@ -1,8 +1,14 @@
+<div align="center">
+
+![Pre-Release](https://img.shields.io/badge/Status-Pre--Release-d20000?labelColor=31383f)
+
+</div>
+
 <h1 align="center">
 
 <img height="256" src="https://raw.githubusercontent.com/Ragdata/media/master/logo/Ragdata-64.svg" alt="RagsWorks - Reusable Actions and Workflows" />
 
-[Ragdata's Repository Template v-0.1.0](https://github.com/ragdata/repo-template/releases/tag/v-0.1.0)
+[Ragdata's Repository Template](https://github.com/ragdata/repo-template/releases/tag/v0.1.0)
 
 </h1>
 
@@ -85,7 +91,6 @@ If you're contributing code to the project, you'll want 🔴
 [`^ Top`](#toc)
 
 ## 📛 [Badges](#toc)
-
 
 
 [`^ Top`](#toc)

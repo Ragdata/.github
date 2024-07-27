@@ -2,7 +2,7 @@
 
 <img height="256" src="https://raw.githubusercontent.com/Ragdata/media/master/logo/Ragdata-64.svg" alt="RagsWorks - Reusable Actions and Workflows" />
 
-[Ragdata's Repository Template v-1.0.0](https://github.com/ragdata/.github/releases/tag/v-1.0.0)
+[Ragdata's Repository Template](https://github.com/ragdata/.github/releases/tag/v1.0.0)
 
 </h1>
 
