@@ -2,7 +2,7 @@
 
 > 👉 This file is included by default with all of my repositories by virtue of its inclusion in my [`.github`](https://github.com/ragdata/.github) repository, which defines defaults for all other repositories under an account.
 >
-> `Community Support Document v-1.0.1`
+> `Community Support Document v1.0.1`
 
 <a name="toc"></a>
 

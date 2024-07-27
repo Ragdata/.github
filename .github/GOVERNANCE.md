@@ -2,7 +2,7 @@
 
 > 👉 This file is included by default with all of my repositories by virtue of its inclusion in my [`.github`](https://github.com/ragdata/.github) repository, which defines defaults for all other repositories under an account.
 >
-> `Ragdata's Governance Policy v-1.0.0`
+> `Ragdata's Governance Policy v1.0.0`
 
 This document outlines the governance model for all of my projects.  This includes descriptions of different roles, nomination processes, code review processes, and Code of Conduct enforcement.
 

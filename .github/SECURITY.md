@@ -2,7 +2,7 @@
 
 > 👉 This file is included by default with all of my repositories by virtue of its inclusion in my [`.github`](https://github.com/ragdata/.github) repository, which defines defaults for all other repositories under an account.
 >
-> `Global Security Policy v-1.0.1`
+> `Global Security Policy v1.0.1`
 
 #### This document outlines the security policies and default procedures for all projects I initiate.
 
