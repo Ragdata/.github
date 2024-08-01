@@ -1,101 +1,22 @@
 name: Ragdata's Community Health Files Repository
 description: Everything you need to build a healthy GitHub Repository and Open Source Community
 version: 0.1.0
-prefix: v
 copyright: Copyright © 2024 Redeyed Technologies
-homepage: https://github.com/ragdata/.github
-repository:
-    label: Reusable Workflows
-    url: https://github.com/ragdata/.github
+website: https://github.com/ragdata/.github
+repo_label: Reusable Workflows
+repo_url: https://github.com/ragdata/.github
 authors:
     - username: Ragdata
       first_name: Darren
       surname: Poulton
       email: ragdata@ragdata.dev
       affiliation: Redeyed Technologies
-git:
-    user:
-        name: GITHUB_ACTOR
-        email: GITHUB_ACTOR_ID+GITHUB_ACTOR@users.noreply.github.com
-    branches:
-        prod: master
-        patch: hotfix/.*
-        release: release/.*
-    message:
-        release: "build(release): release version {{ version }}"
-rules:
-    protect_prod: true
-categories:
-    types:
-        - type: build
-          title: Builds
-          description: Changes that affect the build system or external dependencies
-          icon: 🔨
-        - type: chore
-          title: Chores
-          description: Other changes that don't modify src or test files
-          icon: ♻️
-        - type: ci
-          title: Continuous Integration
-          description: Changes to our CI configuration files and scripts
-          icon: ⚙️
-        - type: docs
-          title: Documentation
-          description: Changes to documentation only
-          icon: 📘
-        - type: feat
-          title: Features
-          description: A new feature
-          icon: ✨
-        - type: fix
-          title: Bug Fixes
-          description: Changes which fix problems with the project
-          icon: 🐞
-        - type: perf
-          title: Performance Improvements
-          description: Code changes which improve performance
-          icon: 🚀
-        - type: refactor
-          title: Code Refactoring
-          description: A code change that neither fixes a bug nor adds a new feature
-          icon: 📦
-        - type: revert
-          title: Reversions
-          description: Reverting to a previous commit
-          icon: 💫
-        - type: style
-          title: Styles
-          description: Cosmetic changes which don't affect the meaning of the code
-          icon: 💎
-        - type: test
-          title: Tests
-          description: Changes to unit tests or other testing code
-          icon: 🚨
-    aliases:
-        - type: initial
-          link: feat
-          title: Initial Commits
-          description: The first files committed to the repository - usually generic
-          icon: 🎉
-        - type: dependencies
-          link: fix
-          title: Dependencies
-          description: Software libraries (often supplied by third-parties) upon which our software's functionality depends
-          icon: ⏫
-        - type: devDependencies
-          link: chore
-          title: Dev Dependencies
-          description: Software libraries upon which we depend in order to develop our software
-          icon: 🔼
-        - type: metadata
-          link: fix
-          title: Metadata
-          description: Files which store information about our software
-          icon: 📀
-    logged:
-        - feat
-        - fix
-        - perf
-        - style
-        - docs
-        - ci
+changelog: true
+release: true
+logged:
+    - feat
+    - fix
+    - perf
+    - style
+    - docs
+    - ci
