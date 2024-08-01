@@ -1,3 +1,9 @@
+<div align="center">
+
+[![Dev](https://img.shields.io/badge/Status-Dev--Release-548af7?labelColor=31383f)](https://github.com/Ragdata/.github/blob/master/docs/badges.md)
+
+</div>
+
 <h1 align="center">
 
 <img height="256" src="https://raw.githubusercontent.com/Ragdata/media/master/logo/Ragdata-64.svg" alt="RagsWorks - Reusable Actions and Workflows" />
