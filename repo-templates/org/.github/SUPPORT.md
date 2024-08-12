@@ -1,8 +1,8 @@
 # 💪 [Community Support Document](#toc)
 
-> 👉 This file is included by default with all of my repositories by virtue of its inclusion in my [`.github`](https://github.com/ragdata/.github) repository, which defines defaults for all other repositories under an account.
+> 👉 This is my default `Community Support Document` which is applied automatically to all repositories which do not contain their own policy document.
 >
-> `Community Support Document v1.0.1`
+> `Community Support Document v1.0.2`
 
 <a name="toc"></a>
 
@@ -12,7 +12,7 @@ Looking for support for one of my projects?  Here are some suggestions:
 
 > #### 👉 If this is your first time participating in one of my communities, please read and adhere to the [code of conduct][coc].  By interacting with any of my repositories or communities, you agree to abide by these terms.
 
-If you have any questions, join the [`Discord Server`][discord]
+[//]: # (If you have any questions, join the [`Discord Server`][discord])
 
 > **Give yourself the best chance of getting the help you need!  Spend a little time framing your question and adding links and resources.  Spending a little extra time up-front can save everyone time (and frustration) in the long-run.  Here are a few tips:**
 
@@ -39,31 +39,44 @@ If you have any questions, join the [`Discord Server`][discord]
 - Click the `Discussions` tab at the top of the page (if it exists)
 
 
-- [Discord Server][discord]
+[//]: # (- [Discord Server][discord])
 
 
 - Check my repositories:
 	- [Ragdata @ GitHub][github]
-- Check my social media accounts:
-	- [Ragdata @ Ko-Fi][ko-fi]
-	- [@RedeyedSoftware on Twitter][twitter]
-	- [/r/RedeyedSoftware on Reddit][reddit]
-	- [RedEyed Software Facebook Page][facebook]
-
-<br>
-
-<div align="center">
-
-<a href="https://twitter.com/intent/follow?screen_name=RagdataAU" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white" /></a>
-<a href="https://www.reddit.com/r/RedeyedSoftware/" target="_blank"><img alt="Reddit" src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=Reddit&logoColor=white" /></a>
-<a href="https://dev.to/ragdata" target="_blank"><img alt="Dev.to" src="https://img.shields.io/badge/dev.to-373737?style=for-the-badge&logo=dev.to&logoColor=white" /></a>
-<a href="https://ragdata.substack.com/" target="_blank"><img alt="SubStack" src="https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=Substack&logoColor=white" /></a>
-<a href="https://www.facebook.com/RedEyedSoftware/" target="_blank"><img alt="Facebook" src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=Facebook&logoColor=white" /></a>
-
-[![Discord](https://img.shields.io/discord/1067204348251230298?labelColor=5865F2&label=RedEyed%20Software%20&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/54PkrM7TKq)
 
 
-</div>
+[//]: # (- Check my social media accounts:)
+
+[//]: # (	- [Ragdata @ Ko-Fi][ko-fi])
+
+[//]: # (	- [@RedeyedSoftware on Twitter][twitter])
+
+[//]: # (	- [/r/RedeyedSoftware on Reddit][reddit])
+
+[//]: # (	- [RedEyed Software Facebook Page][facebook])
+
+[//]: # ()
+[//]: # (<br>)
+
+[//]: # ()
+[//]: # (<div align="center">)
+
+[//]: # ()
+[//]: # (<a href="https://twitter.com/intent/follow?screen_name=RagdataAU" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white" /></a>)
+
+[//]: # (<a href="https://www.reddit.com/r/RedeyedSoftware/" target="_blank"><img alt="Reddit" src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=Reddit&logoColor=white" /></a>)
+
+[//]: # (<a href="https://dev.to/ragdata" target="_blank"><img alt="Dev.to" src="https://img.shields.io/badge/dev.to-373737?style=for-the-badge&logo=dev.to&logoColor=white" /></a>)
+
+[//]: # (<a href="https://ragdata.substack.com/" target="_blank"><img alt="SubStack" src="https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=Substack&logoColor=white" /></a>)
+
+[//]: # (<a href="https://www.facebook.com/RedEyedSoftware/" target="_blank"><img alt="Facebook" src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=Facebook&logoColor=white" /></a>)
+
+[//]: # ()
+[//]: # ([![Discord]&#40;https://img.shields.io/discord/1067204348251230298?labelColor=5865F2&label=RedEyed%20Software%20&logo=discord&logoColor=white&style=for-the-badge&#41;]&#40;https://discord.gg/54PkrM7TKq&#41;)
+
+[//]: # (</div>)
 
 
 [substack]: https://redeyed.substack.com

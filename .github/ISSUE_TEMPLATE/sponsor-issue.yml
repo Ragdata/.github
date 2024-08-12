@@ -2,6 +2,7 @@ name: ⭐ Sponsor's Issue
 description: Submit a Question or Support Request
 title: "[QUESTION]: <title>"
 labels: ["VIP","NEW"]
+projects: ["ragdata/17"]
 assignees:
     - Ragdata
 body:

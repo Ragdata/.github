@@ -2,6 +2,7 @@ name: 📘 DOCS ISSUE
 description: File a Documentation Issue
 title: "[DOCS]: <title>"
 labels: ["docs","NEW"]
+projects: ["ragdata/17"]
 assignees:
     - Ragdata
 body:

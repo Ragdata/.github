@@ -2,6 +2,7 @@ name: ❓ SUPPORT QUESTION
 description: Submit a Question or Support Request
 title: "[QUESTION]: <title>"
 labels: ["question","NEW"]
+projects: ["ragdata/17"]
 assignees:
     - Ragdata
 body:

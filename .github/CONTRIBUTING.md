@@ -1,8 +1,8 @@
 # 📑 [Contributor's Guide](#toc)
 
-> 👉 This file is included by default with all of my repositories by virtue of its inclusion in my [`.github`](https://github.com/ragdata/.github) repository, which defines defaults for all other repositories under an account.
+> 👉 This is my default `Contributor's Guide` which is applied automatically to all repositories which do not contain their own policy document.
 >
-> `Contributor's Guide v1.0.1`
+> `Contributor's Guide v1.0.2`
 
 Firstly, I'd like to thank you personally for taking the time to help improve this project, I truly appreciate it! 💓 Here are a few guidelines to help ensure that all contributions are heading in the same direction:
 
@@ -42,7 +42,7 @@ You can contribute by:
 
 To make a contribution which will be recognised on the appropriate `CONTRIBUTORS` page, submit a `contribution` issue to the appropriate repository's issue register.  Once it has been reviewed and accepted, your contribution will be recorded on the appropriate `CONTRIBUTORS` page.  More significant contributions may be recognised elsewhere in relation to the project as well.
 
-The recognition of Non-Code Contributions are made possible by the [All-Contributors](https://allcontributors.org) bot.
+The recognition of Non-Code Contributions are made possible by the [All-Contributors][all-contributors] bot.
 
 [`^ Top`](#toc)
 
@@ -77,7 +77,7 @@ Adding a new feature will generally cause either the PATCH or MINOR version to i
       - `hotfix/name` or `hotfix/issue-number` - specific hotfix branch
       - `release/version` - specific release / tag branch
       - `gh-pages/*` - branch containing the project's GitHub Pages (Jekyll) Website
-	  - `pkg/*` - branch containing a public docker package
+      - `pkg/*` - branch containing a public docker package
       - `env/*` - branch containing a dockerized development environment (private docker package)
 <br /><br />
 	- the default branch for any repository is always `master`
@@ -122,27 +122,21 @@ With reference to the VCS Standard above, code stability is generally like so:
 
 I like to put my money where my mouth is and demonstrate confidence in my own work, therefore, wherever possible, my GitHub repositories will include some of my other repositories as either a submodule or a few essential files.  The most common of these being:
 
-###  :octocat: [.github](https://github.com/ragdata/.github)
+###  :octocat: [.github][.github]
 
 > 💡 **DID YOU KNOW?** If you include a repository for your GitHub Account or Organization called `.github`, the files that you include in **its** `.github/` directory will serve as the defaults for ALL other repositories under that account or organization.
 
 The ['community standards'](https://github.com/Ragdata/.github/community) files utilized by ALL of my repositories ALL come from this one project.  If any repository has need of a custom version of one of these files, it gets it, otherwise you can find all the default versions here.
 
-### ⚡ [Reusable Workflows](https://github.com/ragdata/workflows)
+### ⚡ [Reusable Workflows][reusable-workflows]
 
 > 💡 **DID YOU KNOW?** You don't **_have_** to use a GitHub Action from the marketplace in your GitHub workflows - you can just as effectively use a file from one of your own repositories!
 
-All the GitHub actions and associated workflows I use in all of my repositories live here.  This allows me to create workflows which are tailored specifically for _my_ code, and are a lot lighter than generic actions.  I've left this as a public repo so that you can study the techniques used and implement them for yourself!
+All the reusable workflows I _actually_ use to manage my code live here.  While you're more than welcome to check out how I've done things, this repository is more about its utility than providing an example of how to get things done.  Check out my [**workflow-templates**][workflow-templates] repo if you want to see more complete examples of how to structure your workflows.
 
-### 🎁 [Release Manager](https://github.com/ragdata/release-manager)
+### 🎁 [Release Manager](https://github.com/ragdata/release-manager.action)
 
-I include a configuration file (`.releaserc`) for `Release Manager` in every single one of my repositories.  It takes care of writing my CHANGELOGS, incrementing versions recorded throughout my repositories and ensures that my releases are orderly and compliant with [semantic versioning][semver].  `Release Manager` can be used from the Linux command line, or as part of a GitHub workflow!
-
-### 🧩 [Bash Bits](https://github.com/ragdata/bash-bits)
-
-`Bash Bits` is my modular library for Bash.  Because a fair amount of the stuff I write is written for the Linux command line, `Bash Bits` ends up finding a place in most of my repositories, and if you're writing for Bash, it could be a valuable part of one of yours too!  `BB` is unique in that it is written particularly with users of WSL2 (Ubuntu) in mind!
-
-[`^ Top`](#toc)
+Many of my repositories include a configuration file (`.releaserc`) for `Release Manager`.  It takes care of tagging releases, writing and managing CHANGELOGS, and there's a lot more planned for the future of the project.  Currently in the form of a GitHub Action, you can see examples of workflows for it in my [**workflow-templates**][workflow-templates] repo 
 
 ## ✂️ [Basic Process for Pull Requests](#toc)
 
@@ -151,7 +145,7 @@ Generally, the way to create a **Pull Request** is to:
 1. Fork this project and clone it locally
 2. Create a new branch from the master branch and give it a descriptive name followed by the issue number, if applicable (format: `feature/<new feature> [#issue]` or `fix:<bug> [#issue]`)
 3. AFTER completing development AND TESTING, submit a new _Pull Request_
-	1. (note that your commit message MUST follow the [Conventional Commits Guidelines][conventional-commits], otherwise it will fail the PR check)
+	1. (note that your commit message should generally follow the [Conventional Commits Guidelines][conventional-commits], although I don't follow or enforce the guidelines as strictly as others)
 
 [`^ Top`](#toc)
 
@@ -264,6 +258,7 @@ Refs: #123
 
 [`^ Top`](#toc)
 
+[all-contributors]: https://allcontributors.org
 [sponsorship]: https://github.com/sponsors/Ragdata
 [ko-fi]: https://ko-fi.com/ragdata
 [support]: https://github.com/Ragdata/.github/blob/master/.github/SUPPORT.md
@@ -272,3 +267,7 @@ Refs: #123
 [github]: https://github.com
 [gitflow]: https://nvie.com/posts/a-successful-git-branching-model
 [semver]: https://semver.org/
+
+[.github]: https://github.com/ragdata/.github
+[reusable-workflows]: https://github.com/ragdata/reusable-workflows
+[workflow-templates]: https://github.com/ragdata/workflow-templates

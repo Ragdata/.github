@@ -2,6 +2,7 @@ name: 🐞 BUG REPORT
 description: File a Bug Report
 title: "[BUG]: <title>"
 labels: ["bug","NEW"]
+projects: ["ragdata/17"]
 assignees:
     - Ragdata
 body:

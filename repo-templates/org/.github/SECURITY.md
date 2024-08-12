@@ -1,8 +1,8 @@
 # 🔐 [GLOBAL SECURITY POLICY](#toc)
 
-> 👉 This file is included by default with all of my repositories by virtue of its inclusion in my [`.github`](https://github.com/ragdata/.github) repository, which defines defaults for all other repositories under an account.
+> 👉 This is my default `Security Policy` which is applied automatically to all repositories which do not contain their own policy document.
 >
-> `Global Security Policy v1.0.1`
+> `Global Security Policy v1.0.2`
 
 #### This document outlines the security policies and default procedures for all projects I initiate.
 
@@ -44,9 +44,9 @@ Your submission will be acknowledged within 48 hours, and a more detailed respon
 Please report bugs discovered in any third-party modules to the person or team maintaining that module.  It is neither within our power or our purview to fix bugs in code that we are not responsible for maintaining.
 
 <h4 align="center">
-<a href="https://github.com/bash-bits/bash-bits/issues">Please report low-level bugs using the Issue Tracker</a>
+<a href="https://github.com/ragdata/.github/issues">Please report low-level bugs using the Issue Tracker</a>
 <br><br>
-<a href="https://github.com/bash-bits/bash-bits/security/advisories/new">For more serious issues, please submit a Security Advisory</a>
+<a href="https://github.com/ragdata/.github/security/advisories/new">For more serious issues, please submit a Security Advisory</a>
 </h4>
 
 ## 📃 [Disclosure Policy](#toc)
@@ -68,9 +68,7 @@ The following are NOT in the scope of this policy:
 
 ## 💰 [A Word About "Bug Bounties"](#toc)
 
-> (the opinion of one outspoken and internationally ignored "thought leader")
->
-> Unfortunately, I have not yet made my fortune out of software - although that is most certainly still my intention - so I do not currently offer a paid "Bug Bounty" program.  I'm just some random bloke like any other trying to scratch out a living using his meagre wit and talents.  If I do suddenly stumble upon that elusive something which proves to be the basis upon which I may build a fortune, then this will likely change - until then, however, we (being myself and those I may have chosen to collaborate with) will make every effort to show our appreciation to the people who generously give their time and make the effort to expose vulnerabilities in our code in a responsible, discreet manner, and reserve our everlasting disdain for those who do otherwise - including those withholding information in the hope of or while demanding monetary reward in exchange.  I believe it is ENTIRELY in opposition to the fundamental principles of open-source software for this sort of practice to be engaged in, and will not beat about the bush before telling anyone who inquires about such exactly where they can find their "Bug Bounty", and when they can expect to receive it.
+> Unfortunately, I have not yet made my fortune out of software - although that is most certainly still my intention - so I do not currently offer a paid "Bug Bounty" program.  I'm just some random bloke like any other trying to scratch out a living using his meagre wit and talents.  If I do suddenly stumble upon that elusive something which proves to be the basis upon which I may build a fortune, then this will likely change - until then, however, we (being myself and those I may have chosen to collaborate with) will make every effort to show our appreciation to the people who generously give their time and make the effort to expose vulnerabilities in our code in a responsible, discreet manner.
 
 ## 📣 [Security Advisories](#toc)
 

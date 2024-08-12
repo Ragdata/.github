@@ -1,8 +1,4 @@
-# Pull Request
-
-> 👉 This file is included by default with all of my repositories by virtue of its inclusion in my [`.github`](https://github.com/ragdata/.github) repository, which defines defaults for all other repositories under an account.
->
-> `Pull Request Template v1.0.0`
+# Pull Request (Standard Form)
 
 ## Proposed Changes
 
