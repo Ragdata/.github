@@ -19,12 +19,10 @@ Ragdata's Project Template Repo with Community Health Files
 
 <div align="center">
 
-![GitHub issues](https://img.shields.io/github/issues-raw/ragdata/.github?style=for-the-badge&logo=github)
+[![GitHub issues](https://img.shields.io/github/issues-raw/ragdata/.github?style=for-the-badge&logo=github)][issues]
 ![Last Commit](https://img.shields.io/github/last-commit/ragdata/.github/master?logo=github&style=for-the-badge)
 ![MIT](https://img.shields.io/badge/License-MIT-gold?style=for-the-badge)
-
-#### _Elapsed Project Time_
-
+<br />
 [![wakatime](https://wakatime.com/badge/github/Ragdata/.github.svg?style=for-the-badge)](https://wakatime.com/badge/github/Ragdata/.github)
 
 </div>
@@ -35,3 +33,7 @@ Ragdata's Project Template Repo with Community Health Files
 <a href="https://github.com/ragdata" target="_blank"><img alt="Ragdata" src="https://img.shields.io/badge/-Made_With_☕_By_Ragdata-D20000?style=for-the-badge" /></a>
 
 </div>
+
+[advisory]: https://github.com/ragdata/repo-manager.action/security/advisories/new
+[issues]: https://github.com/ragdata/repo-manager.action/issues
+[security]: https://github.com/ragdata/repo-manager.action/security/policy

@@ -25,23 +25,13 @@
 
 <div align="center">
 
-![GitHub issues](https://img.shields.io/github/issues-raw/ragdata/org-template?style=for-the-badge&logo=github)
+[![GitHub issues](https://img.shields.io/github/issues-raw/ragdata/org-template?style=for-the-badge&logo=github)][issues]
 ![Last Commit](https://img.shields.io/github/last-commit/ragdata/org-template/master?logo=github&style=for-the-badge)
 ![MIT](https://img.shields.io/badge/License-MIT-gold?style=for-the-badge)
-
-#### _Elapsed Project Time_
-
+<br />
 [![wakatime](https://wakatime.com/badge/github/ragdata/org-template.svg?style=for-the-badge)](https://wakatime.com/badge/github/ragdata/org-template)
 
 </div>
-
-<h3 align="center">
-
-If you like this repository, please give it a ⭐ (it really does help)
-
-<img alt="GitHub repository stars" src="https://img.shields.io/github/stars/ragdata/org-template?style=social">
-
-</h3>
 
 <details><summary><h2><a name="toc">📖 Table of Contents</a></h2></summary>
 
